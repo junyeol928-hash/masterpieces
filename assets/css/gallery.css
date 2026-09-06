@@ -227,11 +227,22 @@ figure.plate.-drawn svg.fallback {
   transition: border-color .3s ease, color .3s ease;
 }
 .back:hover { border-color: var(--accent); color: var(--ink); }
+
+/* 作品ページでは、暗い間の左上に乗せる。ページを開いていちばん先に目に入る位置。
+   図版の上に重ねるので、地を敷いて図版と混ざらないようにする。 */
+.stage .back {
+  position: absolute; z-index: 5;
+  top: clamp(.9rem, 2.4vh, 1.6rem); left: var(--pad);
+  margin: 0;
+  background: rgba(10, 10, 12, .72);
+  backdrop-filter: blur(10px);
+}
 .back::before { content: "←"; color: var(--accent); }
 
 /* ---------- 作品ページ ──────────────────────────────────── */
 .stage {
   /* 上半分は図版だけの暗い間。読むより先に、見る。 */
+  position: relative;
   background: var(--ground-sink);
   border-bottom: 1px solid var(--line-2);
   padding: clamp(2rem, 6vh, 5rem) var(--pad);

@@ -278,12 +278,12 @@ byYear.forEach((w, i) => {
     : null;
 
   const body = `<section class="stage">
+  ${backLink('../works.html', '作品一覧へ')}
   ${plate(w, { depth: 1 })}
 </section>
 
 <div class="wrap">
   <div class="narrow work-head">
-    ${backLink('../works.html', '作品一覧へ')}
     <p class="eyebrow"><a href="../movements/${esc(m.id)}.html" style="color:inherit">${esc(m.name)}</a></p>
     <h1>${esc(w.title)}</h1>
     <p class="by">${by}　${esc(w.year)}</p>
