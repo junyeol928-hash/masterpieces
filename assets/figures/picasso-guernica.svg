@@ -1,0 +1,38 @@
+<!-- ピカソ《ゲルニカ》(1937)の人物や動物を再現せず、画面の量塊・構図軸・光・運動方向・明暗配分だけを幾何学的に抽象化した図。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 777 349" role="img" aria-label="ゲルニカの構図を抽象化した図">
+  <!-- 中央の三角形構図軸 -->
+  <polygon points="143,348 390,72 668,348" fill="#e8e4dd" stroke="#0f0f11" stroke-width="2"/>
+
+  <!-- 左端の垂直の量塊 -->
+  <rect x="0" y="48" width="102" height="246" fill="#0f0f11"/>
+  <rect x="102" y="83" width="37" height="183" fill="#8e8a84"/>
+  <line x1="139" y1="83" x2="139" y2="266" stroke="#0f0f11" stroke-width="2"/>
+
+  <!-- 左下の水平の量塊 -->
+  <rect x="20" y="272" width="322" height="62" fill="#0f0f11"/>
+  <rect x="91" y="250" width="213" height="22" fill="#8e8a84"/>
+  <polygon points="304,250 366,303 342,334 304,272" fill="#8e8a84"/>
+
+  <!-- 中央域の明暗配分 -->
+  <polygon points="185,227 390,72 323,285" fill="#8e8a84"/>
+  <polygon points="323,285 390,72 493,282" fill="#e8e4dd"/>
+  <polygon points="493,282 390,72 625,319" fill="#0f0f11"/>
+  <rect x="343" y="286" width="183" height="48" fill="#0f0f11"/>
+
+  <!-- 上部中央の光源と放射線 -->
+  <circle cx="390" cy="55" r="13" fill="#e8e4dd" stroke="#0f0f11" stroke-width="2"/>
+  <rect x="384" y="68" width="12" height="8" fill="#0f0f11"/>
+  <line x1="390" y1="35" x2="390" y2="15" stroke="#0f0f11" stroke-width="1"/>
+  <line x1="376" y1="40" x2="361" y2="25" stroke="#0f0f11" stroke-width="1"/>
+  <line x1="404" y1="40" x2="419" y2="25" stroke="#0f0f11" stroke-width="1"/>
+  <line x1="370" y1="55" x2="346" y2="55" stroke="#0f0f11" stroke-width="1"/>
+  <line x1="410" y1="55" x2="434" y2="55" stroke="#0f0f11" stroke-width="1"/>
+  <line x1="375" y1="69" x2="355" y2="89" stroke="#0f0f11" stroke-width="1"/>
+  <line x1="405" y1="69" x2="425" y2="89" stroke="#0f0f11" stroke-width="1"/>
+
+  <!-- 右端の斜め上昇ベクトル -->
+  <polygon points="604,315 732,91 719,83" fill="#0f0f11"/>
+  <polygon points="704,91 748,54 737,110" fill="#0f0f11"/>
+  <line x1="633" y1="312" x2="748" y2="54" stroke="#8e8a84" stroke-width="2"/>
+  <polygon points="657,275 710,178 723,185 673,284" fill="#8e8a84"/>
+</svg>

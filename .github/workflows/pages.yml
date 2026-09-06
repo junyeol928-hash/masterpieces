@@ -1,0 +1,63 @@
+name: サイトを組んで公開する
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 図版はリポジトリに入れていない（52MB以上ある）。ここで取ってくる。
+      # 一度取ったものはキャッシュに残るので、毎回 Wikimedia を叩きはしない。
+      - name: 図版のキャッシュ
+        uses: actions/cache@v4
+        with:
+          path: assets/artworks
+          key: artworks-${{ hashFiles('data/works.json', 'data/artists.json') }}
+          restore-keys: artworks-
+
+      - name: 図版を取得する
+        run: node tools/fetch-artworks.mjs
+
+      - name: 図版の幅と画質をそろえる
+        run: |
+          python3 -m pip install --quiet Pillow
+          python3 tools/shrink.py
+
+      - name: ページを組む
+        run: node tools/build.mjs
+
+      - name: 出来上がりを検算する
+        run: node tools/check.mjs
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

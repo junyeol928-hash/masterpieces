@@ -1,0 +1,18 @@
+node_modules/
+
+# 生成物 ── tools/build.mjs が組み立てる
+index.html
+works.html
+artists.html
+movements.html
+timeline.html
+works/
+artists/
+movements/
+data/manifest.json
+
+# 焼き込んだ図版
+assets/artworks/
+
+.DS_Store
+shot-tmp/

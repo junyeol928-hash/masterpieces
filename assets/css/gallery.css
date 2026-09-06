@@ -1,0 +1,390 @@
+/* =========================================================================
+   名画の部屋 ── 暗い展示室
+
+   照明を落とした美術館を紙面に移す。
+   地は深い墨のまま動かさず、作品のまわりにだけ光を落とす。
+   額はつけない。作品は暗がりに浮かぶ。
+
+   流派ごとの差し色は --accent 一つだけ。地の色は決して変えない。
+   38の別世界を作った前作とは逆で、ここは一つの建物の中である。
+   ========================================================================= */
+
+:root {
+  color-scheme: dark;
+
+  --ground:      #0a0a0c;   /* 壁 */
+  --ground-lift: #101013;   /* 一段明るい面 */
+  --ground-sink: #050506;   /* 一段暗い面（図版の背後） */
+
+  --ink:      #eae6df;      /* 本文 */
+  --ink-2:    #a8a29a;      /* 添え物 */
+  --ink-3:    #6e6a64;      /* 札の細字 */
+
+  --line:     rgba(234, 230, 223, .13);
+  --line-2:   rgba(234, 230, 223, .07);
+
+  --accent:      #c9a961;   /* 既定は金。流派ごとに body で上書きする */
+  --accent-soft: rgba(201, 169, 97, .16);
+
+  --display: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --body:    "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+
+  --measure: 34em;          /* 本文の読み幅 */
+  --pad:     clamp(1.25rem, 5vw, 4rem);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.95;
+  letter-spacing: .02em;
+  font-feature-settings: "palt" 1;
+  /* 天井から壁を洗う光。上がわずかに明るい */
+  background-image: linear-gradient(180deg, #101014 0%, var(--ground) 42%);
+  background-attachment: fixed;
+}
+
+body.-viewing { overflow: hidden; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+a { color: inherit; text-decoration-color: var(--line); text-underline-offset: .28em; }
+a:hover { text-decoration-color: var(--accent); }
+
+::selection { background: var(--accent-soft); }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* ---------- 骨組み ──────────────────────────────────────── */
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 var(--pad); }
+.narrow { max-width: var(--measure); margin-inline: auto; }
+
+/* ---------- 頭と足 ──────────────────────────────────────── */
+.site-head {
+  position: sticky; top: 0; z-index: 40;
+  display: flex; align-items: baseline; gap: clamp(1rem, 3vw, 2.4rem);
+  padding: 1.05rem var(--pad);
+  background: rgba(10, 10, 12, .82);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line-2);
+}
+.site-head .brand {
+  font-family: var(--display); font-size: 1.02rem; font-weight: 600;
+  letter-spacing: .16em; text-decoration: none; white-space: nowrap;
+}
+.site-head .brand::first-letter { color: var(--accent); }
+.site-head nav { display: flex; gap: clamp(.9rem, 2.4vw, 1.9rem); margin-left: auto; }
+.site-head nav a {
+  font-size: .78rem; letter-spacing: .14em; color: var(--ink-2);
+  text-decoration: none; white-space: nowrap;
+}
+.site-head nav a:hover, .site-head nav a[aria-current] { color: var(--ink); }
+.site-head nav a[aria-current] { box-shadow: 0 .55rem 0 -.5rem var(--accent); }
+
+.site-foot {
+  margin-top: 8rem; padding: 3.4rem var(--pad) 4.4rem;
+  border-top: 1px solid var(--line-2);
+  color: var(--ink-3); font-size: .78rem; line-height: 2.1;
+}
+.site-foot a { color: var(--ink-2); }
+
+/* ---------- 見出しの型 ──────────────────────────────────── */
+.eyebrow {
+  font-size: .68rem; letter-spacing: .3em; color: var(--accent);
+  text-transform: uppercase; margin: 0 0 1.1rem;
+}
+h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.42; letter-spacing: .04em; }
+
+.page-title { font-size: clamp(1.9rem, 5vw, 3.1rem); margin: 0 0 .7rem; }
+.page-lead { color: var(--ink-2); max-width: 46em; margin: 0 0 3.4rem; }
+
+/* ---------- 図版 ────────────────────────────────────────
+   額をつけない。背後に光の溜まりだけを置く。 */
+figure.plate { margin: 0; }
+figure.plate .mount {
+  position: relative;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--ground-sink);
+  overflow: hidden;
+}
+figure.plate .mount::before {
+  /* 作品の背後に落ちる、やわらかい光の溜まり */
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 62% 58% at 50% 46%, rgba(255, 248, 232, .085), transparent 72%);
+  pointer-events: none;
+}
+figure.plate .mount img {
+  position: relative; z-index: 1;
+  max-width: 100%; max-height: 100%;
+  object-fit: contain;
+  box-shadow: 0 34px 70px -34px rgba(0, 0, 0, .95);
+}
+figure.plate .mount.-loading { min-height: 12rem; }
+figure.plate .mount.-loading::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(100deg, transparent 32%, rgba(234, 230, 223, .05) 50%, transparent 68%);
+  background-size: 220% 100%;
+  animation: sweep 1.5s ease-in-out infinite;
+}
+@keyframes sweep { from { background-position: 130% 0; } to { background-position: -30% 0; } }
+
+figure.plate svg.fallback { width: 100%; height: auto; display: block; }
+
+/* 構図図は、暗い壁に貼った図面として扱う。
+   図の三階調（白・中間灰・黒）のうち黒は、地が #050506 のままだと沈んで消える。
+   明るい面に載せてはじめて、明暗の配分という主題そのものが読める。 */
+figure.plate.-drawn .mount {
+  background: #b9b5ad;
+  padding: clamp(1.2rem, 3vw, 2.6rem);
+}
+figure.plate.-drawn .mount::before { display: none; }
+figure.plate.-drawn svg.fallback {
+  max-height: 100%;
+  filter: drop-shadow(0 18px 34px rgba(0, 0, 0, .45));
+}
+
+/* ---------- 一覧の札 ────────────────────────────────────── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: clamp(1.6rem, 3vw, 3rem) clamp(1.2rem, 2.4vw, 2.2rem);
+  margin: 0; padding: 0; list-style: none;
+}
+
+.card { display: block; text-decoration: none; }
+.card .mount {
+  height: clamp(190px, 24vw, 270px);
+  padding: .9rem;
+  transition: transform .5s cubic-bezier(.2, .7, .3, 1);
+}
+.card .mount::before { opacity: .55; transition: opacity .5s ease; }
+.card:hover .mount::before, .card:focus-visible .mount::before { opacity: 1; }
+.card:hover .mount { transform: translateY(-5px); }
+.card:hover .mount img { box-shadow: 0 40px 64px -30px rgba(0, 0, 0, 1); }
+.card .mount img { transition: box-shadow .5s ease; }
+
+.card .label { padding: .95rem .1rem 0; }
+.card .label .t {
+  font-family: var(--display); font-size: .96rem; line-height: 1.6;
+  display: block; margin-bottom: .3rem;
+}
+.card .label .a { font-size: .74rem; color: var(--ink-3); letter-spacing: .06em; }
+.card:hover .label .t { color: #fff; }
+
+/* 著作権作品の札には、写真ではないことを明示する。
+   抽象化した図を、その作品の見た目として受け取られては困る。 */
+.badge {
+  display: inline-block;
+  margin-top: .5rem; padding: .12rem .55rem;
+  font-size: .62rem; letter-spacing: .16em; color: var(--accent);
+  border: 1px solid var(--accent-soft);
+}
+
+/* ---------- 入口 ────────────────────────────────────────── */
+.hero {
+  min-height: min(88vh, 760px);
+  display: grid; grid-template-columns: 1fr; align-content: center;
+  padding: clamp(3rem, 9vh, 7rem) 0 clamp(2rem, 6vh, 4rem);
+  gap: 2.4rem;
+}
+@media (min-width: 900px) {
+  .hero { grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); align-items: center; gap: clamp(2.4rem, 5vw, 5rem); }
+}
+.hero h1 {
+  font-size: clamp(2.4rem, 7vw, 4.6rem); line-height: 1.24; margin: 0 0 1.5rem;
+  letter-spacing: .02em;
+}
+.hero h1 em { font-style: normal; color: var(--accent); }
+.hero p { color: var(--ink-2); max-width: 30em; margin: 0 0 2.2rem; }
+.hero .mount { height: clamp(280px, 46vh, 520px); }
+
+.enter {
+  display: inline-flex; align-items: center; gap: .8rem;
+  padding: .82rem 1.7rem;
+  border: 1px solid var(--line);
+  font-size: .84rem; letter-spacing: .18em; text-decoration: none;
+  transition: border-color .35s ease, background .35s ease;
+}
+.enter:hover { border-color: var(--accent); background: var(--accent-soft); }
+
+/* ---------- 作品ページ ──────────────────────────────────── */
+.stage {
+  /* 上半分は図版だけの暗い間。読むより先に、見る。 */
+  background: var(--ground-sink);
+  border-bottom: 1px solid var(--line-2);
+  padding: clamp(2rem, 6vh, 5rem) var(--pad);
+}
+.stage .mount {
+  height: min(74vh, 720px);
+  background: transparent;
+  margin-inline: auto; max-width: 1100px;
+}
+.stage .mount img { cursor: zoom-in; }
+
+.work-head { padding: clamp(2.6rem, 7vh, 5rem) 0 0; }
+.work-head h1 { font-size: clamp(1.8rem, 4.6vw, 2.9rem); margin: 0 0 .5rem; }
+.work-head .by { color: var(--ink-2); font-size: 1rem; margin: 0 0 2rem; }
+.work-head .by a { color: var(--ink); }
+.work-lead {
+  font-family: var(--display); font-size: clamp(1.1rem, 2.4vw, 1.42rem);
+  line-height: 1.85; color: var(--ink); margin: 0 0 2.6rem;
+  padding-left: 1.2rem; border-left: 2px solid var(--accent);
+}
+
+/* 4段の札 ── 作者／年／技法・寸法／所蔵 */
+.facts { display: grid; gap: 1px; background: var(--line-2); border: 1px solid var(--line-2); margin: 0 0 3.6rem; }
+@media (min-width: 720px) { .facts { grid-template-columns: repeat(2, 1fr); } }
+.facts > div { background: var(--ground); padding: 1.05rem 1.3rem; }
+.facts dt { font-size: .66rem; letter-spacing: .22em; color: var(--ink-3); margin-bottom: .35rem; }
+.facts dd { margin: 0; font-size: .92rem; line-height: 1.75; }
+
+.section { margin: 0 0 3.4rem; }
+.section h2 {
+  font-size: .74rem; letter-spacing: .28em; color: var(--accent);
+  margin: 0 0 1.1rem; font-family: var(--body); font-weight: 500;
+}
+.section p { margin: 0; }
+
+/* ここを見る ── 場所を指す三つ */
+.look { list-style: none; margin: 0; padding: 0; counter-reset: look; }
+.look li {
+  counter-increment: look;
+  display: grid; grid-template-columns: 2.4rem 1fr; gap: .2rem 1rem;
+  padding: 1.15rem 0; border-top: 1px solid var(--line-2);
+}
+.look li:last-child { border-bottom: 1px solid var(--line-2); }
+.look li::before {
+  content: counter(look, decimal-leading-zero);
+  font-family: var(--display); font-size: .82rem; color: var(--accent);
+  letter-spacing: .08em; padding-top: .28em;
+}
+.look .where { font-family: var(--display); font-size: 1rem; color: var(--ink); }
+.look .text { grid-column: 2; color: var(--ink-2); font-size: .92rem; }
+
+/* 出典 ── どのページからも原図に戻れること */
+.source {
+  margin: 3.4rem 0 0; padding: 1.3rem 1.4rem;
+  border: 1px solid var(--line-2); background: var(--ground-lift);
+  font-size: .78rem; line-height: 2; color: var(--ink-3);
+}
+.source a { color: var(--ink-2); }
+.source strong { color: var(--ink-2); font-weight: 500; }
+
+/* 隣へ ── 次の一点 */
+.nextprev { display: grid; gap: 1px; background: var(--line-2); margin-top: 5rem; border-block: 1px solid var(--line-2); }
+@media (min-width: 720px) { .nextprev { grid-template-columns: 1fr 1fr; } }
+.nextprev a { background: var(--ground); padding: 1.9rem 1.6rem; text-decoration: none; display: block; }
+.nextprev a:hover { background: var(--ground-lift); }
+.nextprev .dir { font-size: .66rem; letter-spacing: .24em; color: var(--ink-3); display: block; margin-bottom: .55rem; }
+.nextprev .t { font-family: var(--display); font-size: 1.02rem; }
+.nextprev .-next { text-align: right; }
+
+/* ---------- 絞り込み ────────────────────────────────────── */
+.filters {
+  display: flex; flex-wrap: wrap; gap: .55rem;
+  margin: 0 0 2.6rem; padding: 0 0 1.8rem;
+  border-bottom: 1px solid var(--line-2);
+}
+.filters .set { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.filters .set + .set { margin-left: clamp(.6rem, 2vw, 1.6rem); }
+.filters .set > span { font-size: .66rem; letter-spacing: .2em; color: var(--ink-3); margin-right: .4rem; }
+.chip {
+  appearance: none; cursor: pointer;
+  background: transparent; color: var(--ink-2);
+  border: 1px solid var(--line-2);
+  padding: .36rem .85rem; font-size: .75rem; letter-spacing: .06em;
+  font-family: inherit;
+  transition: border-color .25s ease, color .25s ease, background .25s ease;
+}
+.chip:hover { color: var(--ink); border-color: var(--line); }
+.chip[aria-pressed="true"] { color: var(--ground); background: var(--accent); border-color: var(--accent); }
+.search {
+  appearance: none; background: transparent; color: var(--ink);
+  border: 0; border-bottom: 1px solid var(--line);
+  padding: .4rem .2rem; font-family: inherit; font-size: .82rem; min-width: 12rem;
+}
+.search::placeholder { color: var(--ink-3); }
+.count { margin: 0 0 1.6rem; font-size: .74rem; letter-spacing: .16em; color: var(--ink-3); }
+
+/* ---------- 画家・流派の一覧 ────────────────────────────── */
+.people { display: grid; gap: 1px; background: var(--line-2); border-block: 1px solid var(--line-2); list-style: none; margin: 0; padding: 0; }
+@media (min-width: 700px)  { .people { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1060px) { .people { grid-template-columns: repeat(3, 1fr); } }
+.people a { background: var(--ground); display: grid; grid-template-columns: 4.6rem 1fr; gap: 1.1rem; padding: 1.5rem 1.4rem; text-decoration: none; align-items: start; }
+.people a:hover { background: var(--ground-lift); }
+.people .mount { width: 4.6rem; height: 4.6rem; border-radius: 50%; }
+.people .mount img { width: 100%; height: 100%; object-fit: cover; box-shadow: none; }
+.people .n { font-family: var(--display); font-size: 1.02rem; display: block; margin-bottom: .25rem; }
+.people .y { font-size: .7rem; color: var(--ink-3); letter-spacing: .1em; display: block; margin-bottom: .5rem; }
+.people .l { font-size: .8rem; color: var(--ink-2); line-height: 1.75; }
+
+/* 流派の帯 ── 差し色をここでだけ大きく見せる */
+.bands { list-style: none; margin: 0; padding: 0; }
+.bands li { border-top: 1px solid var(--line-2); }
+.bands li:last-child { border-bottom: 1px solid var(--line-2); }
+.bands a {
+  display: grid; gap: .4rem 1.6rem; padding: 2rem .2rem;
+  text-decoration: none; align-items: baseline;
+  border-left: 3px solid var(--band, var(--accent));
+  padding-left: 1.5rem;
+  transition: background .35s ease, padding-left .35s ease;
+}
+.bands a:hover { background: var(--ground-lift); padding-left: 2rem; }
+@media (min-width: 820px) { .bands a { grid-template-columns: 15rem 1fr; } }
+.bands .n { font-family: var(--display); font-size: 1.28rem; }
+.bands .y { font-size: .7rem; color: var(--ink-3); letter-spacing: .12em; display: block; margin-top: .3rem; }
+.bands .l { color: var(--ink-2); font-size: .92rem; }
+
+/* ---------- 年表 ────────────────────────────────────────── */
+.timeline { list-style: none; margin: 0; padding: 0; position: relative; }
+.timeline::before { content: ""; position: absolute; left: 5.6rem; top: 0; bottom: 0; width: 1px; background: var(--line-2); }
+@media (max-width: 719px) { .timeline::before { left: 0; } }
+.timeline li { position: relative; padding: 0 0 3.2rem 8rem; }
+@media (max-width: 719px) { .timeline li { padding-left: 1.6rem; } }
+.timeline .y {
+  position: absolute; left: 0; top: .1rem; width: 4.8rem; text-align: right;
+  font-family: var(--display); font-size: .84rem; color: var(--ink-3); letter-spacing: .04em;
+}
+@media (max-width: 719px) { .timeline .y { position: static; width: auto; text-align: left; display: block; margin-bottom: .4rem; } }
+.timeline li::after {
+  content: ""; position: absolute; left: calc(5.6rem - 3px); top: .62rem;
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--band, var(--accent));
+}
+@media (max-width: 719px) { .timeline li::after { left: -3px; } }
+.timeline a { text-decoration: none; display: grid; gap: 1.2rem; align-items: start; }
+@media (min-width: 900px) { .timeline a { grid-template-columns: 8.5rem 1fr; } }
+.timeline .mount { height: 6.4rem; }
+.timeline .t { font-family: var(--display); font-size: 1.06rem; display: block; margin-bottom: .3rem; }
+.timeline a:hover .t { color: var(--accent); }
+.timeline .a { font-size: .76rem; color: var(--ink-3); display: block; margin-bottom: .5rem; }
+.timeline .l { font-size: .86rem; color: var(--ink-2); }
+
+/* ---------- 拡大 ────────────────────────────────────────── */
+.viewer {
+  position: fixed; inset: 0; z-index: 90;
+  display: flex; align-items: center; justify-content: center;
+  padding: clamp(1rem, 4vw, 3rem);
+  background: rgba(4, 4, 5, .96);
+  cursor: zoom-out;
+}
+.viewer img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.viewer-close {
+  position: absolute; top: 1rem; right: 1.2rem;
+  background: transparent; border: 0; color: var(--ink-2);
+  font-size: 1.9rem; line-height: 1; cursor: pointer; padding: .4rem .7rem;
+}
+.viewer-close:hover { color: var(--ink); }
+
+/* ---------- 動きを減らす設定 ────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+  .card:hover .mount { transform: none; }
+}
