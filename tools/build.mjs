@@ -31,7 +31,7 @@ for (const w of works) {
   seen.add(w.id);
   if (w.artistId && !artistById.has(w.artistId)) problems.push(`${w.id}: 画家 ${w.artistId} がいない`);
   if (!movementById.has(w.movement)) problems.push(`${w.id}: 流派 ${w.movement} がない`);
-  for (const k of ['lead', 'what', 'why']) if (!w[k]) problems.push(`${w.id}: ${k} が空`);
+  for (const k of ['lead', 'what', 'why', 'after']) if (!w[k]) problems.push(`${w.id}: ${k} が空`);
   if (!Array.isArray(w.look) || w.look.length < 1) problems.push(`${w.id}: look が空`);
   if (w.copyright && !w.figure) problems.push(`${w.id}: 著作権作品だが figure がない`);
   if (typeof w.yearSort !== 'number') problems.push(`${w.id}: yearSort が数値でない`);
@@ -304,6 +304,11 @@ byYear.forEach((w, i) => {
     <section class="section">
       <h2>なぜ有名になったか</h2>
       <p>${esc(w.why)}</p>
+    </section>
+
+    <section class="section">
+      <h2>その後</h2>
+      <p>${esc(w.after)}</p>
     </section>
 
     <section class="section">
