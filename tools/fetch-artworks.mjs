@@ -23,7 +23,9 @@ const DEST = join(ROOT, 'assets/artworks');
 const FORCE = process.argv.includes('--force');
 const WIDTH = 1800;
 
-const UA = 'meigano-heya/1.0 (static art site; contact via GitHub)';
+/* ウィキメディアは、連絡先の分かる User-Agent を求めている。
+   素っ気ない UA だと upload.wikimedia.org 側で強く絞られる。 */
+const UA = 'meigano-heya/1.0 (https://github.com/junyeol928-hash; static art reading site) node-fetch';
 
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
 const works = read('data/works.json');
@@ -47,7 +49,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
    取れなかった作品の一覧が「本当に無いもの」と「急ぎすぎただけのもの」で
    混ざってしまう。区別できるように、待って何度か試す。 */
 async function pull(url, init) {
-  const waits = [0, 2000, 5000, 12000];
+  // 画像本体（upload.wikimedia.org）は API より厳しく絞る。長めに待つ。
+  const waits = [0, 3000, 10000, 30000, 60000];
   let last = null;
   for (const w of waits) {
     if (w) await sleep(w);
@@ -137,7 +140,7 @@ for (const t of targets) {
   else { failed++; problems.push(`${t.id}（${t.label}）: 取得に失敗 ── ${why.join(' / ')}`); }
 
   // 相手のサーバに連打しない
-  await sleep(700);
+  await sleep(1400);
 }
 
 console.log(`\n取得 ${got} ／ 済み・対象外 ${skipped} ／ 失敗 ${failed}`);
