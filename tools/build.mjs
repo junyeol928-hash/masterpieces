@@ -309,6 +309,15 @@ byYear.forEach((w, i) => {
   }));
 });
 
+/* 顔を出せない画家（存命作家など）には、空の円ではなく頭文字を置く。
+   読み込みに失敗した円と、はじめから写真が無い円を、見た目で区別する。 */
+function face(a, depth) {
+  if (a.noPhoto) {
+    return `<span class="monogram" aria-hidden="true">${esc(a.name.trim().charAt(0))}</span>`;
+  }
+  return `<figure class="plate -card" data-art="artist-${esc(a.id)}" data-alt="${esc(a.name)}"><div class="mount"></div></figure>`;
+}
+
 /* ---------- 4. 画家 ─────────────────────────────────────── */
 {
   const sorted = [...artists].sort((x, y) => x.born - y.born);
@@ -318,7 +327,7 @@ byYear.forEach((w, i) => {
   <p class="page-lead">生まれた順に並んでいます。いま${artists.length}人。</p>
   <ul class="people">
     ${sorted.map((a) => `<li><a href="artists/${esc(a.id)}.html">
-      <figure class="plate -card" data-art="artist-${esc(a.id)}" data-alt="${esc(a.name)}"><div class="mount"></div></figure>
+      ${face(a, 0)}
       <span><span class="n">${esc(a.name)}</span><span class="y">${a.born} — ${a.died}</span><span class="l">${esc(a.lead)}</span></span>
     </a></li>`).join('\n    ')}
   </ul>
@@ -382,7 +391,7 @@ movements.forEach((m) => {
     <p class="eyebrow">この流派の画家</p>
     <ul class="people">
       ${people.map((a) => `<li><a href="../artists/${esc(a.id)}.html">
-        <figure class="plate -card" data-art="artist-${esc(a.id)}" data-alt="${esc(a.name)}"><div class="mount"></div></figure>
+        ${face(a, 1)}
         <span><span class="n">${esc(a.name)}</span><span class="y">${a.born} — ${a.died}</span><span class="l">${esc(a.lead)}</span></span>
       </a></li>`).join('\n      ')}
     </ul>
