@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" role="img" aria-label="ナイトホークスの構図を抽象化した図">
+<!-- 暗い街路に対する明るい楔形、連続窓、カウンター、人の位置、路面への光の配分を示す図。 -->
+<path d="M1 1 H421 L350 172 L1 221 Z" fill="#0f0f11"/>
+<path d="M421 1 H839 V188 L350 172 Z" fill="#0f0f11"/>
+<path d="M1 221 L350 172 L839 188 V459 H1 Z" fill="#0f0f11"/>
+<path d="M82 318 L350 172 L767 202 L801 353 L338 382 Z" fill="#e8e4dd" stroke="#3a3a3d" stroke-width="2"/>
+<path d="M348 380 L799 351 L839 459 H292 Z" fill="#e8e4dd"/>
+<path d="M82 318 L350 172 L767 202 L761 244 L350 216 L122 340 Z" fill="#8e8a84" stroke="#3a3a3d" stroke-width="2"/>
+<path d="M126 320 L350 198 L760 226" fill="none" stroke="#3a3a3d" stroke-width="2"/>
+<path d="M160 337 L349 235 L760 263 L764 288 L350 262 L183 353 Z" fill="#3a3a3d"/>
+<rect x="229" y="257" width="16" height="43" fill="#8e8a84"/>
+<rect x="520" y="236" width="16" height="45" fill="#3a3a3d"/>
+<rect x="559" y="239" width="16" height="45" fill="#8e8a84"/>
+<rect x="598" y="241" width="16" height="45" fill="#3a3a3d"/>
+<path d="M1 1 H839 V459 H1 Z" fill="none" stroke="#3a3a3d" stroke-width="2"/>
+</svg>

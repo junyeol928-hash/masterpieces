@@ -35,7 +35,7 @@ const artists = read('data/artists.json');
 const targets = [
   ...works.map((w) => ({
     id: w.id, commons: w.commons, wiki: w.wiki, lang: w.wikiLang || 'ja', wikiEn: w.wikiEn,
-    noPhoto: !!w.noPhoto, label: w.title,
+    noPhoto: !!w.noPhoto, label: w.title, artistName: w.artist,
   })),
   ...artists.map((a) => ({
     id: 'artist-' + a.id, commons: a.commons, wiki: a.wiki, lang: 'ja', wikiEn: a.wikiEn,
@@ -95,6 +95,14 @@ function widen(url) {
   return big === url ? [url] : [big, url];
 }
 
+/* 記事名が作者の名前そのものなら、その記事の代表画像は作品ではなく
+   作者の顔である。plate.js は実行時にここを塞いでいるのに、
+   取得側では塞いでいなかった。そのため《赤い楔で白を撃て》の額に
+   リシツキーの顔写真が焼き込まれていた。同じ規則を両側で守る。 */
+function isArtistPage(t) {
+  return !!(t.wiki && t.artistName && t.wiki === t.artistName);
+}
+
 async function download(url) {
   const r = await pull(url, { headers: { 'user-agent': UA, referer: 'https://commons.wikimedia.org/' } });
   const buf = Buffer.from(await r.arrayBuffer());
@@ -118,8 +126,8 @@ for (const t of targets) {
   const tried = [];
   for (const attempt of [
     t.commons ? () => fromCommons(t.commons) : null,
-    t.wiki ? () => fromWikipedia(t.lang, t.wiki) : null,
-    (t.wikiEn && t.lang !== 'en') ? () => fromWikipedia('en', t.wikiEn) : null,
+    (t.wiki && !isArtistPage(t)) ? () => fromWikipedia(t.lang, t.wiki) : null,
+    (t.wikiEn && t.lang !== 'en' && !isArtistPage(t)) ? () => fromWikipedia('en', t.wikiEn) : null,
   ].filter(Boolean)) {
     try { url = await attempt(); break; }
     catch (e) { tried.push(e.message); }

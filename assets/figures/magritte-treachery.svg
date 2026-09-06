@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="イメージの裏切りの構図を抽象化した図">
+<!-- 上段の抽象記号と下段の基線により、像と文が対等に置かれる二段構成だけを示す図。 -->
+<rect x="1" y="1" width="638" height="438" fill="none" stroke="#3a3a3d" stroke-width="2"/>
+<path d="M174 146 C174 119 229 98 298 98 C367 98 422 119 422 146 C422 153 418 160 410 166 L472 224 L451 242 L384 181 C361 189 331 194 298 194 C229 194 174 173 174 146 Z" fill="#3a3a3d"/>
+<line x1="171" y1="342" x2="469" y2="342" stroke="#0f0f11" stroke-width="2"/>
+</svg>

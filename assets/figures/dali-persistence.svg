@@ -1,0 +1,36 @@
+<!-- 低い水平線、暗い前景、円形の段階的変形と方向線を示す構図分析図 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 240" role="img" aria-label="記憶の固執の構図を抽象化した図">
+  <!-- 上部は透明の余白として残し、低い水平線で明暗を分離 -->
+  <path fill="#3a3a3d" d="M0 60H330V240H0Z"/>
+  <path fill="none" stroke="#0f0f11" stroke-width="1.5" d="M0 60H330"/>
+
+  <!-- 右奥の段状の明るい面 -->
+  <path fill="#e8e4dd" stroke="#0f0f11" stroke-width="1.5" stroke-linejoin="miter" d="M238 60H330V111H311V101H291V89H270V76H251V67H238Z"/>
+  <path fill="#8e8a84" stroke="#0f0f11" stroke-width="1.2" d="M251 67L270 76 291 89 311 101 330 111"/>
+
+  <!-- 左側の垂直軸と水平棚 -->
+  <path fill="#0f0f11" d="M49 78H55V184H49Z"/>
+  <path fill="#8e8a84" stroke="#0f0f11" stroke-width="1.5" d="M51 91H139V99H51Z"/>
+
+  <!-- 比較用の未変形円 -->
+  <circle cx="38" cy="196" r="20" fill="#8e8a84" stroke="#e8e4dd" stroke-width="1.5"/>
+  <path fill="none" stroke="#0f0f11" stroke-width="1" d="M38 180V196L49 202"/>
+
+  <!-- 変形1: 水平材から垂れる円環 -->
+  <path fill="#e8e4dd" stroke="#0f0f11" stroke-width="1.5" fill-rule="evenodd" d="M82 84C102 78 126 80 137 91C143 97 141 119 133 132C124 146 105 144 97 131C90 120 92 106 82 100ZM94 91C106 88 122 89 128 95C132 100 130 116 124 123C119 130 110 128 106 121C101 111 105 98 94 95Z"/>
+
+  <!-- 変形2: 平面上で押しつぶされた円 -->
+  <ellipse cx="247" cy="181" rx="38" ry="14" fill="#8e8a84" stroke="#e8e4dd" stroke-width="1.5"/>
+  <ellipse cx="247" cy="181" rx="24" ry="7" fill="#3a3a3d" stroke="#0f0f11" stroke-width="1"/>
+
+  <!-- 非具象の閉曲線量塊と、その上を流れる最も変形した円環 -->
+  <path fill="#8e8a84" stroke="#0f0f11" stroke-width="1.5" d="M116 208C105 192 114 174 137 164C159 154 171 132 193 139C214 146 207 168 225 179C239 188 226 215 204 221C181 227 164 214 147 220C131 226 120 218 116 208Z"/>
+  <path fill="#e8e4dd" stroke="#0f0f11" stroke-width="1.5" fill-rule="evenodd" d="M151 149C165 137 190 139 198 151C205 162 193 172 199 184C205 196 194 207 180 204C166 201 166 187 154 181C140 174 140 159 151 149ZM161 154C170 147 185 149 189 155C193 161 184 171 190 182C193 188 188 195 181 193C173 191 173 179 163 175C155 171 154 160 161 154Z"/>
+
+  <!-- 視線と流れの方向を示す細線 -->
+  <g fill="none" stroke="#8e8a84" stroke-width="1.2">
+    <path d="M13 71H226"/>
+    <path d="M72 110L173 157 285 117"/>
+    <path d="M67 207L111 196M274 180L316 164"/>
+  </g>
+</svg>
