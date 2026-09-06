@@ -1,6 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="イメージの裏切りの構図を抽象化した図">
-<!-- 上段の抽象記号と下段の基線により、像と文が対等に置かれる二段構成だけを示す図。 -->
-<rect x="1" y="1" width="638" height="438" fill="none" stroke="#3a3a3d" stroke-width="2"/>
-<path d="M174 146 C174 119 229 98 298 98 C367 98 422 119 422 146 C422 153 418 160 410 166 L472 224 L451 242 L384 181 C361 189 331 194 298 194 C229 194 174 173 174 146 Z" fill="#3a3a3d"/>
-<line x1="171" y1="342" x2="469" y2="342" stroke="#0f0f11" stroke-width="2"/>
+<!-- マグリット《イメージの裏切り》の上段の物的な塊と下段の文章帯という二段構成を、文字や物の輪郭を再現せず抽象化した図 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 600" role="img" aria-label="イメージの裏切りの構図を抽象化した図">
+  <!-- 淡い地の面と四辺の枠 -->
+  <rect fill="#c4c0b8" x="0" y="0" width="810" height="600"/>
+  <rect fill="none" stroke="#3a3a3d" stroke-width="2" x="7" y="7" width="796" height="586"/>
+
+  <!-- 上段の暗い塊：横長楕円と右下へ細くなる帯 -->
+  <g stroke="#0f0f11" stroke-width="1.6" stroke-linejoin="miter">
+    <ellipse fill="#3a3a3d" cx="288" cy="232" rx="154" ry="72"/>
+    <ellipse fill="#5c5c60" cx="276" cy="218" rx="121" ry="45"/>
+    <ellipse fill="#3a3a3d" cx="258" cy="225" rx="86" ry="31"/>
+    <path fill="#3a3a3d" d="M395 223 C434 224 475 239 520 264 L583 301 L568 321 L505 292 C458 270 419 265 374 263 Z"/>
+    <path fill="#5c5c60" d="M390 231 C432 234 471 247 514 270 L565 300 L555 307 L500 282 C458 263 420 256 382 255 Z"/>
+    <polygon fill="#0f0f11" points="568,300 583,301 568,321 555,307"/>
+    <polygon fill="#0f0f11" points="150,203 180,170 218,161 194,197"/>
+    <polygon fill="#5c5c60" points="134,232 194,197 258,194 206,228"/>
+    <polygon fill="#0f0f11" points="134,232 206,228 173,272 145,260"/>
+    <polygon fill="#5c5c60" points="173,272 225,258 288,296 216,298"/>
+    <polygon fill="#0f0f11" points="288,296 342,275 374,263 356,296"/>
+    <polygon fill="#8e8a84" points="218,161 305,160 276,183 194,197"/>
+    <polygon fill="#5c5c60" points="305,160 366,181 331,196 276,183"/>
+    <line x1="174" y1="247" x2="343" y2="247" stroke="#8e8a84" stroke-width="1.2"/>
+    <line x1="213" y1="205" x2="339" y2="205" stroke="#8e8a84" stroke-width="1.2"/>
+  </g>
+
+  <!-- 浮遊感を示す唯一の薄い影帯 -->
+  <rect fill="#8e8a84" x="146" y="337" width="445" height="9" rx="4"/>
+
+  <!-- 下段の文字存在を示す、実文字ではない不均等間隔の矩形列 -->
+  <g fill="#0f0f11">
+    <rect x="139" y="448" width="22" height="24"/>
+    <rect x="168" y="448" width="35" height="24"/>
+    <rect x="209" y="448" width="17" height="24"/>
+    <rect x="249" y="448" width="30" height="24"/>
+    <rect x="285" y="448" width="20" height="24"/>
+    <rect x="311" y="448" width="42" height="24"/>
+    <rect x="360" y="448" width="18" height="24"/>
+    <rect x="401" y="448" width="26" height="24"/>
+    <rect x="433" y="448" width="39" height="24"/>
+    <rect x="478" y="448" width="16" height="24"/>
+    <rect x="500" y="448" width="28" height="24"/>
+    <rect x="551" y="448" width="17" height="24"/>
+    <rect x="574" y="448" width="34" height="24"/>
+  </g>
 </svg>

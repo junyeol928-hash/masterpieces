@@ -8,6 +8,7 @@
    生成物はコミットしない。公開時に GitHub Actions がこれを走らせる。
    ========================================================================= */
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -47,6 +48,24 @@ if (problems.length) {
 const byYear = [...works].sort((a, b) => a.yearSort - b.yearSort || a.id.localeCompare(b.id));
 const worksOfArtist = (id) => byYear.filter((w) => w.artistId === id);
 const worksOfMovement = (id) => byYear.filter((w) => w.movement === id);
+
+/* CSS と JS にはバージョンを付ける。
+   付けないと、体裁を直しても閲覧者の手元では古い版が使われ続ける。
+   直したはずのものが直っていない、という取り違えがここで起きる。
+   中身のハッシュを使うので、変えていないファイルの版は変わらない。 */
+function assetVersion(rel) {
+  try {
+    return createHash('sha1').update(readFileSync(join(ROOT, rel))).digest('hex').slice(0, 8);
+  } catch (e) {
+    return '0';
+  }
+}
+const V = {
+  css:    assetVersion('assets/css/gallery.css'),
+  plate:  assetVersion('assets/js/plate.js'),
+  nav:    assetVersion('assets/js/nav.js'),
+  filter: assetVersion('assets/js/filter.js'),
+};
 
 const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -90,7 +109,7 @@ function layout({ title, desc, body, depth = 0, nav = '', accent = null, cls = '
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Noto+Serif+JP:wght@400;600&display=swap">
-<link rel="stylesheet" href="${u}assets/css/gallery.css">
+<link rel="stylesheet" href="${u}assets/css/gallery.css?v=${V.css}">
 </head>
 <body class="${cls}"${style}>
 <header class="site-head">
@@ -112,10 +131,18 @@ ${body}
     <p><a href="${u}index.html">名画の部屋</a> ／ 姉妹サイト <a href="https://junyeol928-hash.github.io/History-of-art/">世界美術史</a></p>
   </div>
 </footer>
-<script src="${u}assets/js/plate.js"></script>
+<script src="${u}assets/js/plate.js?v=${V.plate}"></script>
+<script src="${u}assets/js/nav.js?v=${V.nav}"></script>
 </body>
 </html>
 `;
+}
+
+/* ---------- 戻る ────────────────────────────────────────
+   href は「直接開かれたとき」の行き先。サイトの中から来た場合は
+   nav.js が履歴を一つ戻す方に差し替える。 */
+function backLink(href, label) {
+  return `<a class="back" href="${href}"><span class="label">${esc(label)}</span></a>`;
 }
 
 /* ---------- 札 ──────────────────────────────────────────── */
@@ -213,7 +240,7 @@ function fmtSpan(m) {
     ${byYear.map((w) => cardFilterable(w)).join('\n    ')}
   </ul>
 </div>
-<script src="assets/js/filter.js"></script>`;
+<script src="assets/js/filter.js?v=${V.filter}"></script>`;
   out('works.html', layout({
     title: '作品 ── 名画の部屋', desc: '有名な絵を時代順に並べ、流派と画家で絞り込めます。',
     body, depth: 0, nav: 'works',
@@ -256,6 +283,7 @@ byYear.forEach((w, i) => {
 
 <div class="wrap">
   <div class="narrow work-head">
+    ${backLink('../works.html', '作品一覧へ')}
     <p class="eyebrow"><a href="../movements/${esc(m.id)}.html" style="color:inherit">${esc(m.name)}</a></p>
     <h1>${esc(w.title)}</h1>
     <p class="by">${by}　${esc(w.year)}</p>
@@ -340,6 +368,7 @@ artists.forEach((a) => {
   const m = movementById.get(a.movements[0]);
   const body = `<div class="wrap" style="padding-top:clamp(2.6rem,7vh,5rem)">
   <div class="narrow">
+    ${backLink('../artists.html', '画家一覧へ')}
     <p class="eyebrow">${a.movements.map((id) => esc(movementById.get(id).name)).join(' ／ ')}</p>
     <h1 class="page-title">${esc(a.name)}</h1>
     <p class="by" style="color:var(--ink-2);margin:0 0 2rem">${esc(a.nameOriginal)}　${a.born} — ${a.died}　${esc(a.place)}</p>
@@ -380,6 +409,7 @@ movements.forEach((m) => {
   const people = artists.filter((a) => a.movements.includes(m.id));
   const body = `<div class="wrap" style="padding-top:clamp(2.6rem,7vh,5rem)">
   <div class="narrow">
+    ${backLink('../movements.html', '流派一覧へ')}
     <p class="eyebrow">${fmtSpan(m)}</p>
     <h1 class="page-title">${esc(m.name)}</h1>
     <p class="by" style="color:var(--ink-2);margin:0 0 2rem">${esc(m.nameOriginal)}</p>
@@ -410,25 +440,71 @@ movements.forEach((m) => {
   }));
 });
 
-/* ---------- 6. 年表 ─────────────────────────────────────── */
+/* ---------- 6. 年表 ─────────────────────────────────────
+   一本道に並べるだけだと、86点でもう探せない。250点なら尚更である。
+   そこで世紀ごとに区切り、頭に飛べる目次を置く。
+   区切りの見出しは読んでいる間そこに留まり、いま何世紀を見ているかが常に分かる。 */
 {
+  const centuryOf = (y) => (y < 0 ? 0 : Math.floor((y - 1) / 100) + 1);
+  const centuryLabel = (c) => (c === 0 ? '紀元前' : String(c));
+
+  const groups = [];
+  for (const w of byYear) {
+    const c = centuryOf(w.yearSort);
+    let g = groups[groups.length - 1];
+    if (!g || g.c !== c) { g = { c, works: [] }; groups.push(g); }
+    g.works.push(w);
+  }
+
+  const jump = groups.map((g) =>
+    `<a href="#c${g.c}">${centuryLabel(g.c)}${g.c === 0 ? '' : '世紀'}</a>`).join('');
+
   const body = `<div class="wrap" style="padding-top:clamp(2.6rem,7vh,5rem)">
   <p class="eyebrow">Timeline</p>
   <h1 class="page-title">年表</h1>
-  <p class="page-lead">古いものから新しいものへ、一本道で通ります。</p>
-  <ul class="timeline">
-    ${byYear.map((w) => {
-      const m = movementById.get(w.movement);
-      return `<li style="--band:${m.accent}">
-      <span class="y">${esc(w.year.replace(/年.*$/, '年').replace(/\s*—.*$/, ''))}</span>
-      <a href="works/${esc(w.id)}.html">
-        ${plate(w, { depth: 0, card: true })}
-        <span><span class="t">${esc(w.title)}</span><span class="a">${esc(w.artist)}</span><span class="l">${esc(w.lead)}</span></span>
-      </a></li>`;
-    }).join('\n    ')}
-  </ul>
+  <p class="page-lead">古いものから新しいものへ、一本道で通ります。いま${works.length}点。
+     見出しの世紀を押すと、そこへ飛べます。</p>
+
+  <nav class="jump" aria-label="世紀へ飛ぶ">
+    ${jump}
+  </nav>
+
+  ${groups.map((g) => `<section class="era-group" id="c${g.c}">
+    <h2 class="era-head">
+      <span class="n">${centuryLabel(g.c)}</span>
+      <span class="u">${g.c === 0 ? '' : 'CENTURY'}</span>
+      <span class="c">${g.works.length}点</span>
+    </h2>
+    <ul class="timeline">
+      ${g.works.map((w) => {
+        const m = movementById.get(w.movement);
+        return `<li style="--band:${m.accent}">
+        <a href="works/${esc(w.id)}.html">
+          <span class="y">${esc(shortYear(w))}</span>
+          ${plate(w, { depth: 0, card: true })}
+          <span><span class="t">${esc(w.title)}</span><span class="a">${esc(w.artist)}</span><span class="l">${esc(w.lead)}</span><span class="m">${esc(m.name)}</span></span>
+        </a></li>`;
+      }).join('')}
+    </ul>
+  </section>`).join('')}
 </div>`;
-  out('timeline.html', layout({ title: '年表 ── 名画の部屋', desc: '有名な絵を、古いものから新しいものへ一本道で。', body, depth: 0, nav: 'timeline' }));
+  out('timeline.html', layout({
+    title: '年表 ── 名画の部屋',
+    desc: '有名な絵を、古いものから新しいものへ一本道で。世紀ごとに区切ってあります。',
+    body, depth: 0, nav: 'timeline',
+  }));
+}
+
+/* 年表の行に出す年。「1503 — 1519年ごろ」のような表記は長すぎて列が崩れるので、
+   先頭の年だけを取り出す。元の表記は作品ページに残っている。 */
+function shortYear(w) {
+  const y = String(w.year);
+  // 「12世紀前半」を数字だけ取ると「12年」になってしまう。世紀表記を先に拾う
+  const n = y.match(/^(前?\d+)/);
+  // 「12 — 13世紀」のように範囲で書かれることがある。
+  // 先頭の数字だけ取ると「12年」になるので、世紀表記かどうかは文字列全体で判断する。
+  if (n) return n[1] + (y.includes('世紀') ? '世紀' : '年');
+  return y.replace(/\s*[—-].*$/, '');
 }
 
 /* ---------- 7. plate.js が読む名簿 ──────────────────────── */

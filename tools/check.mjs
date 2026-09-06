@@ -50,7 +50,8 @@ for (const page of pages) {
   for (const m of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const href = m[1];
     if (/^(https?:|mailto:|#|data:)/.test(href)) continue;
-    const target = resolve(dirname(page), href.split('#')[0]);
+    // ?v=... はキャッシュ避けの版番号で、ファイル名の一部ではない
+    const target = resolve(dirname(page), href.split('#')[0].split('?')[0]);
     if (!existsSync(target)) problems.push(`${here}: リンク切れ → ${href}`);
   }
 

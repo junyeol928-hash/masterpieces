@@ -214,6 +214,21 @@ figure.plate.-drawn svg.fallback {
 }
 .enter:hover { border-color: var(--accent); background: var(--accent-soft); }
 
+/* ---------- 戻る ────────────────────────────────────────
+   来た場所へ戻す。直接開かれたときのために、行き先も書いておく。 */
+.back {
+  display: inline-flex; align-items: center; gap: .55rem;
+  margin: 0 0 1.6rem;
+  padding: .42rem .95rem .42rem .75rem;
+  border: 1px solid var(--line-2);
+  font-size: .76rem; letter-spacing: .1em; color: var(--ink-2);
+  text-decoration: none; background: transparent;
+  font-family: inherit; cursor: pointer;
+  transition: border-color .3s ease, color .3s ease;
+}
+.back:hover { border-color: var(--accent); color: var(--ink); }
+.back::before { content: "←"; color: var(--accent); }
+
 /* ---------- 作品ページ ──────────────────────────────────── */
 .stage {
   /* 上半分は図版だけの暗い間。読むより先に、見る。 */
@@ -353,32 +368,80 @@ figure.plate.-drawn svg.fallback {
 .bands .y { font-size: .7rem; color: var(--ink-3); letter-spacing: .12em; display: block; margin-top: .3rem; }
 .bands .l { color: var(--ink-2); font-size: .92rem; }
 
-/* ---------- 年表 ────────────────────────────────────────── */
-.timeline { list-style: none; margin: 0; padding: 0; position: relative; }
-.timeline::before { content: ""; position: absolute; left: 5.6rem; top: 0; bottom: 0; width: 1px; background: var(--line-2); }
-@media (max-width: 719px) { .timeline::before { left: 0; } }
-.timeline li { position: relative; padding: 0 0 3.2rem 8rem; }
-@media (max-width: 719px) { .timeline li { padding-left: 1.6rem; } }
+/* ---------- 年表 ────────────────────────────────────────
+   86点（いずれ250点）を一本道に並べる。ただの長い列にすると探せないので、
+   世紀ごとに区切り、頭に飛べる目次を置く。 */
+.jump {
+  position: sticky; top: 3.4rem; z-index: 30;
+  display: flex; gap: .3rem; overflow-x: auto;
+  margin: 0 0 3rem; padding: .7rem 0;
+  background: rgba(10, 10, 12, .93);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line-2);
+  scrollbar-width: thin;
+}
+.jump a {
+  flex: none; padding: .3rem .7rem;
+  font-size: .72rem; letter-spacing: .08em; color: var(--ink-3);
+  text-decoration: none; white-space: nowrap;
+  border: 1px solid transparent;
+}
+.jump a:hover { color: var(--ink); border-color: var(--line-2); }
+
+.era-group { margin: 0 0 3.4rem; scroll-margin-top: 7rem; }
+.era-head {
+  position: sticky; top: 6.4rem; z-index: 20;
+  display: flex; align-items: baseline; gap: .8rem;
+  margin: 0 0 .4rem; padding: .5rem 0;
+  background: linear-gradient(180deg, var(--ground) 72%, transparent);
+  font-family: var(--display); font-weight: 600;
+}
+.era-head .n { font-size: clamp(1.6rem, 4vw, 2.4rem); color: var(--accent); line-height: 1; }
+.era-head .u { font-size: .78rem; letter-spacing: .2em; color: var(--ink-3); }
+.era-head .c { margin-left: auto; font-size: .7rem; letter-spacing: .14em; color: var(--ink-3); font-family: var(--body); font-weight: 400; }
+
+.timeline { list-style: none; margin: 0; padding: 0; }
+.timeline li { border-top: 1px solid var(--line-2); }
+.timeline li:last-child { border-bottom: 1px solid var(--line-2); }
+.timeline a {
+  display: grid; gap: .25rem 1.2rem; align-items: center;
+  grid-template-columns: 4.4rem 6.4rem 1fr;
+  padding: .85rem .6rem;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  transition: background .3s ease, border-color .3s ease, padding-left .3s ease;
+}
+.timeline a:hover { background: var(--ground-lift); border-left-color: var(--band, var(--accent)); padding-left: 1rem; }
 .timeline .y {
-  position: absolute; left: 0; top: .1rem; width: 4.8rem; text-align: right;
-  font-family: var(--display); font-size: .84rem; color: var(--ink-3); letter-spacing: .04em;
+  font-family: var(--display); font-size: .82rem; color: var(--ink-3);
+  letter-spacing: .02em; text-align: right; white-space: nowrap;
 }
-@media (max-width: 719px) { .timeline .y { position: static; width: auto; text-align: left; display: block; margin-bottom: .4rem; } }
-.timeline li::after {
-  content: ""; position: absolute; left: calc(5.6rem - 3px); top: .62rem;
-  width: 7px; height: 7px; border-radius: 50%;
-  background: var(--band, var(--accent));
+.timeline .mount { height: 4.6rem; }
+.timeline .mount::before { opacity: .5; }
+.timeline .t { font-family: var(--display); font-size: 1.02rem; display: block; }
+.timeline a:hover .t { color: #fff; }
+.timeline .a { font-size: .72rem; color: var(--ink-3); display: block; margin-top: .18rem; }
+.timeline .l { font-size: .82rem; color: var(--ink-2); display: block; margin-top: .3rem; }
+.timeline .m {
+  font-size: .62rem; letter-spacing: .12em; color: var(--band, var(--accent));
+  display: inline-block; margin-top: .4rem;
 }
-@media (max-width: 719px) { .timeline li::after { left: -3px; } }
-.timeline a { text-decoration: none; display: grid; gap: 1.2rem; align-items: start; }
-@media (min-width: 900px) { .timeline a { grid-template-columns: 8.5rem 1fr; } }
-.timeline .mount { height: 6.4rem; }
-.timeline .t { font-family: var(--display); font-size: 1.06rem; display: block; margin-bottom: .3rem; }
-.timeline a:hover .t { color: var(--accent); }
-.timeline .a { font-size: .76rem; color: var(--ink-3); display: block; margin-bottom: .5rem; }
-.timeline .l { font-size: .86rem; color: var(--ink-2); }
+
+@media (max-width: 719px) {
+  .jump { top: 3.2rem; }
+  .era-head { top: 6rem; }
+  .timeline a { grid-template-columns: 4.6rem 1fr; padding: .9rem .4rem; }
+  .timeline .y { grid-column: 1; text-align: left; }
+  .timeline .mount { display: none; }
+  .timeline .l { display: none; }
+}
 
 /* ---------- 拡大 ────────────────────────────────────────── */
+/* [hidden] に対する既定の display:none は、著者側の display 指定に負ける。
+   .viewer に display:flex を書いていたため、hidden を立てても消えなかった。
+   閉じるボタンが効かない原因はこれ。 */
+.viewer[hidden] { display: none; }
+
 .viewer {
   position: fixed; inset: 0; z-index: 90;
   display: flex; align-items: center; justify-content: center;
