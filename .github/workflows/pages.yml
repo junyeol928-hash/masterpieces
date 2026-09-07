@@ -1,3 +1,7 @@
+# push のたびに「組み立てと検算」だけを回す。これは手元と同じものが
+# まっさらな機械でも組めることの確認になる。
+# 「公開」は Pages を有効にしたうえで手動実行（workflow_dispatch）でのみ動く。
+# 非公開リポジトリの Pages は有料プランが要るため、既定では走らせない。
 name: サイトを組んで公開する
 
 on:
@@ -24,7 +28,7 @@ jobs:
         with:
           node-version: '20'
 
-      # 図版はリポジトリに入れていない（52MB以上ある）。ここで取ってくる。
+      # 図版はリポジトリに入れていない（縮小後で約200MBある）。ここで取ってくる。
       # 一度取ったものはキャッシュに残るので、毎回 Wikimedia を叩きはしない。
       - name: 図版のキャッシュ
         uses: actions/cache@v4
@@ -47,13 +51,17 @@ jobs:
       - name: 出来上がりを検算する
         run: node tools/check.mjs
 
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      # ここから先は公開の手続き。手動実行のときだけ動かす。
+      - if: github.event_name == 'workflow_dispatch'
+        uses: actions/configure-pages@v5
+      - if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
   deploy:
     needs: build
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
