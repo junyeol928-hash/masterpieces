@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 291" role="img" aria-label="ロスコのナンバー十四の色面構成図">
+  <!-- 深い青の地から滲む明るい朱橙と暗い色面の光暗対比を示す図 -->
+  <defs><filter id="blur" x="-8%" y="-10%" width="116%" height="120%"><feGaussianBlur stdDeviation="4.2"/></filter><linearGradient id="upper" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f06b2e"/><stop offset=".55" stop-color="#df462d"/><stop offset="1" stop-color="#b83328"/></linearGradient><linearGradient id="lower" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171a23"/><stop offset=".55" stop-color="#211718"/><stop offset="1" stop-color="#0a1728"/></linearGradient></defs>
+  <rect width="268" height="291" fill="#101d49"/>
+  <path d="M14 8Q72 12 132 8Q198 12 254 7V284Q197 279 133 284Q70 279 14 285Z" fill="#17285d"/>
+  <path d="M24 21Q74 15 132 20Q193 15 245 23L241 143Q194 151 132 146Q72 152 25 143Z" fill="#b7372a" opacity=".46" filter="url(#blur)"/>
+  <path d="M29 24Q77 19 132 23Q188 18 240 27L237 138Q187 145 131 141Q77 146 30 138Z" fill="url(#upper)" filter="url(#blur)"/>
+  <path d="M33 29Q82 25 132 29Q184 24 235 31L232 134Q184 138 132 136Q80 141 34 134Z" fill="url(#upper)" opacity=".82"/>
+  <path d="M31 155Q78 150 131 154Q184 150 237 156L234 259Q188 266 131 262Q77 267 32 260Z" fill="#080f20" opacity=".6" filter="url(#blur)"/>
+  <path d="M37 162Q81 157 131 161Q181 157 232 163L229 253Q184 258 131 255Q82 260 38 254Z" fill="url(#lower)" filter="url(#blur)"/>
+  <path d="M43 167Q84 163 131 167Q178 163 226 168L223 248Q180 252 132 249Q86 254 44 249Z" fill="#151923" opacity=".72"/>
+  <path d="M25 149Q79 145 132 149Q188 145 241 150" fill="none" stroke="#243971" stroke-width="5" opacity=".65" filter="url(#blur)"/>
+  <path d="M35 35Q82 31 132 34Q183 30 232 35M44 174Q87 170 131 173Q179 169 223 174" fill="none" stroke="#f18a48" stroke-width="2" opacity=".16"/>
+</svg>

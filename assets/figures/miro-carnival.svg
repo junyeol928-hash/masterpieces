@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 66" role="img" aria-label="ミロ『アルルカンの謝肉祭』の構図を図解した抽象図">
+  <!-- 室内に生物的な記号、楽器、梯子、窓を散らした祝祭的な構図図解 -->
+  <rect width="90" height="66" fill="#d9c79c"/>
+  <path d="M0 49H90V66H0Z" fill="#b98255"/>
+  <rect x="68" y="5" width="17" height="23" fill="#71939a" stroke="#202b2c" stroke-width="1.2"/>
+  <path d="M76.5 5V28M68 16.5H85" stroke="#202b2c" stroke-width="1"/>
+  <path d="M5 52L15 19M8 43H18M10 35H19M12 27H20" stroke="#202b2c" stroke-width="1.3"/>
+  <circle cx="38" cy="35" r="9" fill="#c44a37" stroke="#202b2c" stroke-width="1.4"/>
+  <path d="M31 29L44 41M44 29L32 41" stroke="#202b2c" stroke-width="1.2"/>
+  <path d="M38 26V17Q43 12 48 17" fill="none" stroke="#202b2c" stroke-width="1.2"/>
+  <circle cx="49" cy="17" r="2" fill="#d6aa34" stroke="#202b2c" stroke-width="1"/>
+  <ellipse cx="58" cy="43" rx="8" ry="4" fill="#71939a" stroke="#202b2c" stroke-width="1.2"/>
+  <path d="M65 43Q74 38 78 45" fill="none" stroke="#202b2c" stroke-width="1.2"/>
+  <circle cx="79" cy="46" r="2" fill="#c44a37"/>
+  <path d="M22 48Q25 37 29 48Q26 54 22 48Z" fill="#d6aa34" stroke="#202b2c" stroke-width="1"/>
+  <circle cx="19" cy="13" r="3" fill="#c44a37" stroke="#202b2c" stroke-width="1"/>
+  <path d="M16 10L12 6M22 10L25 5M19 16L18 22" stroke="#202b2c" stroke-width="1"/>
+  <path d="M29 7L34 4L37 9L32 12Z" fill="#71939a" stroke="#202b2c" stroke-width="1"/>
+  <path d="M44 5L49 3L52 7L47 10Z" fill="#d6aa34" stroke="#202b2c" stroke-width="1"/>
+  <circle cx="60" cy="9" r="3" fill="#c44a37" stroke="#202b2c" stroke-width="1"/>
+  <path d="M57 10Q61 16 65 11" fill="none" stroke="#202b2c" stroke-width="1"/>
+  <path d="M7 8Q11 4 14 9L11 14Z" fill="#71939a" stroke="#202b2c" stroke-width="1"/>
+  <circle cx="8" cy="27" r="2.5" fill="#d6aa34" stroke="#202b2c" stroke-width="1"/>
+  <path d="M5 29L2 34M10 29L14 33" stroke="#202b2c" stroke-width="1"/>
+  <path d="M25 18L29 14L33 18L29 22Z" fill="#c44a37" stroke="#202b2c" stroke-width="1"/>
+  <circle cx="41" cy="15" r="2" fill="#71939a"/>
+  <path d="M40 13L42 9M43 15L47 14" stroke="#202b2c" stroke-width="1"/>
+  <path d="M53 23Q58 17 62 24L58 29Z" fill="#d6aa34" stroke="#202b2c" stroke-width="1"/>
+  <path d="M67 32L72 29L76 34L71 37Z" fill="#c44a37" stroke="#202b2c" stroke-width="1"/>
+  <circle cx="83" cy="36" r="2.5" fill="#d6aa34" stroke="#202b2c" stroke-width="1"/>
+  <path d="M81 34L78 30M85 34L88 31" stroke="#202b2c" stroke-width="1"/>
+  <path d="M3 42L7 38L11 42L7 46Z" fill="#c44a37" stroke="#202b2c" stroke-width="1"/>
+  <circle cx="17" cy="44" r="2" fill="#71939a"/>
+  <path d="M15 44L12 47M19 44L21 48" stroke="#202b2c" stroke-width="1"/>
+  <path d="M29 57L34 52L39 57L34 62Z" fill="#71939a" stroke="#202b2c" stroke-width="1"/>
+  <circle cx="47" cy="55" r="3" fill="#d6aa34" stroke="#202b2c" stroke-width="1"/>
+  <path d="M44 57L41 61M50 57L53 61" stroke="#202b2c" stroke-width="1"/>
+  <path d="M58 57Q63 51 67 57Q63 63 58 57Z" fill="#c44a37" stroke="#202b2c" stroke-width="1"/>
+  <path d="M72 56L77 51L81 58L76 62Z" fill="#71939a" stroke="#202b2c" stroke-width="1"/>
+  <circle cx="86" cy="54" r="2" fill="#d6aa34"/>
+  <path d="M4 59Q9 54 13 59" fill="none" stroke="#202b2c" stroke-width="1.2"/>
+  <circle cx="16" cy="58" r="1.8" fill="#c44a37"/>
+  <path d="M22 8Q24 4 26 8" fill="none" stroke="#202b2c" stroke-width="1"/>
+  <circle cx="55" cy="34" r="1.7" fill="#202b2c"/>
+  <path d="M47 45L50 41L53 45L50 49Z" fill="#d6aa34" stroke="#202b2c" stroke-width="1"/>
+</svg>

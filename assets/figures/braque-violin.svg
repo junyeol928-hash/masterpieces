@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 61" role="img" aria-label="ブラック『ヴァイオリンと燭台』の構図を図解した抽象図">
+  <!-- 燭台とヴァイオリンを多面体へ分解し中央に積み上げた構図図解 -->
+  <rect width="50" height="61" fill="#a69c82"/>
+  <g stroke="#282824" stroke-width="1.1" stroke-linejoin="bevel">
+    <path d="M0 0L19 0L12 14L0 19Z" fill="#5f5a4c"/>
+    <path d="M19 0L35 0L31 12L12 14Z" fill="#c6bda2"/>
+    <path d="M35 0L50 0V19L31 12Z" fill="#77705d"/>
+    <path d="M0 19L12 14L16 32L0 36Z" fill="#c6bda2"/>
+    <path d="M12 14L31 12L28 29L16 32Z" fill="#77705d"/>
+    <path d="M31 12L50 19V38L28 29Z" fill="#5f5a4c"/>
+    <path d="M0 36L16 32L20 49L0 61Z" fill="#77705d"/>
+    <path d="M16 32L28 29L34 46L20 49Z" fill="#c6bda2"/>
+    <path d="M28 29L50 38V61L34 46Z" fill="#77705d"/>
+    <path d="M20 49L34 46L50 61H0Z" fill="#5f5a4c"/>
+    <path d="M22 8L27 7L29 28L24 30Z" fill="#c6bda2"/>
+    <path d="M20 8L25 2L30 8L27 11Z" fill="#c6bda2"/>
+    <path d="M23 31Q15 36 20 43L17 51L26 55L32 49L29 42Q35 35 27 30Z" fill="#a69c82"/>
+    <path d="M25 29L26 54" fill="none"/>
+    <path d="M22 36L29 35M20 44L31 43M18 50L29 49" fill="none"/>
+    <path d="M23 32L18 25L21 18L26 22Z" fill="#5f5a4c"/>
+    <path d="M28 31L35 24L39 29L33 38Z" fill="#c6bda2"/>
+    <circle cx="23" cy="39" r="1.5" fill="#282824"/>
+    <circle cx="28" cy="39" r="1.5" fill="#282824"/>
+    <path d="M12 9L17 5M7 27L13 22M36 15L44 10M36 48L44 53" fill="none"/>
+  </g>
+</svg>

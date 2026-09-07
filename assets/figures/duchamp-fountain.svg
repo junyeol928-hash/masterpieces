@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 82" role="img" aria-label="デュシャンの泉を正面から示す構成図">
+  <!-- 横倒しの小便器がフードをかぶった人物にも見える輪郭と署名位置を示す図 -->
+  <defs><linearGradient id="porcelain" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fafafa"/><stop offset=".55" stop-color="#dedede"/><stop offset="1" stop-color="#a9adb0"/></linearGradient></defs>
+  <rect width="120" height="82" fill="#e8e5df"/>
+  <ellipse cx="60" cy="76" rx="34" ry="4" fill="#60656a" opacity=".42"/>
+  <path d="M24 19C29 8 43 4 60 4s31 4 36 15l-7 38C86 69 77 76 67 77H53c-10-1-19-8-22-20Z" fill="#a9adb0" opacity=".45"/>
+  <path d="M22 16C28 6 42 3 60 3s32 3 38 13l-8 39C87 66 78 72 68 74H52c-10-2-19-8-22-19Z" fill="url(#porcelain)" stroke="#35383a" stroke-width="2"/>
+  <path d="M31 18C37 11 47 9 60 9s23 2 29 9l-7 31C79 58 72 63 65 65H55c-7-2-14-7-17-16Z" fill="#bfc3c5" stroke="#5c6062" stroke-width="1.4"/>
+  <path d="M38 20C44 15 51 14 60 14s16 1 22 6l-6 26c-2 7-8 11-16 13-8-2-14-6-16-13Z" fill="#e5e6e5"/>
+  <path d="M17 13h9l4 5-3 12H17c-4 0-6-3-6-7v-3c0-4 2-7 6-7Z" fill="#d7d9d9" stroke="#35383a" stroke-width="2"/>
+  <path d="M103 13h-9l-4 5 3 12h10c4 0 6-3 6-7v-3c0-4-2-7-6-7Z" fill="#d7d9d9" stroke="#35383a" stroke-width="2"/>
+  <circle cx="18" cy="21" r="2.2" fill="#74797c"/><circle cx="102" cy="21" r="2.2" fill="#74797c"/>
+  <ellipse cx="60" cy="51" rx="8" ry="6" fill="#777c7f" stroke="#34383a" stroke-width="1.3"/>
+  <circle cx="60" cy="51" r="2.2" fill="#303437"/><circle cx="56" cy="48" r="1" fill="#303437"/><circle cx="64" cy="48" r="1" fill="#303437"/><circle cx="56" cy="53" r="1" fill="#303437"/><circle cx="64" cy="53" r="1" fill="#303437"/>
+  <path d="M52 73h16v4H52Z" fill="#c7c9c9" stroke="#35383a" stroke-width="1.4"/>
+  <path d="M34 59l6 2m-4 2 6 2" fill="none" stroke="#4b4e50" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M34 22Q39 12 49 9M86 22Q81 12 71 9" fill="none" stroke="#fff" stroke-width="1.5" opacity=".75"/>
+</svg>

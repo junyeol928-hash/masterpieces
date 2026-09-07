@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 210" role="img" aria-label="ジャコメッティ『歩く男 I』の構図を図解した抽象図">
+  <!-- 前傾して大股に歩く細身の人体彫刻と台座を三段階の明暗で示す構図図解 -->
+  <rect width="60" height="210" fill="#d5d0c5"/>
+  <ellipse cx="30" cy="203" rx="27" ry="5" fill="#44433f"/>
+  <path d="M5 192L55 190L58 201L3 203Z" fill="#6f6d67" stroke="#343330" stroke-width="1.5"/>
+  <path d="M13 187L50 186L55 190L5 192Z" fill="#9c998f" stroke="#343330" stroke-width="1.2"/>
+  <ellipse cx="30" cy="24" rx="6" ry="10" fill="#6f6d67" stroke="#343330" stroke-width="1.5"/>
+  <path d="M27 33L23 65L25 102L31 128L35 98L34 64L33 33Z" fill="#6f6d67" stroke="#343330" stroke-width="1.8"/>
+  <path d="M26 36L29 67L27 101L31 124L25 102L23 65Z" fill="#9c998f"/>
+  <path d="M24 48L14 78L8 111L12 113L20 84L29 58Z" fill="#6f6d67" stroke="#343330" stroke-width="1.5"/>
+  <path d="M33 49L40 77L49 105L53 103L46 72L36 45Z" fill="#6f6d67" stroke="#343330" stroke-width="1.5"/>
+  <path d="M29 124L17 153L8 184L14 188L26 160L34 134Z" fill="#6f6d67" stroke="#343330" stroke-width="1.7"/>
+  <path d="M34 126L42 151L51 184L45 187L34 160L29 136Z" fill="#6f6d67" stroke="#343330" stroke-width="1.7"/>
+  <path d="M8 184Q13 181 19 187L15 191L7 190Z" fill="#44433f"/>
+  <path d="M44 185Q50 181 55 187L51 190L43 190Z" fill="#44433f"/>
+  <path d="M8 111Q10 116 14 112L13 120L8 120Z" fill="#44433f"/>
+  <path d="M49 104Q52 108 54 103L55 111L51 114Z" fill="#44433f"/>
+  <path d="M28 15L31 10L34 17L35 26L32 34L27 31L25 22Z" fill="#9c998f" stroke="#343330" stroke-width="1.2"/>
+  <path d="M29 21L31 25L34 21M30 29L33 29" fill="none" stroke="#343330" stroke-width="1"/>
+  <path d="M25 63L34 60M25 82L34 78M27 101L34 97M28 121L34 117" stroke="#343330" stroke-width="1"/>
+  <path d="M18 78L22 81M13 95L17 98M40 76L45 75M44 91L49 90" stroke="#9c998f" stroke-width="1.2"/>
+  <path d="M19 151L25 154M14 169L19 171M40 151L45 150M44 169L49 168" stroke="#9c998f" stroke-width="1.2"/>
+</svg>

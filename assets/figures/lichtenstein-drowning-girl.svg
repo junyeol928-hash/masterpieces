@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 172" role="img" aria-label="リキテンスタインのおぼれる少女を示す構成図">
+  <!-- 網点の肌、左上の空の吹き出し、波と顔だけに切り詰めた漫画構図を示す図 -->
+  <defs><pattern id="dots" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1.25" fill="#cf322d"/></pattern></defs>
+  <rect width="170" height="172" fill="#f6f1da"/>
+  <path d="M11 20Q26 2 54 5Q92 4 115 24Q137 43 128 72Q121 94 93 109Q63 123 37 104Q12 86 13 55Z" fill="#102f55" stroke="#050709" stroke-width="3.2"/>
+  <path d="M17 72Q35 54 55 55Q61 34 83 30Q100 14 117 27Q134 37 130 59Q124 48 112 50Q106 70 85 72Q73 93 51 86Q32 98 17 72Z" fill="#102f55" stroke="#050709" stroke-width="3"/>
+  <path d="M31 57Q42 43 56 43M58 38Q73 22 88 24M86 69Q104 48 119 54M24 81Q39 68 52 70" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M47 52C58 39 78 34 97 39C114 44 124 59 122 76C120 92 106 108 88 116C69 125 49 116 42 100C35 84 37 65 47 52Z" fill="url(#dots)" stroke="#050709" stroke-width="3"/>
+  <path d="M40 74Q51 56 65 53Q80 38 97 42Q111 45 121 59Q109 54 98 62Q87 50 77 62Q58 57 52 77Z" fill="#102f55" stroke="#050709" stroke-width="3"/>
+  <path d="M53 79Q64 72 75 77M52 76q1 7 4 8m4-10q2 6 5 8m3-7q2 5 5 7" fill="none" stroke="#050709" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M87 66Q99 58 109 65M89 64q1 6 4 8m3-10q2 6 5 8m3-8q2 5 5 7" fill="none" stroke="#050709" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M50 69Q62 60 76 66M87 56Q101 48 113 57" fill="none" stroke="#050709" stroke-width="2.5"/>
+  <path d="M79 71Q72 85 78 92" fill="none" stroke="#050709" stroke-width="2.2"/>
+  <path d="M67 101Q78 94 90 101" fill="none" stroke="#050709" stroke-width="3" stroke-linecap="round"/>
+  <path d="M105 75C99 83 100 90 105 94C111 89 111 81 105 75Z" fill="#fff" stroke="#050709" stroke-width="2"/>
+  <path d="M104 78q3 3 2 7" fill="none" stroke="#d9e8ef" stroke-width="1.5"/>
+  <path d="M27 113Q44 103 59 115L74 132H27Z" fill="url(#dots)" stroke="#050709" stroke-width="3"/>
+  <path d="M113 103q10-5 18 4l8 13q-12 6-22-1l-7-7" fill="url(#dots)" stroke="#050709" stroke-width="3"/>
+  <path d="M121 108l4-9m1 11 6-7m-3 11 8-4" fill="none" stroke="#050709" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M0 112Q17 98 34 110Q49 121 62 119Q78 116 89 104Q101 91 116 101Q132 111 143 103Q158 93 170 100V172H0Z" fill="#123a69" stroke="#050709" stroke-width="3.2"/>
+  <path d="M0 129Q18 115 35 127Q51 138 65 129Q80 118 96 130Q111 141 126 129Q145 114 170 126M4 153Q23 139 42 151Q60 163 76 151Q92 138 109 151Q128 165 145 151Q157 143 170 148" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M91 108Q102 96 114 105Q122 112 128 110M40 120Q53 109 65 119Q72 125 81 122M130 137Q143 125 156 136" fill="none" stroke="#050709" stroke-width="3"/>
+  <circle cx="17" cy="123" r="6" fill="#fff" stroke="#050709" stroke-width="2"/><circle cx="75" cy="141" r="7" fill="#fff" stroke="#050709" stroke-width="2"/><circle cx="145" cy="121" r="5" fill="#fff" stroke="#050709" stroke-width="2"/><circle cx="112" cy="157" r="6" fill="#fff" stroke="#050709" stroke-width="2"/>
+  <path d="M7 10Q8 4 15 4H69Q76 4 77 11V34Q77 41 69 41H44L31 52L34 41H15Q7 41 7 34Z" fill="#fff" stroke="#050709" stroke-width="3" stroke-linejoin="round"/>
+</svg>

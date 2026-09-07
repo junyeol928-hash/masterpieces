@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71 87" role="img" aria-label="デ・キリコ『街の神秘と憂愁』の構図を図解した抽象図">
+  <!-- 長い影、アーケード、少女、遠い車両を不穏な遠近法で組んだ構図図解 -->
+  <rect width="71" height="87" fill="#d49a45"/>
+  <rect y="0" width="71" height="25" fill="#67909b"/>
+  <path d="M0 25L71 27L71 87L0 87Z" fill="#d8c48f"/>
+  <path d="M0 24L37 29L28 87H0Z" fill="#88432e" stroke="#392f2a" stroke-width="1.5"/>
+  <path d="M0 9L27 14L23 68L0 62Z" fill="#d49a45" stroke="#392f2a" stroke-width="1.5"/>
+  <path d="M3 16H23V23H3ZM3 28H22V35H3ZM2 40H21V47H2ZM1 52H20V59H1Z" fill="#392f2a"/>
+  <path d="M7 16V59M14 16V61M21 16V64" stroke="#d8c48f" stroke-width="1.2"/>
+  <path d="M71 24L44 28L50 67L71 64Z" fill="#d49a45" stroke="#392f2a" stroke-width="1.5"/>
+  <path d="M47 31H71V38H48ZM48 42H71V49H49ZM49 53H71V60H50Z" fill="#392f2a"/>
+  <path d="M54 28V62M62 26V63" stroke="#d8c48f" stroke-width="1.2"/>
+  <path d="M26 30L38 32L36 87L18 87Z" fill="#88432e" opacity=".8"/>
+  <path d="M48 28L39 32L24 87H45Z" fill="#d49a45" opacity=".75"/>
+  <rect x="52" y="34" width="15" height="8" rx="1" fill="#392f2a"/>
+  <circle cx="55" cy="43" r="1.5" fill="#392f2a"/>
+  <circle cx="64" cy="43" r="1.5" fill="#392f2a"/>
+  <circle cx="36" cy="55" r="2.6" fill="#392f2a"/>
+  <path d="M34 58L31 72L36 78L41 72L38 58Z" fill="#392f2a"/>
+  <path d="M32 62L27 67M39 62L44 67M34 77L31 86M38 77L41 86" stroke="#392f2a" stroke-width="1.5"/>
+  <circle cx="36" cy="68" r="8" fill="none" stroke="#392f2a" stroke-width="1.2"/>
+  <path d="M29 68H43M36 61V75M30 63L42 73M42 63L30 73" stroke="#392f2a" stroke-width="1"/>
+  <path d="M37 74L59 87H24Z" fill="#392f2a" opacity=".85"/>
+  <path d="M0 68L71 64M0 77L71 71" stroke="#392f2a" stroke-width="1"/>
+</svg>

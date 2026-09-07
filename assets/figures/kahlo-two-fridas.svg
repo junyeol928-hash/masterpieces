@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 173 173" role="img" aria-label="カーロの二人のフリーダを示す構成図">
+  <!-- 異なる衣装の二人、露出した心臓と血管、鋏、血痕、肖像入りメダリオンを示す図 -->
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#526b80"/><stop offset=".6" stop-color="#8998a2"/><stop offset="1" stop-color="#667786"/></linearGradient></defs>
+  <rect width="173" height="173" fill="url(#sky)"/>
+  <path d="M0 25Q18 11 39 25Q56 5 78 22Q101 5 120 24Q142 8 173 27V51Q151 38 133 50Q108 34 89 50Q66 34 45 49Q22 35 0 53ZM0 88Q21 72 43 86Q62 69 84 84Q106 67 129 84Q151 69 173 88V109Q150 96 128 107Q106 94 86 107Q63 93 42 106Q20 94 0 108Z" fill="#b8c0c4" opacity=".55"/>
+  <ellipse cx="50" cy="38" rx="14" ry="18" fill="#b97862" stroke="#302927" stroke-width="1.7"/>
+  <ellipse cx="122" cy="38" rx="14" ry="18" fill="#b97862" stroke="#302927" stroke-width="1.7"/>
+  <path d="M36 36Q36 17 50 17Q64 17 65 36Q57 27 50 27Q43 27 36 36ZM108 36Q108 17 122 17Q136 18 137 36Q129 27 122 27Q115 27 108 36Z" fill="#282322"/>
+  <path d="M42 38l6-1m5 0 6 1m55 0 6-1m5 0 6 1M46 47q4 3 8 0m64 0q4 3 8 0" fill="none" stroke="#302927" stroke-width="1.2"/>
+  <path d="M37 55L20 72L9 164H83L70 74L61 55Z" fill="#f3eee2" stroke="#302927" stroke-width="1.8"/>
+  <path d="M109 55L96 73L91 107L92 164H164L153 75L136 55Z" fill="#164f55" stroke="#302927" stroke-width="1.8"/>
+  <path d="M94 102L92 164H164L155 103Q124 113 94 102Z" fill="#9c412f" stroke="#302927" stroke-width="1.5"/>
+  <path d="M39 56Q50 66 60 56L65 65Q51 77 34 65ZM111 57Q122 67 134 57L138 66Q122 77 106 66Z" fill="#eadfca" stroke="#302927" stroke-width="1.2"/>
+  <path d="M35 65q4-5 8 0t8 0t8 0M14 153q5-5 10 0t10 0t10 0t10 0t10 0t10 0" fill="none" stroke="#c8bda8" stroke-width="2"/>
+  <path d="M27 79q4-4 8 0t8 0t8 0t8 0t8 0M22 91q4-4 8 0t8 0t8 0t8 0t8 0" fill="none" stroke="#d7cdbb" stroke-width="1"/>
+  <path d="M100 75l9 8 12-8 12 8 12-8M102 89l9 7 10-7 11 7 14-7" fill="none" stroke="#8fb2a5" stroke-width="1.4"/>
+  <rect x="38" y="72" width="24" height="24" rx="2" fill="#8b675f" stroke="#302927" stroke-width="1.5"/>
+  <rect x="110" y="72" width="24" height="24" rx="2" fill="#8b675f" stroke="#302927" stroke-width="1.5"/>
+  <path d="M50 78C44 70 37 80 41 87l9 8 9-8c4-8-4-16-9-9Z" fill="#a72831" stroke="#4d151b" stroke-width="1.3"/>
+  <path d="M47 76l4 19m-8-10 14-5" stroke="#e9b2a9" stroke-width="1.4"/>
+  <path d="M122 78C116 70 108 80 113 88l9 7 9-7c5-8-3-18-9-10Z" fill="#a72831" stroke="#4d151b" stroke-width="1.3"/>
+  <path d="M122 78v16m-7-10 14 0" fill="none" stroke="#e9b2a9" stroke-width="1"/>
+  <path d="M130 86C143 89 148 101 142 111C131 129 97 123 83 112C70 101 62 91 56 84C52 95 43 108 27 123" fill="none" stroke="#9d1e2c" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M25 80Q13 92 19 109L27 121" fill="none" stroke="#b97862" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="28" cy="123" r="4" fill="#b97862" stroke="#302927" stroke-width="1"/>
+  <path d="M27 119l-7 9m7-5-9-1m9 1 4 9m-4-9 9 2" fill="none" stroke="#303030" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M21 128q3 3 5 0" fill="none" stroke="#9d1e2c" stroke-width="2"/>
+  <path d="M22 132c-3 4-3 6 0 7 3-1 3-3 0-7ZM35 130c-3 4-3 6 0 7 3-1 3-3 0-7ZM42 139c-3 4-3 6 0 7 3-1 3-3 0-7Z" fill="#a51e2a"/>
+  <path d="M69 103Q76 111 84 109Q91 111 99 103" fill="none" stroke="#302927" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="69" cy="103" r="4" fill="#b97862"/><circle cx="99" cy="103" r="4" fill="#b97862"/>
+  <path d="M151 78q12 12 4 28l-9 11" fill="none" stroke="#b97862" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="145" cy="119" r="4" fill="#b97862" stroke="#302927" stroke-width="1"/>
+  <ellipse cx="139" cy="123" rx="7" ry="9" fill="#d5aa72" stroke="#302927" stroke-width="1.5"/>
+  <ellipse cx="139" cy="122" rx="4" ry="6" fill="#47606c"/><circle cx="139" cy="120" r="2" fill="#b97862"/><path d="M136 126q3-4 6 0" fill="#7b3029"/>
+</svg>
