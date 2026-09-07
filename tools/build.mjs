@@ -450,8 +450,17 @@ movements.forEach((m) => {
    そこで世紀ごとに区切り、頭に飛べる目次を置く。
    区切りの見出しは読んでいる間そこに留まり、いま何世紀を見ているかが常に分かる。 */
 {
-  const centuryOf = (y) => (y < 0 ? 0 : Math.floor((y - 1) / 100) + 1);
-  const centuryLabel = (c) => (c === 0 ? '紀元前' : String(c));
+  /* 紀元前は19点が2万5千年に散っている。「紀元前」ひとまとめでは年表の役に立たないので、
+     ここだけ世紀ではなく千年紀の粗さで割る。 */
+  const centuryOf = (y) => {
+    if (y >= 0) return Math.floor((y - 1) / 100) + 1;
+    if (y <= -10000) return -3;
+    if (y <= -1000) return -2;
+    return -1;
+  };
+  const BC = { '-3': ['氷河期', 'PREHISTORY'], '-2': ['前3千年紀', 'BCE'], '-1': ['前1千年紀', 'BCE'] };
+  const centuryLabel = (c) => (c < 0 ? BC[c][0] : String(c));
+  const centuryUnit = (c) => (c < 0 ? BC[c][1] : 'CENTURY');
 
   const groups = [];
   for (const w of byYear) {
@@ -462,7 +471,7 @@ movements.forEach((m) => {
   }
 
   const jump = groups.map((g) =>
-    `<a href="#c${g.c}">${centuryLabel(g.c)}${g.c === 0 ? '' : '世紀'}</a>`).join('');
+    `<a href="#c${g.c}">${centuryLabel(g.c)}${g.c < 0 ? '' : '世紀'}</a>`).join('');
 
   const body = `<div class="wrap" style="padding-top:clamp(2.6rem,7vh,5rem)">
   <p class="eyebrow">Timeline</p>
@@ -477,7 +486,7 @@ movements.forEach((m) => {
   ${groups.map((g) => `<section class="era-group" id="c${g.c}">
     <h2 class="era-head">
       <span class="n">${centuryLabel(g.c)}</span>
-      <span class="u">${g.c === 0 ? '' : 'CENTURY'}</span>
+      <span class="u">${centuryUnit(g.c)}</span>
       <span class="c">${g.works.length}点</span>
     </h2>
     <ul class="timeline">
