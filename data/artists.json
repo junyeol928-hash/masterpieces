@@ -1,1147 +1,2495 @@
 [
   {
-    "id": "botticelli", "name": "サンドロ・ボッティチェリ", "nameOriginal": "Sandro Botticelli",
-    "born": 1445, "died": 1510, "place": "フィレンツェ", "movements": ["renaissance-early"],
-    "wiki": "サンドロ・ボッティチェッリ", "wikiEn": "Sandro Botticelli",
+    "id": "botticelli",
+    "name": "サンドロ・ボッティチェリ",
+    "nameOriginal": "Sandro Botticelli",
+    "born": 1445,
+    "died": 1510,
+    "place": "フィレンツェ",
+    "movements": [
+      "renaissance-early"
+    ],
+    "wiki": "サンドロ・ボッティチェッリ",
+    "wikiEn": "Sandro Botticelli",
     "lead": "線で描いた、最後の巨匠。",
     "bio": "メディチ家の庇護のもと、フィレンツェで神話を主題にした大画面を描いた。同時代の画家が遠近法と陰影で立体を作ろうとしていたなかで、ボッティチェリは輪郭線を手放さなかった。彼の人物には重さがなく、地面を踏んでいない。それは技術の遅れではなく選択で、だからこそ髪や衣は水中のようにたなびく。晩年、修道士サヴォナローラの説教に感化されて作風が硬化し、自作の一部を焼いたと伝えられる。死後四百年近く忘れられ、19世紀のイギリスで再発見された。"
   },
   {
-    "id": "leonardo", "name": "レオナルド・ダ・ヴィンチ", "nameOriginal": "Leonardo da Vinci",
-    "born": 1452, "died": 1519, "place": "フィレンツェ／ミラノ／フランス", "movements": ["renaissance-high"],
-    "wiki": "レオナルド・ダ・ヴィンチ", "wikiEn": "Leonardo da Vinci",
+    "id": "leonardo",
+    "name": "レオナルド・ダ・ヴィンチ",
+    "nameOriginal": "Leonardo da Vinci",
+    "born": 1452,
+    "died": 1519,
+    "place": "フィレンツェ／ミラノ／フランス",
+    "movements": [
+      "renaissance-high"
+    ],
+    "wiki": "レオナルド・ダ・ヴィンチ",
+    "wikiEn": "Leonardo da Vinci",
     "lead": "完成させた絵は、二十点に満たない。",
     "bio": "公証人の私生児として生まれ、正規の教育を受けていない。画家として出発したが、興味は解剖学、水流、飛行、築城へと際限なく広がり、絵はしばしば未完に終わった。生涯に完成させた絵画は二十点ほどしかない。彼の最大の発明はスフマート ── 輪郭線を引かず、光と影を煙のように溶かして形を作る技法である。これによって顔の表情は固定されなくなり、見るたびに変わって見える。ノートは鏡文字で書かれ、五千葉以上が残っている。"
   },
   {
-    "id": "michelangelo", "name": "ミケランジェロ・ブオナローティ", "nameOriginal": "Michelangelo Buonarroti",
-    "born": 1475, "died": 1564, "place": "フィレンツェ／ローマ", "movements": ["renaissance-high"],
-    "wiki": "ミケランジェロ・ブオナローティ", "wikiEn": "Michelangelo",
+    "id": "michelangelo",
+    "name": "ミケランジェロ・ブオナローティ",
+    "nameOriginal": "Michelangelo Buonarroti",
+    "born": 1475,
+    "died": 1564,
+    "place": "フィレンツェ／ローマ",
+    "movements": [
+      "renaissance-high"
+    ],
+    "wiki": "ミケランジェロ・ブオナローティ",
+    "wikiEn": "Michelangelo",
     "lead": "自分は彫刻家だと言い張りながら、天井画を描いた。",
     "bio": "生涯にわたって自分を彫刻家と規定し、絵の依頼を嫌った。それでも教皇ユリウス2世に押し切られ、四年かけてシスティーナ礼拝堂の天井に三百人以上の人物を描く。八十八歳まで生き、その間に彫刻、絵画、建築（サン・ピエトロ大聖堂のドーム）、詩のすべてで頂点に立った。彼の人物は男女を問わず筋肉が隆起し、身をよじっている。石の中にすでに像が埋まっていて、自分は余分を取り除くだけだ、と語った。"
   },
   {
-    "id": "raphael", "name": "ラファエロ・サンツィオ", "nameOriginal": "Raffaello Sanzio",
-    "born": 1483, "died": 1520, "place": "ウルビーノ／フィレンツェ／ローマ", "movements": ["renaissance-high"],
-    "wiki": "ラファエロ・サンティ", "wikiEn": "Raphael",
+    "id": "raphael",
+    "name": "ラファエロ・サンツィオ",
+    "nameOriginal": "Raffaello Sanzio",
+    "born": 1483,
+    "died": 1520,
+    "place": "ウルビーノ／フィレンツェ／ローマ",
+    "movements": [
+      "renaissance-high"
+    ],
+    "wiki": "ラファエロ・サンティ",
+    "wikiEn": "Raphael",
     "lead": "二人の発明を、破綻なく一枚にまとめた。",
     "bio": "レオナルドより三十一歳、ミケランジェロより八歳若い。この二人が切り開いたものを吸収し、無理のない形で統合したのがラファエロだった。彼の画面には歪みも過剰もなく、多数の人物が完璧に配置されている。人柄も温和で、ミケランジェロが孤立していたのに対し、大きな工房を率いて教皇庁の仕事をこなした。三十七歳で急死。以後三百年間、ヨーロッパのアカデミーは「絵画の規範」として彼の名を挙げ続ける。"
   },
   {
-    "id": "titian", "name": "ティツィアーノ・ヴェチェッリオ", "nameOriginal": "Tiziano Vecellio",
-    "born": 1488, "died": 1576, "place": "ヴェネツィア", "movements": ["renaissance-high"],
-    "wiki": "ティツィアーノ・ヴェチェッリオ", "wikiEn": "Titian",
+    "id": "titian",
+    "name": "ティツィアーノ・ヴェチェッリオ",
+    "nameOriginal": "Tiziano Vecellio",
+    "born": 1488,
+    "died": 1576,
+    "place": "ヴェネツィア",
+    "movements": [
+      "renaissance-high"
+    ],
+    "wiki": "ティツィアーノ・ヴェチェッリオ",
+    "wikiEn": "Titian",
     "lead": "線ではなく、色で形を作った。",
     "bio": "フィレンツェとローマが素描（線）を絵の基礎としたのに対し、ヴェネツィアのティツィアーノは色そのもので形を立ち上げた。下描きの線に色を塗るのではなく、絵具の層を重ねて直接形を作る。晩年には筆跡がそのまま見えるほど大胆になり、近くで見ると何が描かれているか分からないと言われた。八十年以上描き続け、神聖ローマ皇帝カール5世の宮廷画家となる。ルーベンス、ベラスケス、レンブラントはみな彼から出発している。"
   },
   {
-    "id": "velazquez", "name": "ディエゴ・ベラスケス", "nameOriginal": "Diego Velázquez",
-    "born": 1599, "died": 1660, "place": "セビリア／マドリード", "movements": ["baroque"],
+    "id": "velazquez",
+    "name": "ディエゴ・ベラスケス",
+    "nameOriginal": "Diego Velázquez",
+    "born": 1599,
+    "died": 1660,
+    "place": "セビリア／マドリード",
+    "movements": [
+      "baroque"
+    ],
     "commons": "Diego Velázquez Autorretrato 45 x 38 cm - Colección Real Academia de Bellas Artes de San Carlos - Museo de Bellas Artes de Valencia.jpg",
-    "wiki": "ディエゴ・ベラスケス", "wikiEn": "Diego Velázquez",
+    "wiki": "ディエゴ・ベラスケス",
+    "wikiEn": "Diego Velázquez",
     "lead": "宮廷に仕えながら、宮廷を観察していた。",
     "bio": "二十四歳でスペイン国王フェリペ4世の宮廷画家となり、生涯そこを離れなかった。王族の肖像を描く一方で、道化、小人、糸紡ぎの女たちを同じ真剣さで描いている。彼の筆は近づくとほとんど抽象で、離れると突然すべてが焦点を結ぶ。この「距離によって成立する絵」は二百年後の印象派を先取りしていた。マネは彼を「画家たちの画家」と呼び、ピカソは《ラス・メニーナス》を五十八枚描き直した。"
   },
   {
-    "id": "rembrandt", "name": "レンブラント・ファン・レイン", "nameOriginal": "Rembrandt van Rijn",
-    "born": 1606, "died": 1669, "place": "ライデン／アムステルダム", "movements": ["dutch-golden", "baroque"],
-    "wiki": "レンブラント・ファン・レイン", "wikiEn": "Rembrandt",
+    "id": "rembrandt",
+    "name": "レンブラント・ファン・レイン",
+    "nameOriginal": "Rembrandt van Rijn",
+    "born": 1606,
+    "died": 1669,
+    "place": "ライデン／アムステルダム",
+    "movements": [
+      "dutch-golden",
+      "baroque"
+    ],
+    "wiki": "レンブラント・ファン・レイン",
+    "wikiEn": "Rembrandt",
     "lead": "自分の顔を、四十年にわたって描き続けた。",
     "bio": "粉屋の息子として生まれ、二十代で成功し、豪邸を買い、そして破産した。妻サスキアと三人の子を亡くし、晩年は貧窮のうちに死ぬ。この人生がそのまま作品に刻まれているのは、彼が自画像を約八十点も残したからである。若い日の得意げな顔から、すべてを失ったあとの疲れた顔まで、一人の人間の四十年が並んでいる。西洋美術史でこれほど自分を記録した画家はいない。光を物語の道具として使った点でも比類がない。"
   },
   {
-    "id": "vermeer", "name": "ヨハネス・フェルメール", "nameOriginal": "Johannes Vermeer",
-    "born": 1632, "died": 1675, "place": "デルフト", "movements": ["dutch-golden"],
-    "wiki": "ヨハネス・フェルメール", "wikiEn": "Johannes Vermeer", "noPhoto": true,
+    "id": "vermeer",
+    "name": "ヨハネス・フェルメール",
+    "nameOriginal": "Johannes Vermeer",
+    "born": 1632,
+    "died": 1675,
+    "place": "デルフト",
+    "movements": [
+      "dutch-golden"
+    ],
+    "wiki": "ヨハネス・フェルメール",
+    "wikiEn": "Johannes Vermeer",
+    "noPhoto": true,
     "lead": "確実な作品は、三十数点しかない。",
     "bio": "生涯をデルフトの町で過ごし、画商を兼ねながら、年に二、三点しか描かなかった。現存する真作は三十数点。死後二百年近く忘れられ、19世紀にフランスの批評家トレ＝ビュルガーが再発見した。描かれるのはたいてい、左の窓から光が入る同じ部屋である。そこで手紙を読み、牛乳を注ぎ、天秤を持つ女がいる。物語は説明されない。決定的な瞬間の直前か直後だけが、静かに止まっている。"
   },
   {
-    "id": "goya", "name": "フランシスコ・デ・ゴヤ", "nameOriginal": "Francisco de Goya",
-    "born": 1746, "died": 1828, "place": "サラゴサ／マドリード／ボルドー", "movements": ["romanticism"],
-    "wiki": "フランシスコ・デ・ゴヤ", "wikiEn": "Francisco Goya",
+    "id": "goya",
+    "name": "フランシスコ・デ・ゴヤ",
+    "nameOriginal": "Francisco de Goya",
+    "born": 1746,
+    "died": 1828,
+    "place": "サラゴサ／マドリード／ボルドー",
+    "movements": [
+      "romanticism"
+    ],
+    "wiki": "フランシスコ・デ・ゴヤ",
+    "wikiEn": "Francisco Goya",
     "lead": "宮廷画家から、戦争の記録者へ。",
     "bio": "スペイン王室の首席宮廷画家まで上りつめた。四十代半ばに重病で聴力を失い、以後の作風が一変する。ナポレオン軍の侵攻と占領を目撃し、《戦争の惨禍》の版画群と《1808年5月3日》を残した。それまで戦争画は英雄を讃えるものだったが、彼は銃を突きつけられて死ぬ側だけを描いた。晩年は自邸の壁に《我が子を食らうサトゥルヌス》を含む「黒い絵」を描き、フランスへ亡命して死ぬ。近代の始まりに立つ画家である。"
   },
   {
-    "id": "delacroix", "name": "ウジェーヌ・ドラクロワ", "nameOriginal": "Eugène Delacroix",
-    "born": 1798, "died": 1863, "place": "パリ", "movements": ["romanticism"],
-    "wiki": "ウジェーヌ・ドラクロワ", "wikiEn": "Eugène Delacroix",
+    "id": "delacroix",
+    "name": "ウジェーヌ・ドラクロワ",
+    "nameOriginal": "Eugène Delacroix",
+    "born": 1798,
+    "died": 1863,
+    "place": "パリ",
+    "movements": [
+      "romanticism"
+    ],
+    "wiki": "ウジェーヌ・ドラクロワ",
+    "wikiEn": "Eugène Delacroix",
     "lead": "線の派に対する、色の派の総大将。",
     "bio": "同時代のアングルが「線こそ絵の骨格だ」と主張したのに対し、ドラクロワは色を先に立てた。輪郭はぼやけ、筆跡は残り、画面全体が動いている。虐殺、難破、狩り、蜂起 ── 主題も激しい。1832年のモロッコ旅行で強烈な光と色を体験し、それが後半生を決めた。補色を隣り合わせに置く彼の実験を、三十年後にモネとルノワールが引き継ぐ。日記を残しており、19世紀美術のもっとも重要な文献のひとつになっている。"
   },
   {
-    "id": "monet", "name": "クロード・モネ", "nameOriginal": "Claude Monet",
-    "born": 1840, "died": 1926, "place": "パリ／ジヴェルニー", "movements": ["impressionism"],
-    "wiki": "クロード・モネ", "wikiEn": "Claude Monet",
+    "id": "monet",
+    "name": "クロード・モネ",
+    "nameOriginal": "Claude Monet",
+    "born": 1840,
+    "died": 1926,
+    "place": "パリ／ジヴェルニー",
+    "movements": [
+      "impressionism"
+    ],
+    "wiki": "クロード・モネ",
+    "wikiEn": "Claude Monet",
     "lead": "同じものを、光が変わるたびに描き直した。",
     "bio": "印象派という名前は、彼の《印象、日の出》を嘲った批評から生まれた。生涯を通じて追ったのは対象ではなく、そこに当たっている光である。積みわら、ポプラ並木、ルーアン大聖堂を、時刻と季節を変えて何十枚も描いた。同じ大聖堂が朝は青く、夕方は橙になる。晩年は白内障で色の見え方が変わり、ジヴェルニーの睡蓮の池を、ほとんど抽象に近い巨大な画面で描き続けた。八十六歳で死ぬまで筆を置かなかった。"
   },
   {
-    "id": "renoir", "name": "ピエール＝オーギュスト・ルノワール", "nameOriginal": "Pierre-Auguste Renoir",
-    "born": 1841, "died": 1919, "place": "リモージュ／パリ／カーニュ", "movements": ["impressionism"],
-    "wiki": "ピエール＝オーギュスト・ルノワール", "wikiEn": "Pierre-Auguste Renoir",
+    "id": "renoir",
+    "name": "ピエール＝オーギュスト・ルノワール",
+    "nameOriginal": "Pierre-Auguste Renoir",
+    "born": 1841,
+    "died": 1919,
+    "place": "リモージュ／パリ／カーニュ",
+    "movements": [
+      "impressionism"
+    ],
+    "wiki": "ピエール＝オーギュスト・ルノワール",
+    "wikiEn": "Pierre-Auguste Renoir",
     "lead": "絵は楽しく、美しいものであるべきだ、と言い切った。",
     "bio": "磁器の絵付け職人として出発した。だから彼の色は最初から明るく、装飾的である。モネとともに屋外で描き、印象派展に参加したが、目指したものは違った。モネが光そのものを追ったのに対し、ルノワールが描いたのは人 ── 踊り、食事をし、笑っている人たちの、幸福な午後である。晩年はリウマチで指が変形し、筆を手に縛りつけて描いた。「絵は楽しく、美しいものであるべきだ。悲しいものは十分にある」と語っている。"
   },
   {
-    "id": "van-gogh", "name": "フィンセント・ファン・ゴッホ", "nameOriginal": "Vincent van Gogh",
-    "born": 1853, "died": 1890, "place": "オランダ／パリ／アルル／サン＝レミ", "movements": ["post-impressionism"],
-    "wiki": "フィンセント・ファン・ゴッホ", "wikiEn": "Vincent van Gogh",
+    "id": "van-gogh",
+    "name": "フィンセント・ファン・ゴッホ",
+    "nameOriginal": "Vincent van Gogh",
+    "born": 1853,
+    "died": 1890,
+    "place": "オランダ／パリ／アルル／サン＝レミ",
+    "movements": [
+      "post-impressionism"
+    ],
+    "wiki": "フィンセント・ファン・ゴッホ",
+    "wikiEn": "Vincent van Gogh",
     "lead": "画家として活動したのは、十年しかない。",
     "bio": "画商、教師、伝道師と職を変え、二十七歳でようやく絵を始めた。死ぬまでの十年で約二千点を描き、生前に売れたのはごくわずかだったと言われる。生活はすべて弟テオの仕送りで支えられ、二人が交わした八百通近い手紙が残っている。アルルでの共同生活の破綻、耳の切断、療養院での日々を経て、三十七歳で自ら命を絶った。色は現実から離れ、筆跡は渦を巻く。それは狂気の記録ではなく、感情を直接塗るための方法だった。"
   },
   {
-    "id": "munch", "name": "エドヴァルド・ムンク", "nameOriginal": "Edvard Munch",
-    "born": 1863, "died": 1944, "place": "ノルウェー／ベルリン／パリ", "movements": ["symbolism"],
-    "wiki": "エドヴァルド・ムンク", "wikiEn": "Edvard Munch",
+    "id": "munch",
+    "name": "エドヴァルド・ムンク",
+    "nameOriginal": "Edvard Munch",
+    "born": 1863,
+    "died": 1944,
+    "place": "ノルウェー／ベルリン／パリ",
+    "movements": [
+      "symbolism"
+    ],
+    "wiki": "エドヴァルド・ムンク",
+    "wikiEn": "Edvard Munch",
     "lead": "不安そのものを、絵にしようとした。",
     "bio": "五歳で母を、十四歳で姉を結核で亡くし、父は敬虔で厳格だった。死と病と不安は、彼にとって主題である前に日常だった。「私は自分が見たものではなく、自分が見たときに感じたものを描く」と書いている。だから空は赤く渦を巻き、人の顔は溶ける。ベルリンでの個展は一週間で閉鎖されるほどの醜聞になり、それが逆に彼を有名にした。八十歳まで生き、ナチス占領下のオスロ郊外で死んだ。ドイツ表現主義の直接の源流である。"
   },
   {
-    "id": "klimt", "name": "グスタフ・クリムト", "nameOriginal": "Gustav Klimt",
-    "born": 1862, "died": 1918, "place": "ウィーン", "movements": ["vienna-secession"],
-    "wiki": "グスタフ・クリムト", "wikiEn": "Gustav Klimt",
+    "id": "klimt",
+    "name": "グスタフ・クリムト",
+    "nameOriginal": "Gustav Klimt",
+    "born": 1862,
+    "died": 1918,
+    "place": "ウィーン",
+    "movements": [
+      "vienna-secession"
+    ],
+    "wiki": "グスタフ・クリムト",
+    "wikiEn": "Gustav Klimt",
     "lead": "金箔を、油彩画の中に持ち込んだ。",
     "bio": "彫金師の息子で、装飾画家として出発した。当初は劇場や美術史美術館の天井を古典様式で飾る優等生だったが、三十代半ばで分離派を結成して保守的な画壇と決別する。ウィーン大学の依頼で描いた壁画が非難を浴びて撤回され、以後は公的な注文を受けなくなった。父の職業から受け継いだ金箔とモザイクの技法を油彩に持ち込み、平面的な装飾と写実的な肌を同じ画面に共存させる。フロイトと同じ時代のウィーンの人である。"
   },
   {
-    "id": "hokusai", "name": "葛飾北斎", "nameOriginal": "Katsushika Hokusai",
-    "born": 1760, "died": 1849, "place": "江戸", "movements": ["ukiyoe"],
-    "wiki": "葛飾北斎", "wikiEn": "Hokusai",
+    "id": "hokusai",
+    "name": "葛飾北斎",
+    "nameOriginal": "Katsushika Hokusai",
+    "born": 1760,
+    "died": 1849,
+    "place": "江戸",
+    "movements": [
+      "ukiyoe"
+    ],
+    "wiki": "葛飾北斎",
+    "wikiEn": "Hokusai",
     "lead": "九十歳まで描き、まだ足りないと言った。",
     "bio": "生涯に三十回以上改名し、九十三回引っ越したと伝えられる。二十歳前後から絵を描きはじめ、七十二歳で《富嶽三十六景》を出した。八十八歳のとき「あと五年生きれば本物の絵描きになれる」と書いている。作画数は三万点を超えるとされ、主題も風景、妖怪、動植物、絵手本と際限がない。彼の版画は19世紀後半にヨーロッパへ渡り、ドガ、モネ、ゴッホに直接影響した。西洋美術史に組み込まれた最初の日本人である。"
   },
   {
-    "id": "picasso", "name": "パブロ・ピカソ", "nameOriginal": "Pablo Picasso",
-    "born": 1881, "died": 1973, "place": "マラガ／バルセロナ／パリ", "movements": ["cubism"],
-    "wiki": "パブロ・ピカソ", "wikiEn": "Pablo Picasso", "noPhoto": true,
+    "id": "picasso",
+    "name": "パブロ・ピカソ",
+    "nameOriginal": "Pablo Picasso",
+    "born": 1881,
+    "died": 1973,
+    "place": "マラガ／バルセロナ／パリ",
+    "movements": [
+      "cubism"
+    ],
+    "wiki": "パブロ・ピカソ",
+    "wikiEn": "Pablo Picasso",
+    "noPhoto": true,
     "lead": "四百年続いた約束を、一枚の絵で破棄した。",
     "bio": "美術教師の父から早期に訓練を受け、十代ですでに完璧な写実が描けた。だからこそ、そこから離れることが彼の生涯の仕事になる。青の時代、バラ色の時代を経て、1907年《アヴィニョンの娘たち》で一点透視の約束を捨てた。以後キュビスム、新古典主義、変形と作風を変え続け、九十一歳で死ぬまでに絵画・彫刻・陶芸・版画あわせて数万点を残した。20世紀美術でもっとも名前を知られた人物である。"
-  }
-  ,{
-    "id": "van-eyck", "name": "ヤン・ファン・エイク", "nameOriginal": "Jan van Eyck",
-    "born": 1390, "died": 1441, "place": "ブルッヘ（フランドル）", "movements": ["northern-renaissance"],
-    "wiki": "ヤン・ファン・エイク", "wikiEn": "Jan van Eyck",
+  },
+  {
+    "id": "van-eyck",
+    "name": "ヤン・ファン・エイク",
+    "nameOriginal": "Jan van Eyck",
+    "born": 1390,
+    "died": 1441,
+    "place": "ブルッヘ（フランドル）",
+    "movements": [
+      "northern-renaissance"
+    ],
+    "wiki": "ヤン・ファン・エイク",
+    "wikiEn": "Jan van Eyck",
     "lead": "油絵の具を発明した人、ということになっている。",
     "bio": "「油彩画の発明者」と長く言われてきたが、正確ではない。油の絵具自体はそれ以前からあった。彼がしたのは、透明な層を何度も重ねて、下の層の光を透かせる使い方を完成させたことである。この方法だと、宝石も毛皮も金属も、それぞれ違う光り方をする。イタリアの画家がまだ卵テンペラで描いていた時期に、フランドルではすでに髪の毛一本と鏡像が描き分けられていた。ブルゴーニュ公の宮廷画家として外交使節も務めている。"
   },
   {
-    "id": "bosch", "name": "ヒエロニムス・ボス", "nameOriginal": "Hieronymus Bosch",
-    "born": 1450, "died": 1516, "place": "スヘルトーヘンボス（ネーデルラント）", "movements": ["northern-renaissance"],
-    "wiki": "ヒエロニムス・ボス", "wikiEn": "Hieronymus Bosch",
+    "id": "bosch",
+    "name": "ヒエロニムス・ボス",
+    "nameOriginal": "Hieronymus Bosch",
+    "born": 1450,
+    "died": 1516,
+    "place": "スヘルトーヘンボス（ネーデルラント）",
+    "movements": [
+      "northern-renaissance"
+    ],
+    "wiki": "ヒエロニムス・ボス",
+    "wikiEn": "Hieronymus Bosch",
     "lead": "五百年前に、誰も見たことのない生きものを描いた。",
     "bio": "生涯を故郷の小さな町で過ごし、裕福な信心会の会員だった。つまり異端者でも狂人でもない。それなのに彼の画面には、耳だけの生きもの、卵の胴体を持つ人、楽器に磔にされた男が現れる。当時の説教や諺、錬金術の図像を組み合わせたものと考えられているが、完全には解読されていない。スペイン王フェリペ2世が熱心に収集したため、主要作の多くがプラド美術館にある。シュルレアリストが四百年後に彼を先駆者として担ぎ出した。"
   },
   {
-    "id": "durer", "name": "アルブレヒト・デューラー", "nameOriginal": "Albrecht Dürer",
-    "born": 1471, "died": 1528, "place": "ニュルンベルク", "movements": ["northern-renaissance"],
-    "wiki": "アルブレヒト・デューラー", "wikiEn": "Albrecht Dürer",
+    "id": "durer",
+    "name": "アルブレヒト・デューラー",
+    "nameOriginal": "Albrecht Dürer",
+    "born": 1471,
+    "died": 1528,
+    "place": "ニュルンベルク",
+    "movements": [
+      "northern-renaissance"
+    ],
+    "wiki": "アルブレヒト・デューラー",
+    "wikiEn": "Albrecht Dürer",
     "lead": "版画を、複製品から作品にした。",
     "bio": "金細工師の息子で、線を彫ることから出発した。二度イタリアへ行き、南の遠近法と人体比例を持ち帰って北方の細密描写と接ぎ木する。最大の功績は版画である。それまで版画は絵の複製にすぎなかったが、彼は木版と銅版そのもので、油彩に劣らない密度の作品を作った。しかも版画は運べる。彼の名声はヨーロッパ中に広がり、画家としてはじめて国際的な有名人になった。自画像を繰り返し描いた最初の画家でもある。"
   },
   {
-    "id": "bruegel", "name": "ピーテル・ブリューゲル（父）", "nameOriginal": "Pieter Bruegel de Oude",
-    "born": 1525, "died": 1569, "place": "アントウェルペン／ブリュッセル", "movements": ["northern-renaissance"],
-    "wiki": "ピーテル・ブリューゲル", "wikiEn": "Pieter Bruegel the Elder",
+    "id": "bruegel",
+    "name": "ピーテル・ブリューゲル（父）",
+    "nameOriginal": "Pieter Bruegel de Oude",
+    "born": 1525,
+    "died": 1569,
+    "place": "アントウェルペン／ブリュッセル",
+    "movements": [
+      "northern-renaissance"
+    ],
+    "wiki": "ピーテル・ブリューゲル",
+    "wikiEn": "Pieter Bruegel the Elder",
     "lead": "主人公を、画面のどこにいるか分からないほど小さく描いた。",
     "bio": "「農民ブリューゲル」と呼ばれるが、本人は教養ある都市の人で、人文主義者と交わっていた。彼の絵の特徴は視点の高さにある。丘の上から見下ろすように広い範囲を捉え、そこに数十人から数百人を置く。しかも主題の人物が中心にいない。イカロスが落ちる絵では、農夫が黙々と畑を耕していて、イカロスは画面の隅で足だけが水に沈んでいる。世界は誰かの悲劇に注目してくれない、という視線がある。"
   },
   {
-    "id": "caravaggio", "name": "カラヴァッジョ", "nameOriginal": "Michelangelo Merisi da Caravaggio",
-    "born": 1571, "died": 1610, "place": "ミラノ／ローマ／ナポリ／マルタ", "movements": ["baroque"],
-    "wiki": "カラヴァッジョ", "wikiEn": "Caravaggio",
+    "id": "caravaggio",
+    "name": "カラヴァッジョ",
+    "nameOriginal": "Michelangelo Merisi da Caravaggio",
+    "born": 1571,
+    "died": 1610,
+    "place": "ミラノ／ローマ／ナポリ／マルタ",
+    "movements": [
+      "baroque"
+    ],
+    "wiki": "カラヴァッジョ",
+    "wikiEn": "Caravaggio",
     "lead": "闇を先に塗り、そこへ光を一本だけ差し込ませた。",
     "bio": "喧嘩と裁判を繰り返し、ついに人を殺してローマから逃亡した。ナポリ、マルタ、シチリアと逃げ回りながら描き続け、三十八歳で行き倒れのように死ぬ。作品も同じくらい荒々しい。聖人を裸足の労働者として描き、下絵を作らずカンヴァスに直接描いた。画面の大半は闇で、そこに舞台照明のような光が斜めに入る。この明暗法はローマからスペイン、フランドル、オランダへ一世代で広がり、17世紀の絵の見た目を決めた。"
   },
   {
-    "id": "rubens", "name": "ピーテル・パウル・ルーベンス", "nameOriginal": "Peter Paul Rubens",
-    "born": 1577, "died": 1640, "place": "アントウェルペン", "movements": ["baroque"],
-    "wiki": "ピーテル・パウル・ルーベンス", "wikiEn": "Peter Paul Rubens",
+    "id": "rubens",
+    "name": "ピーテル・パウル・ルーベンス",
+    "nameOriginal": "Peter Paul Rubens",
+    "born": 1577,
+    "died": 1640,
+    "place": "アントウェルペン",
+    "movements": [
+      "baroque"
+    ],
+    "wiki": "ピーテル・パウル・ルーベンス",
+    "wikiEn": "Peter Paul Rubens",
     "lead": "画家であり、外交官であり、大工房の経営者だった。",
     "bio": "六か国語を話し、スペインとイングランドの和平交渉にあたり、両国から騎士に叙された。同時に、百人規模の工房を回して大量の注文をこなす経営者でもあった。構図と仕上げを自分が担当し、中間を弟子に任せる分業である。画面は常に動いている。人物は斜めにねじれ、布は渦を巻き、肉は温かく発光する。日本では『フランダースの犬』の少年が最後に見た絵の作者として知られている。"
   },
   {
-    "id": "bernini", "name": "ジャン・ロレンツォ・ベルニーニ", "nameOriginal": "Gian Lorenzo Bernini",
-    "born": 1598, "died": 1680, "place": "ローマ", "movements": ["baroque"],
-    "wiki": "ジャン・ロレンツォ・ベルニーニ", "wikiEn": "Gian Lorenzo Bernini",
+    "id": "bernini",
+    "name": "ジャン・ロレンツォ・ベルニーニ",
+    "nameOriginal": "Gian Lorenzo Bernini",
+    "born": 1598,
+    "died": 1680,
+    "place": "ローマ",
+    "movements": [
+      "baroque"
+    ],
+    "wiki": "ジャン・ロレンツォ・ベルニーニ",
+    "wikiEn": "Gian Lorenzo Bernini",
     "lead": "大理石を、布にも肉にも髪にも見せた。",
     "bio": "十代で成人の彫刻家として通用し、以後六十年にわたってローマを作り変えた。サン・ピエトロ広場の列柱も、大聖堂内部の巨大な天蓋も彼の設計である。彫刻では、大理石という硬い素材から、指が食い込む腿の柔らかさや、風をはらむ布の軽さを引き出した。しかも彫刻を単体で置かず、光の入り方、周囲の建築、鑑賞者の立ち位置まで含めて設計する。演劇の演出に近い。バロックという言葉は、ほぼ彼のことである。"
   },
   {
-    "id": "watteau", "name": "アントワーヌ・ヴァトー", "nameOriginal": "Antoine Watteau",
-    "born": 1684, "died": 1721, "place": "ヴァランシエンヌ／パリ", "movements": ["rococo"],
-    "wiki": "アントワーヌ・ヴァトー", "wikiEn": "Antoine Watteau",
+    "id": "watteau",
+    "name": "アントワーヌ・ヴァトー",
+    "nameOriginal": "Antoine Watteau",
+    "born": 1684,
+    "died": 1721,
+    "place": "ヴァランシエンヌ／パリ",
+    "movements": [
+      "rococo"
+    ],
+    "wiki": "アントワーヌ・ヴァトー",
+    "wikiEn": "Antoine Watteau",
     "lead": "宴の絵に、終わりの気配を混ぜた。",
     "bio": "「雅宴画」という新しい画題を一人で作った。貴族たちが野外に集い、恋を語り、音楽を奏でる。ただし彼の宴には必ず翳りがある。誰かが背を向け、誰かがもう帰ろうとしている。結核で三十六歳で死んだこととよく結びつけられるが、それ以前から作品はそうだった。フランス王立絵画彫刻アカデミーは彼のために「雅宴画家」という分類を新設している。ロココの始まりであり、同時にその最も静かな部分でもある。"
   },
   {
-    "id": "fragonard", "name": "ジャン＝オノレ・フラゴナール", "nameOriginal": "Jean-Honoré Fragonard",
-    "born": 1732, "died": 1806, "place": "グラース／パリ", "movements": ["rococo"],
-    "wiki": "ジャン＝オノレ・フラゴナール", "wikiEn": "Jean-Honoré Fragonard",
+    "id": "fragonard",
+    "name": "ジャン＝オノレ・フラゴナール",
+    "nameOriginal": "Jean-Honoré Fragonard",
+    "born": 1732,
+    "died": 1806,
+    "place": "グラース／パリ",
+    "movements": [
+      "rococo"
+    ],
+    "wiki": "ジャン＝オノレ・フラゴナール",
+    "wikiEn": "Jean-Honoré Fragonard",
     "lead": "ロココのいちばん甘いところを担当した。",
-    "bio": "ブーシェに学び、ローマ賞を取り、歴史画家として出世する道の上にいた。ところが途中でそれを降り、個人の顧客向けに恋愛の場面ばかりを描くようになる。筆は速く、絵具は軽く、色は砂糖菓子のようである。フランス革命が起きると、この種の絵の注文は完全に消えた。彼自身は革命政府の美術行政に職を得て生き延びるが、画家としては忘れられたまま死ぬ。再評価は19世紀後半を待つことになる。"
+    "bio": "ブーシェに学び、ローマ賞を取り、歴史画家として出世する道の上にいた。ところが途中でそれを降り、個人の顧客向けに恋愛の場面ばかりを描くようになる。筆は速く、絵具は軽く、色は砂糖菓子のようである。フランス革命が起きると、この種の絵の注文は完全に消えた。彼自身は革命政府の美術行政に職を得て生き延びるが、画家としては忘れられたまま死ぬ。再評価は19世紀後半を待つことになる。",
+    "commons": "Jean-Honoré Fragonard - Self-portrait.jpg"
   },
   {
-    "id": "david", "name": "ジャック＝ルイ・ダヴィッド", "nameOriginal": "Jacques-Louis David",
-    "born": 1748, "died": 1825, "place": "パリ／ブリュッセル", "movements": ["neoclassicism"],
-    "wiki": "ジャック＝ルイ・ダヴィッド", "wikiEn": "Jacques-Louis David",
+    "id": "david",
+    "name": "ジャック＝ルイ・ダヴィッド",
+    "nameOriginal": "Jacques-Louis David",
+    "born": 1748,
+    "died": 1825,
+    "place": "パリ／ブリュッセル",
+    "movements": [
+      "neoclassicism"
+    ],
+    "wiki": "ジャック＝ルイ・ダヴィッド",
+    "wikiEn": "Jacques-Louis David",
     "lead": "革命の画家になり、次に皇帝の画家になった。",
     "bio": "ロココの淡さを拒み、古代ローマの硬さで描いた。フランス革命が起きると国民公会の議員となり、王の処刑に賛成票を投じ、革命の祭典を演出し、暗殺されたマラーを聖人のように描いた。ロベスピエールが倒れると投獄されるが、ナポレオンの登場とともに復活し、今度は戴冠式の巨大な画面を描く。ナポレオン失脚後はブリュッセルへ亡命し、そこで死んだ。政治と様式がこれほど直接に結びついた画家は他にいない。"
   },
   {
-    "id": "ingres", "name": "ドミニク・アングル", "nameOriginal": "Jean-Auguste-Dominique Ingres",
-    "born": 1780, "died": 1867, "place": "モントーバン／ローマ／パリ", "movements": ["neoclassicism"],
-    "wiki": "ジャン＝オーギュスト＝ドミニク・アングル", "wikiEn": "Jean-Auguste-Dominique Ingres",
+    "id": "ingres",
+    "name": "ドミニク・アングル",
+    "nameOriginal": "Jean-Auguste-Dominique Ingres",
+    "born": 1780,
+    "died": 1867,
+    "place": "モントーバン／ローマ／パリ",
+    "movements": [
+      "neoclassicism"
+    ],
+    "wiki": "ジャン＝オーギュスト＝ドミニク・アングル",
+    "wikiEn": "Jean-Auguste-Dominique Ingres",
     "lead": "「線こそ絵の骨格だ」と言い張り続けた。",
     "bio": "ダヴィッドの弟子で、生涯にわたって素描の優位を主張した。同時代のドラクロワが色を先に立てたのに対し、アングルは輪郭線をどこまでも磨いた。ただし彼の線は正確ではない。理想の形のために背骨を余分に描き、首を伸ばし、腕をあり得ない角度に曲げる。当時の批評家はそれを解剖学の誤りとして攻撃したが、二十世紀の画家たちは逆に、そこにこそ彼の近代性を見た。ピカソもマティスも彼を研究している。"
   },
   {
-    "id": "gericault", "name": "テオドール・ジェリコー", "nameOriginal": "Théodore Géricault",
-    "born": 1791, "died": 1824, "place": "ルーアン／パリ", "movements": ["romanticism"],
-    "wiki": "テオドール・ジェリコー", "wikiEn": "Théodore Géricault",
+    "id": "gericault",
+    "name": "テオドール・ジェリコー",
+    "nameOriginal": "Théodore Géricault",
+    "born": 1791,
+    "died": 1824,
+    "place": "ルーアン／パリ",
+    "movements": [
+      "romanticism"
+    ],
+    "wiki": "テオドール・ジェリコー",
+    "wikiEn": "Théodore Géricault",
     "lead": "同時代の事件を、歴史画の大きさで描いた。",
     "bio": "裕福な家に生まれ、馬に取り憑かれ、落馬がもとになった病で三十二歳で死んだ。残した作品は少ないが、そのうちの一枚が19世紀絵画の方向を変えている。政府の失態による難破事件を、神話でも歴史でもなく、いま起きたこととして七メートルの画面に描いた。取材のために生存者に会い、遺体安置所へ通い、実物の筏の模型まで作っている。ロマン主義の激しさと、報道のような執拗さが同居している。"
   },
   {
-    "id": "friedrich", "name": "カスパー・ダーヴィト・フリードリヒ", "nameOriginal": "Caspar David Friedrich",
-    "born": 1774, "died": 1840, "place": "グライフスヴァルト／ドレスデン", "movements": ["romanticism"],
-    "wiki": "カスパー・ダーヴィト・フリードリヒ", "wikiEn": "Caspar David Friedrich",
+    "id": "friedrich",
+    "name": "カスパー・ダーヴィト・フリードリヒ",
+    "nameOriginal": "Caspar David Friedrich",
+    "born": 1774,
+    "died": 1840,
+    "place": "グライフスヴァルト／ドレスデン",
+    "movements": [
+      "romanticism"
+    ],
+    "wiki": "カスパー・ダーヴィト・フリードリヒ",
+    "wikiEn": "Caspar David Friedrich",
     "lead": "人物の背中だけを描いて、こちらを風景の前に立たせた。",
     "bio": "北ドイツの海辺に生まれ、幼くして母と兄弟を亡くしている。彼の風景には人がほとんどおらず、いても必ず背を向けている。顔が見えないので、鑑賞者はその人物の位置に入り込み、同じものを見ることになる。この装置を「後ろ姿の人物」と呼ぶ。描かれるのは霧、廃墟、枯木、氷。自然が美しいものではなく、人間を超えたものとして立ち現れる。ナチスに利用された時期を経て、20世紀後半に再評価された。"
   },
   {
-    "id": "turner", "name": "ウィリアム・ターナー", "nameOriginal": "J. M. W. Turner",
-    "born": 1775, "died": 1851, "place": "ロンドン", "movements": ["romanticism"],
-    "wiki": "ウィリアム・ターナー", "wikiEn": "J. M. W. Turner",
+    "id": "turner",
+    "name": "ウィリアム・ターナー",
+    "nameOriginal": "J. M. W. Turner",
+    "born": 1775,
+    "died": 1851,
+    "place": "ロンドン",
+    "movements": [
+      "romanticism"
+    ],
+    "wiki": "ウィリアム・ターナー",
+    "wikiEn": "J. M. W. Turner",
     "lead": "形が消えるところまで、光を追いかけた。",
     "bio": "床屋の息子で、十四歳でロイヤル・アカデミーに入り、二十代で会員になった。前半生は伝統的な風景画家だが、進むにつれて画面から輪郭が消えていく。晩年の作では、船も橋も太陽も、渦巻く光と蒸気の中に溶けている。嵐を体験するために船のマストに自分を縛りつけさせたという逸話がある（本人の話で、裏づけはない）。二万点近い作品を国家に遺贈した。印象派の画家たちはロンドン滞在中に彼を見て、衝撃を受けている。"
   },
   {
-    "id": "courbet", "name": "ギュスターヴ・クールベ", "nameOriginal": "Gustave Courbet",
-    "born": 1819, "died": 1877, "place": "オルナン／パリ／スイス", "movements": ["realism"],
-    "wiki": "ギュスターヴ・クールベ", "wikiEn": "Gustave Courbet",
+    "id": "courbet",
+    "name": "ギュスターヴ・クールベ",
+    "nameOriginal": "Gustave Courbet",
+    "born": 1819,
+    "died": 1877,
+    "place": "オルナン／パリ／スイス",
+    "movements": [
+      "realism"
+    ],
+    "wiki": "ギュスターヴ・クールベ",
+    "wikiEn": "Gustave Courbet",
     "lead": "「天使を見せてくれたら描く」と言った。",
     "bio": "田舎町オルナンの裕福な農家に生まれ、パリで独学に近い形で画家になった。宗教も神話も歴史も拒み、いま目の前にあるものだけを描くと宣言する。しかもそれを歴史画の巨大な画面でやった。1855年の万博で落選すると、会場のそばに自分で小屋を建てて個展を開いた。画家が制度の外で自作を見せた最初の例である。パリ・コミューンに参加して投獄され、スイスへ亡命したまま死んだ。"
   },
   {
-    "id": "millet", "name": "ジャン＝フランソワ・ミレー", "nameOriginal": "Jean-François Millet",
-    "born": 1814, "died": 1875, "place": "ノルマンディー／バルビゾン", "movements": ["realism"],
-    "wiki": "ジャン＝フランソワ・ミレー", "wikiEn": "Jean-François Millet",
+    "id": "millet",
+    "name": "ジャン＝フランソワ・ミレー",
+    "nameOriginal": "Jean-François Millet",
+    "born": 1814,
+    "died": 1875,
+    "place": "ノルマンディー／バルビゾン",
+    "movements": [
+      "realism"
+    ],
+    "wiki": "ジャン＝フランソワ・ミレー",
+    "wikiEn": "Jean-François Millet",
     "lead": "農民を、聖人と同じ静けさで描いた。",
     "bio": "農家に生まれ、パリで挫折したあと、フォンテーヌブローの森のそばの村バルビゾンに移り住んだ。そこで死ぬまで、種を蒔き、落穂を拾い、祈る農民を描き続ける。当時これは政治的な絵として読まれた。貧しい者を大きく描くことが、そのまま社会への告発と受け取られたためである。本人はむしろ、労働の中にある宗教的な静けさを見ていた。ゴッホは彼を生涯の手本とし、《種蒔く人》を何度も模写している。"
   },
   {
-    "id": "manet", "name": "エドゥアール・マネ", "nameOriginal": "Édouard Manet",
-    "born": 1832, "died": 1883, "place": "パリ", "movements": ["realism", "impressionism"],
-    "wiki": "エドゥアール・マネ", "wikiEn": "Édouard Manet",
+    "id": "manet",
+    "name": "エドゥアール・マネ",
+    "nameOriginal": "Édouard Manet",
+    "born": 1832,
+    "died": 1883,
+    "place": "パリ",
+    "movements": [
+      "realism",
+      "impressionism"
+    ],
+    "wiki": "エドゥアール・マネ",
+    "wikiEn": "Édouard Manet",
     "lead": "古典の構図を借りて、現代の人間を裸で置いた。",
     "bio": "裕福な法官の家に生まれ、生涯サロン（官展）での成功を求め続けた。それなのに出す絵が毎回スキャンダルになる。彼のやり方は挑発的でありながら学問的で、ラファエロやティツィアーノの構図をそのまま使い、登場人物だけを同時代のパリの人間に入れ替える。加えて中間の階調を省き、絵具を平らに置いた。この平面性は浮世絵から来ている。印象派展には一度も出品していないが、若い画家たちにとっては旗印だった。"
   },
   {
-    "id": "degas", "name": "エドガー・ドガ", "nameOriginal": "Edgar Degas",
-    "born": 1834, "died": 1917, "place": "パリ", "movements": ["impressionism"],
-    "wiki": "エドガー・ドガ", "wikiEn": "Edgar Degas",
+    "id": "degas",
+    "name": "エドガー・ドガ",
+    "nameOriginal": "Edgar Degas",
+    "born": 1834,
+    "died": 1917,
+    "place": "パリ",
+    "movements": [
+      "impressionism"
+    ],
+    "wiki": "エドガー・ドガ",
+    "wikiEn": "Edgar Degas",
     "lead": "屋外を嫌い、室内の一瞬だけを狙った。",
     "bio": "印象派展のほとんどに参加しながら、自分を印象派と呼ばれるのを嫌った。屋外制作も、光の研究もしていない。彼が追ったのは動きである。踊り子、洗濯女、競馬。しかも決めのポーズではなく、靴紐を直す、あくびをする、といった前後の瞬間を選ぶ。構図では、人物を画面の端で断ち切り、床を大きく空ける。これは浮世絵と、当時普及しはじめた写真から学んだものである。晩年は視力を失い、彫刻とパステルに移った。"
   },
   {
-    "id": "seurat", "name": "ジョルジュ・スーラ", "nameOriginal": "Georges Seurat",
-    "born": 1859, "died": 1891, "place": "パリ", "movements": ["post-impressionism"],
-    "wiki": "ジョルジュ・スーラ", "wikiEn": "Georges Seurat",
+    "id": "seurat",
+    "name": "ジョルジュ・スーラ",
+    "nameOriginal": "Georges Seurat",
+    "born": 1859,
+    "died": 1891,
+    "place": "パリ",
+    "movements": [
+      "post-impressionism"
+    ],
+    "wiki": "ジョルジュ・スーラ",
+    "wikiEn": "Georges Seurat",
     "lead": "印象派の直感を、科学の手続きに置き換えた。",
     "bio": "三十一歳で死んだため、主要な大作は数点しかない。彼がしたのは、印象派が感覚でやっていたことを理論にすることだった。色は混ぜると濁る。ならば混ぜず、純色の小さな点を並べ、見る人の目の中で混ぜさせればよい。当時の色彩学と光学の論文を読み込み、補色の関係を計算して点を置いた。一枚に二年かかる。感覚的な印象派の対極にある、極端に理知的な絵である。この方法を新印象派と呼ぶ。"
   },
   {
-    "id": "cezanne", "name": "ポール・セザンヌ", "nameOriginal": "Paul Cézanne",
-    "born": 1839, "died": 1906, "place": "エクス＝アン＝プロヴァンス／パリ", "movements": ["post-impressionism"],
-    "wiki": "ポール・セザンヌ", "wikiEn": "Paul Cézanne",
+    "id": "cezanne",
+    "name": "ポール・セザンヌ",
+    "nameOriginal": "Paul Cézanne",
+    "born": 1839,
+    "died": 1906,
+    "place": "エクス＝アン＝プロヴァンス／パリ",
+    "movements": [
+      "post-impressionism"
+    ],
+    "wiki": "ポール・セザンヌ",
+    "wikiEn": "Paul Cézanne",
     "lead": "近代絵画の父、と後から呼ばれた。",
     "bio": "銀行家の息子で、生活には困らなかったが、五十歳を過ぎるまでほとんど評価されなかった。印象派展に出しては酷評され、故郷エクスに引きこもって同じ山と同じリンゴを描き続ける。彼が探したのは、移ろう光の奥にある「形の骨組み」だった。そのためにわざと遠近を崩す。テーブルの手前と奥で高さが違い、皿が正面と真上から同時に見えている。この破綻をピカソとブラックが受け取り、キュビスムになった。"
   },
   {
-    "id": "gauguin", "name": "ポール・ゴーギャン", "nameOriginal": "Paul Gauguin",
-    "born": 1848, "died": 1903, "place": "パリ／ブルターニュ／タヒチ／マルキーズ諸島", "movements": ["post-impressionism"],
-    "wiki": "ポール・ゴーギャン", "wikiEn": "Paul Gauguin",
+    "id": "gauguin",
+    "name": "ポール・ゴーギャン",
+    "nameOriginal": "Paul Gauguin",
+    "born": 1848,
+    "died": 1903,
+    "place": "パリ／ブルターニュ／タヒチ／マルキーズ諸島",
+    "movements": [
+      "post-impressionism"
+    ],
+    "wiki": "ポール・ゴーギャン",
+    "wikiEn": "Paul Gauguin",
     "lead": "西洋の写実を捨てるために、西洋を出た。",
     "bio": "株式仲買人として成功し、妻子もあったが、三十代半ばですべて捨てて画家になった。ブルターニュ、アルル（ゴッホとの共同生活と破綻）を経てタヒチへ渡る。そこで求めたのは、遠近法も陰影もない、平らな色面と太い輪郭線による絵だった。ただし彼が「原始」として描いたタヒチは、すでに植民地化された島であり、現地の少女たちとの関係を含め、その姿勢は現在きびしく問い直されている。作品の力と、その問いは切り離せない。"
   },
   {
-    "id": "toulouse-lautrec", "name": "アンリ・ド・トゥールーズ＝ロートレック", "nameOriginal": "Henri de Toulouse-Lautrec",
-    "born": 1864, "died": 1901, "place": "アルビ／パリ（モンマルトル）", "movements": ["post-impressionism", "art-nouveau"],
-    "wiki": "アンリ・ド・トゥールーズ＝ロートレック", "wikiEn": "Henri de Toulouse-Lautrec",
+    "id": "toulouse-lautrec",
+    "name": "アンリ・ド・トゥールーズ＝ロートレック",
+    "nameOriginal": "Henri de Toulouse-Lautrec",
+    "born": 1864,
+    "died": 1901,
+    "place": "アルビ／パリ（モンマルトル）",
+    "movements": [
+      "post-impressionism",
+      "art-nouveau"
+    ],
+    "wiki": "アンリ・ド・トゥールーズ＝ロートレック",
+    "wikiEn": "Henri de Toulouse-Lautrec",
     "lead": "ポスターを、美術館に入るものにした。",
     "bio": "南フランスの伯爵家に生まれ、少年期の骨折と病で脚の成長が止まった。乗馬も狩りもできない彼は絵を選び、パリのモンマルトルに住みついてキャバレーと娼館の人々を描く。最大の功績は多色刷リトグラフのポスターである。大胆な切り取り、平らな色面、太い輪郭線、そして文字と絵の一体化。これは浮世絵から学んだもので、以後の広告デザインの基礎になった。三十六歳で死んでいる。"
   },
   {
-    "id": "mucha", "name": "アルフォンス・ミュシャ", "nameOriginal": "Alfons Mucha",
-    "born": 1860, "died": 1939, "place": "モラヴィア／パリ／プラハ", "movements": ["art-nouveau"],
-    "wiki": "アルフォンス・ミュシャ", "wikiEn": "Alphonse Mucha",
+    "id": "mucha",
+    "name": "アルフォンス・ミュシャ",
+    "nameOriginal": "Alfons Mucha",
+    "born": 1860,
+    "died": 1939,
+    "place": "モラヴィア／パリ／プラハ",
+    "movements": [
+      "art-nouveau"
+    ],
+    "wiki": "アルフォンス・ミュシャ",
+    "wikiEn": "Alphonse Mucha",
     "lead": "一晩で描いた芝居のポスターで、様式の名前になった。",
     "bio": "モラヴィア（現チェコ）の生まれ。パリで無名の挿絵描きだった三十四歳の年末、たまたま工房に居合わせて大女優サラ・ベルナールの芝居のポスターを引き受ける。縦に細長い画面、淡い色、髪と花の渦。これがパリ中に貼られ、一夜で有名になった。以後「ミュシャ様式」がアール・ヌーヴォーの代名詞になる。ただし本人が生涯の仕事と考えていたのは、故国スラヴ民族の歴史を描いた巨大な連作《スラヴ叙事詩》のほうだった。"
   },
   {
-    "id": "sharaku", "name": "東洲斎写楽", "nameOriginal": "Tōshūsai Sharaku",
-    "born": 1763, "died": 1820, "place": "江戸", "movements": ["ukiyoe"],
-    "wiki": "東洲斎写楽", "wikiEn": "Sharaku",
+    "id": "sharaku",
+    "name": "東洲斎写楽",
+    "nameOriginal": "Tōshūsai Sharaku",
+    "born": 1763,
+    "died": 1820,
+    "place": "江戸",
+    "movements": [
+      "ukiyoe"
+    ],
+    "wiki": "東洲斎写楽",
+    "wikiEn": "Sharaku",
     "lead": "十か月だけ現れて、消えた。",
     "bio": "1794年5月から翌年1月までの十か月間に約百四十点を出し、そのあと完全に姿を消した。誰だったのかは分かっていない。阿波藩お抱えの能役者・斎藤十郎兵衛とする説が有力だが、確定していない。作品は役者絵で、しかも当時の常識だった美化を一切していない。目は寄り、鼻は曲がり、顎はしゃくれる。役者本人にも版元にも不評だったと伝えられ、それが短命の理由とも言われる。評価は明治以降、ドイツの研究者を経て逆輸入された。"
   },
   {
-    "id": "hiroshige", "name": "歌川広重", "nameOriginal": "Utagawa Hiroshige",
-    "born": 1797, "died": 1858, "place": "江戸", "movements": ["ukiyoe"],
-    "wiki": "歌川広重", "wikiEn": "Hiroshige",
+    "id": "hiroshige",
+    "name": "歌川広重",
+    "nameOriginal": "Utagawa Hiroshige",
+    "born": 1797,
+    "died": 1858,
+    "place": "江戸",
+    "movements": [
+      "ukiyoe"
+    ],
+    "wiki": "歌川広重",
+    "wikiEn": "Hiroshige",
     "lead": "雨と雪と霧を、版木で刷った。",
     "bio": "定火消同心の家に生まれ、家職を継ぎながら絵師になった。北斎が奇抜な構図と力で押すのに対し、広重は静かな叙情で知られる。とくに天候の表現に長け、斜めの線だけで夕立を、白の抜きだけで雪を出した。《東海道五十三次》は当時の旅行熱に乗って大当たりし、生涯に八千点を超える版画を残す。ゴッホは彼の《大はしあたけの夕立》を油彩で模写している。西洋が浮世絵から受け取ったものの半分は、この人からである。"
-  }
-  ,{
-    "id": "rousseau", "name": "アンリ・ルソー", "nameOriginal": "Henri Rousseau",
-    "born": 1844, "died": 1910, "place": "パリ", "movements": ["post-impressionism"],
-    "wiki": "アンリ・ルソー", "wikiEn": "Henri Rousseau",
+  },
+  {
+    "id": "rousseau",
+    "name": "アンリ・ルソー",
+    "nameOriginal": "Henri Rousseau",
+    "born": 1844,
+    "died": 1910,
+    "place": "パリ",
+    "movements": [
+      "post-impressionism"
+    ],
+    "wiki": "アンリ・ルソー",
+    "wikiEn": "Henri Rousseau",
     "lead": "税関の職員が、日曜日に描いていた。",
     "bio": "パリ市の入市税関に勤めながら独学で描き、四十九歳で退職して画家に専念した。正規の訓練を受けていないため、遠近も陰影も当時の基準では「間違って」いる。人物は板のように平らで、葉は一枚ずつ律儀に描き分けられる。サロンでは笑い物にされたが、ピカソとアポリネールがその平面性と強さを見抜き、宴を開いて讃えた。ジャングルを描いたが、フランスを出たことは一度もない。植物園と図鑑が彼の熱帯だった。"
   },
   {
-    "id": "matisse", "name": "アンリ・マティス", "nameOriginal": "Henri Matisse",
-    "born": 1869, "died": 1954, "place": "パリ／ニース", "movements": ["fauvism"],
-    "wiki": "アンリ・マティス", "wikiEn": "Henri Matisse",
+    "id": "matisse",
+    "name": "アンリ・マティス",
+    "nameOriginal": "Henri Matisse",
+    "born": 1869,
+    "died": 1954,
+    "place": "パリ／ニース",
+    "movements": [
+      "fauvism"
+    ],
+    "wiki": "アンリ・マティス",
+    "wikiEn": "Henri Matisse",
     "lead": "色を、目に見えたものから解放した。",
     "bio": "法律事務所の書生だったが、盲腸の療養中に絵具箱をもらって画家になった。1905年、木の幹を赤く、顔に緑の帯を引いた作品群で「野獣」と呼ばれる。以後五十年、一貫して探したのは色そのものの均衡だった。晩年は手術で立てなくなり、絵筆を捨てて、彩色した紙をはさみで切って貼る方法に移る。「はさみで描く」と本人は言った。ピカソとは生涯の好敵手で、互いの作品を交換して手元に置いていた。"
   },
   {
-    "id": "boccioni", "name": "ウンベルト・ボッチョーニ", "nameOriginal": "Umberto Boccioni",
-    "born": 1882, "died": 1916, "place": "ミラノ", "movements": ["futurism"],
-    "wiki": "ウンベルト・ボッチョーニ", "wikiEn": "Umberto Boccioni",
+    "id": "boccioni",
+    "name": "ウンベルト・ボッチョーニ",
+    "nameOriginal": "Umberto Boccioni",
+    "born": 1882,
+    "died": 1916,
+    "place": "ミラノ",
+    "movements": [
+      "futurism"
+    ],
+    "wiki": "ウンベルト・ボッチョーニ",
+    "wikiEn": "Umberto Boccioni",
     "lead": "速度を、彫刻にしようとした。",
     "bio": "未来派の中心にいた画家であり彫刻家であり、理論家でもあった。彼が考えたのは、物には固定した輪郭などなく、動いた軌跡と周囲の空気こそが形だ、ということである。歩く人体を彫刻にすれば、脚も背も炎のように後ろへ流れる。宣言文も自分で書いた。1916年、従軍中に落馬して三十三歳で死ぬ。未来派が讃えた機械と戦争が、その中心人物を最初に奪った形になった。"
   },
   {
-    "id": "marc", "name": "フランツ・マルク", "nameOriginal": "Franz Marc",
-    "born": 1880, "died": 1916, "place": "ミュンヘン", "movements": ["expressionism"],
-    "wiki": "フランツ・マルク", "wikiEn": "Franz Marc",
+    "id": "marc",
+    "name": "フランツ・マルク",
+    "nameOriginal": "Franz Marc",
+    "born": 1880,
+    "died": 1916,
+    "place": "ミュンヘン",
+    "movements": [
+      "expressionism"
+    ],
+    "wiki": "フランツ・マルク",
+    "wikiEn": "Franz Marc",
     "lead": "動物のほうが、人間より世界を正しく見ていると考えた。",
     "bio": "カンディンスキーとともに「青騎士」を結成した。描いたのはほとんど動物である。人間の見かたは歪んでいて、動物のほうが世界を純粋に受け取っている、と考えたためだった。色にも意味を割り当てている ── 青は精神と男性、黄は喜びと女性、赤は物質と暴力。だから馬が青く、鹿が黄色い。1914年に志願して従軍し、1916年ヴェルダンで戦死した。三十六歳だった。"
   },
   {
-    "id": "kirchner", "name": "エルンスト・ルートヴィヒ・キルヒナー", "nameOriginal": "Ernst Ludwig Kirchner",
-    "born": 1880, "died": 1938, "place": "ドレスデン／ベルリン／ダヴォス", "movements": ["expressionism"],
-    "wiki": "エルンスト・ルートヴィヒ・キルヒナー", "wikiEn": "Ernst Ludwig Kirchner",
+    "id": "kirchner",
+    "name": "エルンスト・ルートヴィヒ・キルヒナー",
+    "nameOriginal": "Ernst Ludwig Kirchner",
+    "born": 1880,
+    "died": 1938,
+    "place": "ドレスデン／ベルリン／ダヴォス",
+    "movements": [
+      "expressionism"
+    ],
+    "wiki": "エルンスト・ルートヴィヒ・キルヒナー",
+    "wikiEn": "Ernst Ludwig Kirchner",
     "lead": "大都市の不安を、尖った線で描いた。",
     "bio": "建築を学んだあと、仲間と芸術家集団「ブリュッケ（橋）」を結成した。ベルリンに移ってからの作品が特徴的で、街路の人物は針のように細長く引き伸ばされ、遠近は前へ倒れかかる。都市そのものが人を圧迫している。第一次大戦に従軍して精神を病み、除隊後はスイスの山中で暮らした。1937年、ナチスに「退廃芸術」と名指しされて六百点以上を没収され、翌年に自ら命を絶っている。"
   },
   {
-    "id": "kandinsky", "name": "ワシリー・カンディンスキー", "nameOriginal": "Wassily Kandinsky",
-    "born": 1866, "died": 1944, "place": "モスクワ／ミュンヘン／バウハウス／パリ", "movements": ["abstraction"],
-    "wiki": "ワシリー・カンディンスキー", "wikiEn": "Wassily Kandinsky",
+    "id": "kandinsky",
+    "name": "ワシリー・カンディンスキー",
+    "nameOriginal": "Wassily Kandinsky",
+    "born": 1866,
+    "died": 1944,
+    "place": "モスクワ／ミュンヘン／バウハウス／パリ",
+    "movements": [
+      "abstraction"
+    ],
+    "wiki": "ワシリー・カンディンスキー",
+    "wikiEn": "Wassily Kandinsky",
     "lead": "絵を、音楽と同じものにしようとした。",
     "bio": "モスクワで法学と経済学を修め、三十歳で大学の職を断って画家になった。転機は、自分のアトリエで横倒しになった自作を見て、何が描いてあるか分からないのに美しいと感じたことだったと書いている。以後、対象を消していく。色と形には音があり、絵は音楽と同じ規則で組めると考えた。バウハウスで教え、理論書『芸術における精神的なもの』を残す。ナチスに追われてパリで死んだ。"
   },
   {
-    "id": "malevich", "name": "カジミール・マレーヴィチ", "nameOriginal": "Kazimir Malevich",
-    "born": 1879, "died": 1935, "place": "キーウ／モスクワ／レニングラード", "movements": ["abstraction"],
-    "wiki": "カジミール・マレーヴィチ", "wikiEn": "Kazimir Malevich",
+    "id": "malevich",
+    "name": "カジミール・マレーヴィチ",
+    "nameOriginal": "Kazimir Malevich",
+    "born": 1879,
+    "died": 1935,
+    "place": "キーウ／モスクワ／レニングラード",
+    "movements": [
+      "abstraction"
+    ],
+    "wiki": "カジミール・マレーヴィチ",
+    "wikiEn": "Kazimir Malevich",
     "lead": "白い地に、黒い正方形を一つだけ置いた。",
     "bio": "キーウに生まれ、ロシア革命前後のモスクワで活動した。1915年、白い画布に黒い正方形だけを描き、「シュプレマティスム（絶対主義）」と名づける。ここに至って、絵は何かの絵であることを完全にやめた。革命政府は当初こうした前衛を支持したが、1930年代に社会主義リアリズムが国是になると弾圧される。彼は逮捕・尋問を経て具象へ戻り、貧窮のうちに死んだ。棺は自分でデザインした黒い正方形の意匠だった。"
   },
   {
-    "id": "mondrian", "name": "ピート・モンドリアン", "nameOriginal": "Piet Mondriaan",
-    "born": 1872, "died": 1944, "place": "オランダ／パリ／ロンドン／ニューヨーク", "movements": ["abstraction"],
-    "wiki": "ピエト・モンドリアン", "wikiEn": "Piet Mondrian",
+    "id": "mondrian",
+    "name": "ピート・モンドリアン",
+    "nameOriginal": "Piet Mondriaan",
+    "born": 1872,
+    "died": 1944,
+    "place": "オランダ／パリ／ロンドン／ニューヨーク",
+    "movements": [
+      "abstraction"
+    ],
+    "wiki": "ピエト・モンドリアン",
+    "wikiEn": "Piet Mondrian",
     "lead": "垂直と水平と三原色だけを残した。",
     "bio": "写実的な風景画から出発し、樹木を描くうちに枝が格子になり、やがて格子だけが残った。到達したのは、垂直線と水平線、そして赤・青・黄と白・灰・黒だけという規則である。斜めの線は自分の様式から排除し、それを持ち込んだ同志とは決別した。ロンドン、ニューヨークと逃れ、最後はジャズとダンスに夢中になって、格子が細かく踊る作品を残す。彼の配色は、のちに服飾から工業製品まで無数に引用された。"
   },
   {
-    "id": "klee", "name": "パウル・クレー", "nameOriginal": "Paul Klee",
-    "born": 1879, "died": 1940, "place": "ベルン／ミュンヘン／バウハウス", "movements": ["abstraction"],
+    "id": "klee",
+    "name": "パウル・クレー",
+    "nameOriginal": "Paul Klee",
+    "born": 1879,
+    "died": 1940,
+    "place": "ベルン／ミュンヘン／バウハウス",
+    "movements": [
+      "abstraction"
+    ],
     "commons": "Paul Klee 1911.jpg",
-    "wiki": "パウル・クレー", "wikiEn": "Paul Klee",
+    "wiki": "パウル・クレー",
+    "wikiEn": "Paul Klee",
     "lead": "「線を、散歩に連れて行く」と言った。",
     "bio": "音楽家の家に生まれ、本人も優れたヴァイオリン奏者だった。作品はほとんどが小さく、油彩よりも水彩と素描が多い。抽象と具象のあいだを行き来し、記号のような形、子どもの絵のような線、音符のような色の並びが混ざる。バウハウスで十年教え、そこでの講義録は絵画理論の古典になった。ナチスに「退廃芸術」とされてスイスへ戻り、皮膚硬化症を患いながら晩年の数年で千点以上を描いて死んだ。"
   },
   {
-    "id": "lissitzky", "name": "エル・リシツキー", "nameOriginal": "El Lissitzky",
-    "born": 1890, "died": 1941, "place": "ヴィテブスク／モスクワ／ベルリン", "movements": ["abstraction"],
-    "wiki": "エル・リシツキー", "wikiEn": "El Lissitzky",
+    "id": "lissitzky",
+    "name": "エル・リシツキー",
+    "nameOriginal": "El Lissitzky",
+    "born": 1890,
+    "died": 1941,
+    "place": "ヴィテブスク／モスクワ／ベルリン",
+    "movements": [
+      "abstraction"
+    ],
+    "wiki": "エル・リシツキー",
+    "wikiEn": "El Lissitzky",
     "lead": "抽象を、革命の道具として使った。",
     "bio": "建築を学び、マレーヴィチのもとで抽象へ移った。ただし彼は抽象を純粋な芸術として扱わなかった。革命政府のポスター、展示会場の設計、書物のページ構成 ── 幾何学的な形を、人を動かすための言語として使う。文字と図形を同じ画面の部品として扱う彼の紙面設計は、以後のグラフィックデザインの基礎になった。ソ連の体制が前衛を切り捨てたあとも国内に留まり、結核で死んでいる。"
   },
   {
-    "id": "schiele", "name": "エゴン・シーレ", "nameOriginal": "Egon Schiele",
-    "born": 1890, "died": 1918, "place": "ウィーン", "movements": ["expressionism"],
-    "wiki": "エゴン・シーレ", "wikiEn": "Egon Schiele",
+    "id": "schiele",
+    "name": "エゴン・シーレ",
+    "nameOriginal": "Egon Schiele",
+    "born": 1890,
+    "died": 1918,
+    "place": "ウィーン",
+    "movements": [
+      "expressionism"
+    ],
+    "wiki": "エゴン・シーレ",
+    "wikiEn": "Egon Schiele",
     "lead": "二十八年しか生きていない。",
     "bio": "十六歳でウィーン美術アカデミーに入り、クリムトに認められた。ただし進んだ方向は正反対で、クリムトの装飾と黄金に対し、シーレの画面は骨と皮と痙攣する線だけになる。人体は捻れ、指は鉤のように曲がり、皮膚は赤や緑に変色する。少女を描いた作品で拘留された経歴を持ち、その評価は現在も揺れている。1918年、スペイン風邪で妻を亡くし、その三日後に本人も死んだ。二十八歳だった。"
   },
   {
-    "id": "modigliani", "name": "アメデオ・モディリアーニ", "nameOriginal": "Amedeo Modigliani",
-    "born": 1884, "died": 1920, "place": "リヴォルノ／パリ", "movements": ["expressionism"],
-    "wiki": "アメデオ・モディリアーニ", "wikiEn": "Amedeo Modigliani",
+    "id": "modigliani",
+    "name": "アメデオ・モディリアーニ",
+    "nameOriginal": "Amedeo Modigliani",
+    "born": 1884,
+    "died": 1920,
+    "place": "リヴォルノ／パリ",
+    "movements": [
+      "expressionism"
+    ],
+    "wiki": "アメデオ・モディリアーニ",
+    "wikiEn": "Amedeo Modigliani",
     "lead": "首を伸ばし、瞳を描かなかった。",
     "bio": "イタリアのユダヤ人家庭に生まれ、二十二歳でパリへ出た。彫刻家を志してアフリカの彫像を研究したが、結核のため石の粉塵を避けて絵に戻る。そこから生まれたのが、細長い顔、伸びた首、そして瞳のない目である。「あなたの魂が分かったら瞳を描く」と語ったと伝えられる。酒と薬物と貧困のなかで三十五歳で死に、その二日後、身重の恋人ジャンヌが後を追った。生前はほとんど売れていない。"
   },
   {
-    "id": "dali", "name": "サルバドール・ダリ", "nameOriginal": "Salvador Dalí",
-    "born": 1904, "died": 1989, "place": "カタルーニャ／パリ／ニューヨーク", "movements": ["surrealism"],
-    "wiki": "サルバドール・ダリ", "wikiEn": "Salvador Dalí",
+    "id": "dali",
+    "name": "サルバドール・ダリ",
+    "nameOriginal": "Salvador Dalí",
+    "born": 1904,
+    "died": 1989,
+    "place": "カタルーニャ／パリ／ニューヨーク",
+    "movements": [
+      "surrealism"
+    ],
+    "wiki": "サルバドール・ダリ",
+    "wikiEn": "Salvador Dalí",
     "lead": "夢を、写真のような筆で描いた。",
     "bio": "アカデミーで古典的な技術を徹底的に仕込まれ、その技術を夢の光景に使った。彼は自分の方法を「偏執狂的批判的方法」と呼び、意図的に幻覚を誘発してそれを精密に写生すると説明している。同時に、跳ね上げた口髭、奇矯な発言、テレビ出演と、自分自身を作品として売った最初期の画家でもあった。政治的にはフランコ体制に接近し、シュルレアリスムの仲間から除名されている。作品と人物の評価は今も割れる。"
   },
   {
-    "id": "magritte", "name": "ルネ・マグリット", "nameOriginal": "René Magritte",
-    "born": 1898, "died": 1967, "place": "ブリュッセル", "movements": ["surrealism"],
-    "wiki": "ルネ・マグリット", "wikiEn": "René Magritte",
+    "id": "magritte",
+    "name": "ルネ・マグリット",
+    "nameOriginal": "René Magritte",
+    "born": 1898,
+    "died": 1967,
+    "place": "ブリュッセル",
+    "movements": [
+      "surrealism"
+    ],
+    "wiki": "ルネ・マグリット",
+    "wikiEn": "René Magritte",
     "lead": "絵と、言葉と、物の関係を壊した。",
     "bio": "生涯を郊外の平凡な家で過ごし、背広と山高帽で、決まった時間に散歩をした。作品も派手ではない。描き方は看板絵のように平明で、筆跡すら見せない。にもかかわらず、そこに置かれる組み合わせが成立しない ── 空が昼で街が夜、部屋いっぱいのリンゴ、顔を隠す布。とくに「これはパイプではない」と書き込んだ作品は、絵と言葉と物の三者がずれることを示して、二十世紀後半の哲学が繰り返し引用した。"
   },
   {
-    "id": "hopper", "name": "エドワード・ホッパー", "nameOriginal": "Edward Hopper",
-    "born": 1882, "died": 1967, "place": "ニューヨーク", "movements": ["american-scene"],
-    "wiki": "エドワード・ホッパー", "wikiEn": "Edward Hopper",
+    "id": "hopper",
+    "name": "エドワード・ホッパー",
+    "nameOriginal": "Edward Hopper",
+    "born": 1882,
+    "died": 1967,
+    "place": "ニューヨーク",
+    "movements": [
+      "american-scene"
+    ],
+    "wiki": "エドワード・ホッパー",
+    "wikiEn": "Edward Hopper",
     "lead": "人が二人いても、会話が始まらない。",
     "bio": "挿絵で生計を立てながら、四十代でようやく画家として認められた。描くのは、深夜の食堂、劇場の座席、朝の寝室、給油所。人物は一人か二人しかおらず、いても互いに目を合わせない。光は必ず横から強く入り、影が長く伸びる。ヨーロッパの抽象には最後まで加わらなかった。この静かな孤立は、以後のアメリカ映画と写真が繰り返し引用し、いまや「アメリカの孤独」の視覚的な定型になっている。"
   },
   {
-    "id": "pollock", "name": "ジャクソン・ポロック", "nameOriginal": "Jackson Pollock",
-    "born": 1912, "died": 1956, "place": "ワイオミング／ニューヨーク", "movements": ["abstract-expressionism"],
-    "wiki": "ジャクソン・ポロック", "wikiEn": "Jackson Pollock",
+    "id": "pollock",
+    "name": "ジャクソン・ポロック",
+    "nameOriginal": "Jackson Pollock",
+    "born": 1912,
+    "died": 1956,
+    "place": "ワイオミング／ニューヨーク",
+    "movements": [
+      "abstract-expressionism"
+    ],
+    "wiki": "ジャクソン・ポロック",
+    "wikiEn": "Jackson Pollock",
     "lead": "カンヴァスを床に置き、その上を歩いた。",
     "bio": "イーゼルを捨て、床に広げた巨大な布の周りを歩きながら、棒や固まった刷毛で絵具を垂らし、飛ばした。筆が画面に触れない。この方法によって、画面から中心と構図が消える。どこを見ても同じ密度で線が絡み、絵に「ここが主役」という場所がなくなった。写真家ナムスがその制作を撮影し、映像が世界に広まって彼は有名になる。アルコール依存に苦しみ、1956年に自動車事故で死んだ。四十四歳だった。"
   },
   {
-    "id": "warhol", "name": "アンディ・ウォーホル", "nameOriginal": "Andy Warhol",
-    "born": 1928, "died": 1987, "place": "ピッツバーグ／ニューヨーク", "movements": ["pop-art"],
-    "wiki": "アンディ・ウォーホル", "wikiEn": "Andy Warhol",
+    "id": "warhol",
+    "name": "アンディ・ウォーホル",
+    "nameOriginal": "Andy Warhol",
+    "born": 1928,
+    "died": 1987,
+    "place": "ピッツバーグ／ニューヨーク",
+    "movements": [
+      "pop-art"
+    ],
+    "wiki": "アンディ・ウォーホル",
+    "wikiEn": "Andy Warhol",
     "lead": "手で描くことを、わざとやめた。",
     "bio": "商業デザイナーとして成功したあと、その手つきをそのまま美術に持ち込んだ。スープ缶、コーラ瓶、事故現場の新聞写真、有名人の顔。しかも自分では刷らない。「ファクトリー」と名づけた工房で助手が量産した。個性・手仕事・独創性という、それまで画家の価値そのものだったものを、意図的に空にする。「機械になりたい」と語った。1968年に銃撃されて重傷を負い、その後遺症を抱えたまま活動を続けた。"
-  }
-  ,{
-    "id": "unkei", "name": "運慶", "nameOriginal": "Unkei",
-    "born": 1150, "died": 1223, "place": "奈良／京都／鎌倉", "movements": ["buddhist-sculpture"],
-    "commons": "Unkei.jpg",
-    "wiki": "運慶", "wikiEn": "Unkei",
+  },
+  {
+    "id": "unkei",
+    "name": "運慶",
+    "nameOriginal": "Unkei",
+    "born": 1150,
+    "died": 1223,
+    "place": "奈良／京都／鎌倉",
+    "movements": [
+      "buddhist-sculpture"
+    ],
+    "commons": "運慶.jpg",
+    "wiki": "運慶",
+    "wikiEn": "Unkei",
     "lead": "仏像に、筋肉と血管を刻んだ。",
     "bio": "奈良仏師の家に生まれた。当時の仏像は、平安以来の穏やかで平板な様式が主流だったが、運慶はそこへ写実的な肉体を持ち込む。筋肉が隆起し、血管が浮き、目には水晶をはめ込んで光らせる（玉眼）。武士が政権を取った時代の、力を肯定する感覚と一致していた。木を数十の部材に分けて彫り、内側を空洞にして組む寄木造によって、巨大な像を短期間で作ることを可能にしている。子の湛慶らとともに慶派を形成した。"
   },
   {
-    "id": "sesshu", "name": "雪舟等楊", "nameOriginal": "Sesshū Tōyō",
-    "born": 1420, "died": 1506, "place": "備中／京都／明（中国）／山口", "movements": ["suibokuga"],
-    "wiki": "雪舟", "wikiEn": "Sesshū Tōyō", "noPhoto": true,
+    "id": "sesshu",
+    "name": "雪舟等楊",
+    "nameOriginal": "Sesshū Tōyō",
+    "born": 1420,
+    "died": 1506,
+    "place": "備中／京都／明（中国）／山口",
+    "movements": [
+      "suibokuga"
+    ],
+    "wiki": "雪舟",
+    "wikiEn": "Sesshū Tōyō",
+    "noPhoto": true,
     "lead": "中国へ渡って、中国の絵を学ぶ必要がないと気づいた。",
     "bio": "禅僧として京都の相国寺で修行し、四十代後半で明へ渡った。ところが現地で見た当代の絵に失望し、「自分の師は中国の自然そのものだ」と結論して帰国する。以後、山口を拠点に描き続けた。彼の筆は、当時の水墨画の流麗さとは逆に、硬く、鋭く、時に乱暴である。輪郭線が途中で折れ、岩が角を持つ。国宝に指定された作品数は日本の画家で最も多い。日本で「画聖」と呼ばれる数少ない一人である。"
   },
   {
-    "id": "eitoku", "name": "狩野永徳", "nameOriginal": "Kanō Eitoku",
-    "born": 1543, "died": 1590, "place": "京都", "movements": ["momoyama"],
-    "wiki": "狩野永徳", "wikiEn": "Kanō Eitoku", "noPhoto": true,
+    "id": "eitoku",
+    "name": "狩野永徳",
+    "nameOriginal": "Kanō Eitoku",
+    "born": 1543,
+    "died": 1590,
+    "place": "京都",
+    "movements": [
+      "momoyama"
+    ],
+    "wiki": "狩野永徳",
+    "wikiEn": "Kanō Eitoku",
+    "noPhoto": true,
     "lead": "織田信長と豊臣秀吉の、両方の城を飾った。",
     "bio": "室町以来の画家の家系・狩野派の四代目。祖父に才を見出され、十代で頭角を現した。安土城、大坂城、聚楽第 ── 天下人が建てた城の内部装飾を、次々に一門で請け負う。特徴は大きさである。金地の襖に、部屋の壁を埋め尽くす獅子や松を描く。細部を捨てて遠くから効く輪郭を選ぶ「大画様式」を確立した。過労のうちに四十七歳で死去。安土城も聚楽第も失われ、彼の代表作の多くは現存しない。"
   },
   {
-    "id": "tohaku", "name": "長谷川等伯", "nameOriginal": "Hasegawa Tōhaku",
-    "born": 1539, "died": 1610, "place": "能登／京都", "movements": ["momoyama", "suibokuga"],
-    "wiki": "長谷川等伯", "wikiEn": "Hasegawa Tōhaku", "noPhoto": true,
+    "id": "tohaku",
+    "name": "長谷川等伯",
+    "nameOriginal": "Hasegawa Tōhaku",
+    "born": 1539,
+    "died": 1610,
+    "place": "能登／京都",
+    "movements": [
+      "momoyama",
+      "suibokuga"
+    ],
+    "wiki": "長谷川等伯",
+    "wikiEn": "Hasegawa Tōhaku",
+    "noPhoto": true,
     "lead": "金の時代に、墨だけで勝負した。",
     "bio": "能登（現在の石川県）の染物屋の養子として生まれ、三十代で京へ出た。すでに狩野派が画壇を独占しており、彼は外様として食い込んでいく。永徳と直接争い、豊臣秀吉の仕事を一部奪ったと伝わる。ただし彼が最も知られているのは、金を一切使わない墨の屏風である。息子の久蔵を二十六歳で亡くした前後に描かれたとされ、その喪失と結びつけて語られることが多い。牧谿と雪舟を深く研究していた。"
   },
   {
-    "id": "sotatsu", "name": "俵屋宗達", "nameOriginal": "Tawaraya Sōtatsu",
-    "born": 1570, "died": 1640, "place": "京都", "movements": ["rinpa"],
-    "wiki": "俵屋宗達", "wikiEn": "Tawaraya Sōtatsu", "noPhoto": true,
+    "id": "sotatsu",
+    "name": "俵屋宗達",
+    "nameOriginal": "Tawaraya Sōtatsu",
+    "born": 1570,
+    "died": 1640,
+    "place": "京都",
+    "movements": [
+      "rinpa"
+    ],
+    "wiki": "俵屋宗達",
+    "wikiEn": "Tawaraya Sōtatsu",
+    "noPhoto": true,
     "lead": "扇屋の主人が、国宝を描いた。",
     "bio": "生没年もはっきりしない。京都で「俵屋」という絵屋を営み、扇や色紙を作る職人として出発した。武家や公家に仕えた御用絵師ではなく、町の工房の主人である。だからこそ、格式に縛られない大胆な構図が出てきた。書家の本阿弥光悦と組んで、光悦の書の下に金銀泥で草花や鹿を描いた巻物を作っている。書と絵が対等に一枚の紙を分け合う、この協業も新しかった。琳派の出発点にあたる。"
   },
   {
-    "id": "korin", "name": "尾形光琳", "nameOriginal": "Ogata Kōrin",
-    "born": 1658, "died": 1716, "place": "京都／江戸", "movements": ["rinpa"],
-    "wiki": "尾形光琳", "wikiEn": "Ogata Kōrin", "noPhoto": true,
+    "id": "korin",
+    "name": "尾形光琳",
+    "nameOriginal": "Ogata Kōrin",
+    "born": 1658,
+    "died": 1716,
+    "place": "京都／江戸",
+    "movements": [
+      "rinpa"
+    ],
+    "wiki": "尾形光琳",
+    "wikiEn": "Ogata Kōrin",
+    "noPhoto": true,
     "lead": "会ったことのない絵師に、五十年越しで弟子入りした。",
     "bio": "京都の高級呉服商「雁金屋」の次男。裕福な放蕩生活のすえに家産を傾け、四十歳近くで本格的に画家になった。手本にしたのは、五十年前に死んだ俵屋宗達の作品である。直接教わっていない。作品だけを見て学び、その造形をさらに整理して、平らな色面と徹底した図案化へ進めた。弟の尾形乾山は陶芸家で、兄が絵付けをした合作が残る。「琳派」という呼び名は、この光琳の一字から来ている。"
   },
   {
-    "id": "jakuchu", "name": "伊藤若冲", "nameOriginal": "Itō Jakuchū",
-    "born": 1716, "died": 1800, "place": "京都", "movements": ["edo-kiso"],
-    "wiki": "伊藤若冲", "wikiEn": "Itō Jakuchū", "noPhoto": true,
+    "id": "jakuchu",
+    "name": "伊藤若冲",
+    "nameOriginal": "Itō Jakuchū",
+    "born": 1716,
+    "died": 1800,
+    "place": "京都",
+    "movements": [
+      "edo-kiso"
+    ],
+    "wiki": "伊藤若冲",
+    "wikiEn": "Itō Jakuchū",
+    "noPhoto": true,
     "lead": "二百年忘れられて、二十一世紀に行列ができた。",
     "bio": "京都・錦市場の青物問屋の長男。家業を継いだが商売に関心がなく、四十歳で弟に家を譲って絵に専念した。中国絵画を模写し、実際に庭で鶏を飼って写生を重ねる。羽根の一枚ごとに輪郭を引く執拗な精度と、現実から浮いた画面の組み立てが同居する。明治以降は美術史の傍流に置かれたが、1970年の辻惟雄『奇想の系譜』で再評価され、2000年代の展覧会では数時間待ちの行列ができた。"
   },
   {
-    "id": "moronobu", "name": "菱川師宣", "nameOriginal": "Hishikawa Moronobu",
-    "born": 1618, "died": 1694, "place": "安房／江戸", "movements": ["ukiyoe"],
-    "wiki": "菱川師宣", "wikiEn": "Hishikawa Moronobu", "noPhoto": true,
+    "id": "moronobu",
+    "name": "菱川師宣",
+    "nameOriginal": "Hishikawa Moronobu",
+    "born": 1618,
+    "died": 1694,
+    "place": "安房／江戸",
+    "movements": [
+      "ukiyoe"
+    ],
+    "wiki": "菱川師宣",
+    "wikiEn": "Hishikawa Moronobu",
+    "noPhoto": true,
     "lead": "浮世絵を、一枚で売れるものにした。",
     "bio": "縫箔（刺繍）職人の子として安房に生まれ、江戸へ出て絵師になった。当時、版画は本の挿絵として存在するもので、それ自体が売り物ではなかった。師宣は絵を本文から独立させ、一枚の絵として売る形を作る。これが浮世絵版画の始まりとされ、彼は「浮世絵の祖」と呼ばれる。ただし最も有名な《見返り美人図》は版画ではなく、絹に描かれた肉筆画である。"
   },
   {
-    "id": "utamaro", "name": "喜多川歌麿", "nameOriginal": "Kitagawa Utamaro",
-    "born": 1753, "died": 1806, "place": "江戸", "movements": ["ukiyoe"],
-    "wiki": "喜多川歌麿", "wikiEn": "Utamaro", "noPhoto": true,
+    "id": "utamaro",
+    "name": "喜多川歌麿",
+    "nameOriginal": "Kitagawa Utamaro",
+    "born": 1753,
+    "died": 1806,
+    "place": "江戸",
+    "movements": [
+      "ukiyoe"
+    ],
+    "wiki": "喜多川歌麿",
+    "wikiEn": "Utamaro",
+    "noPhoto": true,
     "lead": "上半身だけを大きく切り取った。",
     "bio": "生い立ちは不明な点が多い。版元・蔦屋重三郎に見出され、美人画で人気を得た。彼の発明は「大首絵」── それまで全身を描くのが普通だった人物画で、上半身、ときに顔だけを画面いっぱいに切り取る構図である。これによって表情と手の動きが主題になった。雲母を撒いた背景も好んで使う。晩年、豊臣秀吉を題材にした絵が幕府の禁令に触れ、手鎖の刑を受けた。その二年後に死んでいる。"
-  }
-  ,{
-    "id": "duccio", "name": "ドゥッチョ・ディ・ブオニンセーニャ", "nameOriginal": "Duccio di Buoninsegna",
-    "born": 1255, "died": 1319, "place": "シエナ", "movements": ["gothic"],
-    "wiki": "ドゥッチョ・ディ・ブオニンセーニャ", "wikiEn": "Duccio", "noPhoto": true,
+  },
+  {
+    "id": "duccio",
+    "name": "ドゥッチョ・ディ・ブオニンセーニャ",
+    "nameOriginal": "Duccio di Buoninsegna",
+    "born": 1255,
+    "died": 1319,
+    "place": "シエナ",
+    "movements": [
+      "gothic"
+    ],
+    "wiki": "ドゥッチョ・ディ・ブオニンセーニャ",
+    "wikiEn": "Duccio",
+    "noPhoto": true,
     "lead": "金の中に、やわらかい人間を入れた。",
     "bio": "シエナで活動し、ビザンティン様式を受け継ぎながら、そこに人間らしいやわらかさを持ち込んだ。金地も、正面を向く聖母も、細い輪郭線もそのまま残る。変えたのは、衣が体に沿うこと、視線が交わること、そして人物どうしのあいだに関係が生まれることだった。同時代のフィレンツェではジョットがもっと徹底して重さを持ち込んでいたが、ドゥッチョは伝統を捨てずに内側から変えた。シエナ派はこの穏やかな方向を14世紀を通じて守り続ける。記録の少ない人で、罰金の記録がいくつも残っているのが数少ない手がかりである。"
   },
   {
-    "id": "giotto", "name": "ジョット・ディ・ボンドーネ", "nameOriginal": "Giotto di Bondone",
-    "born": 1267, "died": 1337, "place": "フィレンツェ／パドヴァ／アッシジ", "movements": ["proto-renaissance"],
+    "id": "giotto",
+    "name": "ジョット・ディ・ボンドーネ",
+    "nameOriginal": "Giotto di Bondone",
+    "born": 1267,
+    "died": 1337,
+    "place": "フィレンツェ／パドヴァ／アッシジ",
+    "movements": [
+      "proto-renaissance"
+    ],
     "commons": "Giotto di Bondone.jpg",
-    "wiki": "ジョット・ディ・ボンドーネ", "wikiEn": "Giotto",
+    "wiki": "ジョット・ディ・ボンドーネ",
+    "wikiEn": "Giotto",
     "lead": "絵の中の人が、こちらと同じ重さを持ちはじめた。",
     "bio": "羊飼いの少年だったところを画家チマブーエに見出された、という伝説がある。事実かどうかは分からない。確かなのは、彼の登場で西洋絵画が変わったことである。それまで聖人は金地の中に平らに並んでいた。ジョットは彼らに体積を与え、床を踏ませ、互いに向き合わせ、そして泣かせた。ダンテは『神曲』の中で彼の名を挙げ、チマブーエの名声を奪ったと書いている。生前から国際的に知られ、フィレンツェ大聖堂の鐘楼の設計も任された。ルネサンスの美術史は、ほぼ例外なく彼から始まる。"
   },
   {
-    "id": "masaccio", "name": "マサッチオ", "nameOriginal": "Masaccio",
-    "born": 1401, "died": 1428, "place": "フィレンツェ／ローマ", "movements": ["renaissance-early"],
-    "wiki": "マサッチオ", "wikiEn": "Masaccio", "noPhoto": true,
+    "id": "masaccio",
+    "name": "マサッチオ",
+    "nameOriginal": "Masaccio",
+    "born": 1401,
+    "died": 1428,
+    "place": "フィレンツェ／ローマ",
+    "movements": [
+      "renaissance-early"
+    ],
+    "wiki": "マサッチオ",
+    "wikiEn": "Masaccio",
+    "noPhoto": true,
     "lead": "二十七歳で死に、それでも絵画を変えた。",
     "bio": "本名はトンマーゾ。「マサッチオ」は「のっぽの間抜けなトンマーゾ」ほどの意味の渾名で、身なりに構わなかったことから付いたという。二十代の数年で、ブルネレスキが実演した線遠近法を絵画に持ち込み、光源を一つに決めて全人物の影を統一した。それまで誰もやっていなかったことである。ブランカッチ礼拝堂の壁画は、以後百年にわたってフィレンツェの画家の学校になった。ミケランジェロもここで模写している。ローマで二十七歳で急死し、毒殺の噂が立った。"
   },
   {
-    "id": "angelico", "name": "フラ・アンジェリコ", "nameOriginal": "Fra Angelico",
-    "born": 1395, "died": 1455, "place": "フィエーゾレ／フィレンツェ／ローマ", "movements": ["renaissance-early"],
-    "wiki": "フラ・アンジェリコ", "wikiEn": "Fra Angelico", "noPhoto": true,
+    "id": "angelico",
+    "name": "フラ・アンジェリコ",
+    "nameOriginal": "Fra Angelico",
+    "born": 1395,
+    "died": 1455,
+    "place": "フィエーゾレ／フィレンツェ／ローマ",
+    "movements": [
+      "renaissance-early"
+    ],
+    "wiki": "フラ・アンジェリコ",
+    "wikiEn": "Fra Angelico",
+    "noPhoto": true,
     "lead": "修道士が、修道院の壁に描いた。",
     "bio": "ドミニコ会の修道士で、画家としての仕事も修道生活の一部だった。同時代の画家が世俗の注文を競って取っていたなかで、彼は自分の修道院サン・マルコの、僧たちが眠る個室の一つひとつに壁画を描いている。人が見に来る場所ではない。装飾も物語もなく、その部屋に住む一人が毎朝目を覚まして向き合うためだけの絵である。新しい遠近法と光の扱いを完全に理解したうえで、それを静けさのために使った。1982年に列福され、芸術家の守護者とされている。"
   },
   {
-    "id": "donatello", "name": "ドナテッロ", "nameOriginal": "Donatello",
-    "born": 1386, "died": 1466, "place": "フィレンツェ／パドヴァ", "movements": ["renaissance-early"],
-    "wiki": "ドナテッロ", "wikiEn": "Donatello", "noPhoto": true,
+    "id": "donatello",
+    "name": "ドナテッロ",
+    "nameOriginal": "Donatello",
+    "born": 1386,
+    "died": 1466,
+    "place": "フィレンツェ／パドヴァ",
+    "movements": [
+      "renaissance-early"
+    ],
+    "wiki": "ドナテッロ",
+    "wikiEn": "Donatello",
+    "noPhoto": true,
     "lead": "千年ぶりに、自立する裸の像を作った。",
     "bio": "金細工から出発し、彫刻でルネサンスを開いた。古代ローマの遺構を実地に調べ、そこから失われていた技術を取り戻す。コントラポスト、自立する等身大の裸像、そして極端に浅い浮き彫りで奥行きを作る「スティアッチャート」。どれも中世のヨーロッパには無かったものである。晩年の作品は美しさを捨て、老いや苦しみをそのまま彫った。八十歳まで働き、ミケランジェロが生まれる九年前に死んでいる。彫刻におけるルネサンスは、ほぼこの一人から始まった。"
   },
   {
-    "id": "uccello", "name": "パオロ・ウッチェロ", "nameOriginal": "Paolo Uccello",
-    "born": 1397, "died": 1475, "place": "フィレンツェ", "movements": ["renaissance-early"],
-    "wiki": "パオロ・ウッチェロ", "wikiEn": "Paolo Uccello", "noPhoto": true,
+    "id": "uccello",
+    "name": "パオロ・ウッチェロ",
+    "nameOriginal": "Paolo Uccello",
+    "born": 1397,
+    "died": 1475,
+    "place": "フィレンツェ",
+    "movements": [
+      "renaissance-early"
+    ],
+    "wiki": "パオロ・ウッチェロ",
+    "wikiEn": "Paolo Uccello",
+    "noPhoto": true,
     "lead": "遠近法に取り憑かれて、絵が奇妙になった。",
     "bio": "ヴァザーリは、彼が夜通し遠近法の作図をしていて、妻が呼んでも「この甘美な遠近法よ」と言って寝室へ来なかったと書いている。実際、彼の絵では床のタイル、折れた槍、倒れた兵士まで、すべてが作図の線に沿って配置される。その結果、場面は現実味を失い、機械のように整った奇妙な光景になった。同時代からやや変わり者と見られていたらしい。二十世紀のシュルレアリストと、キュビスムの画家たちが彼を再発見している。姓の「ウッチェロ」は鳥の意味で、鳥を好んだことに由来する。"
   },
   {
-    "id": "piero", "name": "ピエロ・デッラ・フランチェスカ", "nameOriginal": "Piero della Francesca",
-    "born": 1415, "died": 1492, "place": "サンセポルクロ／ウルビーノ／アレッツォ", "movements": ["renaissance-early"],
-    "wiki": "ピエロ・デラ・フランチェスカ", "wikiEn": "Piero della Francesca", "noPhoto": true,
+    "id": "piero",
+    "name": "ピエロ・デッラ・フランチェスカ",
+    "nameOriginal": "Piero della Francesca",
+    "born": 1415,
+    "died": 1492,
+    "place": "サンセポルクロ／ウルビーノ／アレッツォ",
+    "movements": [
+      "renaissance-early"
+    ],
+    "wiki": "ピエロ・デラ・フランチェスカ",
+    "wikiEn": "Piero della Francesca",
+    "noPhoto": true,
     "lead": "数学者でもあり、絵を幾何学として組んだ。",
     "bio": "画家であると同時に数学者で、遠近法と立体幾何について三冊の論文を書いている。彼の画面では、人物の配置も建物の比率も、明確な数の関係で決められている。感情の表現はほとんどない。人物は無表情のまま、決められた位置に立つ。その静けさが独特の緊張を生む。晩年は視力を失い、絵を描かなくなった。死後四百年近く忘れられていたが、20世紀初頭に再発見され、セザンヌやスーラの先駆として、また抽象へ向かう画家たちの手本として高く評価されるようになった。"
   },
   {
-    "id": "mantegna", "name": "アンドレア・マンテーニャ", "nameOriginal": "Andrea Mantegna",
-    "born": 1431, "died": 1506, "place": "パドヴァ／マントヴァ", "movements": ["renaissance-early"],
-    "wiki": "アンドレア・マンテーニャ", "wikiEn": "Andrea Mantegna", "noPhoto": true,
+    "id": "mantegna",
+    "name": "アンドレア・マンテーニャ",
+    "nameOriginal": "Andrea Mantegna",
+    "born": 1431,
+    "died": 1506,
+    "place": "パドヴァ／マントヴァ",
+    "movements": [
+      "renaissance-early"
+    ],
+    "wiki": "アンドレア・マンテーニャ",
+    "wikiEn": "Andrea Mantegna",
+    "noPhoto": true,
     "lead": "石のように硬い人体を、極端な角度から描いた。",
     "bio": "パドヴァで古代ローマの研究に没頭し、その考古学的な正確さを絵に持ち込んだ。彼の描く人物は肌が石か金属のように硬く、衣は彫刻の襞のようになる。同時に、遠近法をほとんど実験のように使った。真下から見上げる天井画、極端に短縮された横たわる身体。どちらも当時ほとんど前例がない。マントヴァのゴンザーガ家に三十年近く仕え、宮廷画家として一族の肖像を部屋一面に描いた。ヴェネツィアのベッリーニ家と姻戚になり、その影響が北イタリア全体へ広がっている。"
-  }
-  ,{
-    "id": "giorgione", "name": "ジョルジョーネ", "nameOriginal": "Giorgione",
-    "born": 1477, "died": 1510, "place": "ヴェネツィア", "movements": ["renaissance-high"],
-    "wiki": "ジョルジョーネ", "wikiEn": "Giorgione", "noPhoto": true,
+  },
+  {
+    "id": "giorgione",
+    "name": "ジョルジョーネ",
+    "nameOriginal": "Giorgione",
+    "born": 1477,
+    "died": 1510,
+    "place": "ヴェネツィア",
+    "movements": [
+      "renaissance-high"
+    ],
+    "wiki": "ジョルジョーネ",
+    "wikiEn": "Giorgione",
+    "noPhoto": true,
     "lead": "確実な作品が、六点しかない。",
     "bio": "三十代前半でペストにより死んだ。記録がきわめて少なく、確実に本人の手によるとされる作品は六点ほどしかない。それでもヴェネツィア絵画の方向を決めた人物とされる。彼が持ち込んだのは「主題のない絵」だった。誰が何をしている場面なのか説明できないまま、風景と人物と光だけで成立する画面である。注文主も、物語ではなく雰囲気を買った。ティツィアーノは彼の工房にいて、未完の作品を引き継いで仕上げている。どこまでが誰の手かという問題は、いまも解けていない。"
   },
   {
-    "id": "parmigianino", "name": "パルミジャニーノ", "nameOriginal": "Parmigianino",
-    "born": 1503, "died": 1540, "place": "パルマ／ローマ／ボローニャ", "movements": ["mannerism"],
-    "wiki": "パルミジャニーノ", "wikiEn": "Parmigianino", "noPhoto": true,
+    "id": "parmigianino",
+    "name": "パルミジャニーノ",
+    "nameOriginal": "Parmigianino",
+    "born": 1503,
+    "died": 1540,
+    "place": "パルマ／ローマ／ボローニャ",
+    "movements": [
+      "mannerism"
+    ],
+    "wiki": "パルミジャニーノ",
+    "wikiEn": "Parmigianino",
+    "noPhoto": true,
     "lead": "均衡が完成した直後に、わざと崩した。",
     "bio": "二十代でローマへ出て、ラファエロの後継と目された。1527年のローマ劫掠で街を追われ、以後パルマとボローニャで制作する。彼の人物は首が長く、指が細く伸び、体が不自然にねじれる。ルネサンスが到達した均衡を、意図的に外した造形である。若いころに凸面鏡に映った自分を、その歪みごと円形の板に描いた自画像がある。晩年は錬金術に没頭して制作の約束を破り、契約違反で投獄された。三十七歳で死んでいる。"
   },
   {
-    "id": "bronzino", "name": "アーニョロ・ブロンズィーノ", "nameOriginal": "Agnolo Bronzino",
-    "born": 1503, "died": 1572, "place": "フィレンツェ", "movements": ["mannerism"],
-    "wiki": "アーニョロ・ブロンズィーノ", "wikiEn": "Agnolo Bronzino", "noPhoto": true,
+    "id": "bronzino",
+    "name": "アーニョロ・ブロンズィーノ",
+    "nameOriginal": "Agnolo Bronzino",
+    "born": 1503,
+    "died": 1572,
+    "place": "フィレンツェ",
+    "movements": [
+      "mannerism"
+    ],
+    "wiki": "アーニョロ・ブロンズィーノ",
+    "wikiEn": "Agnolo Bronzino",
+    "noPhoto": true,
     "lead": "肌を、大理石のように冷たく塗った。",
     "bio": "メディチ家の宮廷画家として、コジモ1世とその一族の肖像を数多く描いた。彼の肖像は感情を見せない。人物は硬く、視線は逸れ、肌は磨いた石のような質感になる。当時の宮廷が求めた「隙のなさ」がそのまま造形になっている。同時に、神話を主題にした作品では極端に技巧的で、意味の読めない図像を密に詰め込んだ。詩人でもあり、難解な韻文を残している。冷たさと知的な遊びの両方が、マニエリスムという時代の性格をよく表している。"
   },
   {
-    "id": "el-greco", "name": "エル・グレコ", "nameOriginal": "El Greco",
-    "born": 1541, "died": 1614, "place": "クレタ島／ヴェネツィア／ローマ／トレド", "movements": ["mannerism"],
-    "wiki": "エル・グレコ", "wikiEn": "El Greco",
+    "id": "el-greco",
+    "name": "エル・グレコ",
+    "nameOriginal": "El Greco",
+    "born": 1541,
+    "died": 1614,
+    "place": "クレタ島／ヴェネツィア／ローマ／トレド",
+    "movements": [
+      "mannerism"
+    ],
+    "wiki": "エル・グレコ",
+    "wikiEn": "El Greco",
     "commons": "El Greco - Portrait of a Man - WGA10554.jpg",
     "lead": "ギリシャ人がスペインで、誰にも似ていない絵を描いた。",
     "bio": "クレタ島に生まれ、はじめはビザンティンのイコン画家として訓練を受けた。ヴェネツィアでティツィアーノに学び、ローマを経てスペインのトレドに落ち着く。そこで四十年近く制作した。彼の人物は異様に細長く、炎のようにねじれ、色は現実から外れる。同時代には「奇矯」と評され、フェリペ2世の注文は一度で打ち切られた。死後三百年近く忘れられ、19世紀末に再発見される。セザンヌ、ピカソ、ドイツ表現主義が相次いで彼を発見し、20世紀の画家として読み直された。"
   },
   {
-    "id": "tintoretto", "name": "ヤコポ・ティントレット", "nameOriginal": "Jacopo Tintoretto",
-    "born": 1518, "died": 1594, "place": "ヴェネツィア", "movements": ["mannerism"],
-    "wiki": "ヤコポ・ティントレット", "wikiEn": "Tintoretto", "noPhoto": true,
+    "id": "tintoretto",
+    "name": "ヤコポ・ティントレット",
+    "nameOriginal": "Jacopo Tintoretto",
+    "born": 1518,
+    "died": 1594,
+    "place": "ヴェネツィア",
+    "movements": [
+      "mannerism"
+    ],
+    "wiki": "ティントレット",
+    "wikiEn": "Tintoretto",
+    "noPhoto": true,
     "lead": "「ティツィアーノの色と、ミケランジェロの素描」と壁に書いた。",
     "bio": "染物屋の息子で、渾名の「ティントレット」は「小さな染物屋」の意味である。工房の壁に「ミケランジェロの素描とティツィアーノの色彩」と目標を書きつけていたと伝えられる。制作が異常に速く、値段も安く、ときに無償で下絵を描いて注文を横取りした。同業者からは嫌われている。画面は斜めに深く切り込み、人物は宙に浮き、光は不自然な方向から差す。ヴェネツィアのサン・ロッコ大信徒会館には、二十年以上かけて描いた五十点以上が今も壁と天井を覆っている。"
   },
   {
-    "id": "veronese", "name": "パオロ・ヴェロネーゼ", "nameOriginal": "Paolo Veronese",
-    "born": 1528, "died": 1588, "place": "ヴェローナ／ヴェネツィア", "movements": ["mannerism"],
-    "wiki": "パオロ・ヴェロネーゼ", "wikiEn": "Paolo Veronese", "noPhoto": true,
+    "id": "veronese",
+    "name": "パオロ・ヴェロネーゼ",
+    "nameOriginal": "Paolo Veronese",
+    "born": 1528,
+    "died": 1588,
+    "place": "ヴェローナ／ヴェネツィア",
+    "movements": [
+      "mannerism"
+    ],
+    "wiki": "パオロ・ヴェロネーゼ",
+    "wikiEn": "Paolo Veronese",
+    "noPhoto": true,
     "lead": "宗教画に犬と道化を描いて、異端審問に呼ばれた。",
     "bio": "ヴェネツィアで、豪華な大画面を得意とした。銀色がかった明るい色、大理石の建築、絹の衣装、そして大勢の群衆。聖書の場面であっても、彼が描くとヴェネツィアの祝宴になる。1573年、《最後の晩餐》に犬、道化、酔った兵士を描き込んだことで異端審問所に召喚された。彼は「画家には詩人と同じ自由がある」と答え、絵を描き直す代わりに題名を《レヴィ家の饗宴》へ変えることで決着させた。芸術家の表現の自由をめぐる、最も早い記録された裁判である。"
   },
   {
-    "id": "van-der-weyden", "name": "ロヒール・ファン・デル・ウェイデン", "nameOriginal": "Rogier van der Weyden",
-    "born": 1399, "died": 1464, "place": "トゥルネー／ブリュッセル", "movements": ["northern-renaissance"],
-    "wiki": "ロヒール・ファン・デル・ウェイデン", "wikiEn": "Rogier van der Weyden", "noPhoto": true,
+    "id": "van-der-weyden",
+    "name": "ロヒール・ファン・デル・ウェイデン",
+    "nameOriginal": "Rogier van der Weyden",
+    "born": 1399,
+    "died": 1464,
+    "place": "トゥルネー／ブリュッセル",
+    "movements": [
+      "northern-renaissance"
+    ],
+    "wiki": "ロヒール・ファン・デル・ウェイデン",
+    "wikiEn": "Rogier van der Weyden",
+    "noPhoto": true,
     "lead": "北方で、はじめて人が本気で泣いた。",
     "bio": "ブリュッセル市の公式画家を務め、生前はファン・エイクと並ぶ、あるいはそれ以上の名声を得ていた。ファン・エイクが物の質感を突き詰めたのに対し、ウェイデンが突き詰めたのは感情である。彼の人物は涙を流し、顔を歪め、体を折る。しかも過剰にならない。構図は浅い舞台のように圧縮され、人物が前面に押し出される。この様式はドイツ、スペイン、イタリアへ広がり、北方絵画の標準になった。署名を残さなかったため、確実な作品の同定は今も研究が続いている。"
   },
   {
-    "id": "grunewald", "name": "マティアス・グリューネヴァルト", "nameOriginal": "Matthias Grünewald",
-    "born": 1470, "died": 1528, "place": "ドイツ（マインツ周辺）", "movements": ["northern-renaissance"],
-    "wiki": "マティアス・グリューネヴァルト", "wikiEn": "Matthias Grünewald", "noPhoto": true,
+    "id": "grunewald",
+    "name": "マティアス・グリューネヴァルト",
+    "nameOriginal": "Matthias Grünewald",
+    "born": 1470,
+    "died": 1528,
+    "place": "ドイツ（マインツ周辺）",
+    "movements": [
+      "northern-renaissance"
+    ],
+    "wiki": "マティアス・グリューネヴァルト",
+    "wikiEn": "Matthias Grünewald",
+    "noPhoto": true,
     "lead": "同時代のデューラーと、正反対の道を行った。",
     "bio": "生涯の記録がきわめて少なく、本名すら後世の誤伝である可能性が高い。確実な作品は十点ほどしかない。同時代のデューラーがイタリアの遠近法と比例を持ち帰ったのに対し、グリューネヴァルトは中世的な激しさをそのまま突き詰めた。人体は腐り、痙攣し、色は毒々しい。ルネサンスの理想化とは何の関係もない。宗教改革の混乱に巻き込まれて職を失い、貧窮のうちに死んだ。20世紀のドイツ表現主義が彼を再発見し、作曲家ヒンデミットは彼を主人公にした歌劇を書いている。"
   },
   {
-    "id": "holbein", "name": "ハンス・ホルバイン（子）", "nameOriginal": "Hans Holbein the Younger",
-    "born": 1497, "died": 1543, "place": "アウクスブルク／バーゼル／ロンドン", "movements": ["northern-renaissance"],
-    "commons": "Hans Holbein d. J. 049.jpg",
-    "wiki": "ハンス・ホルバイン", "wikiEn": "Hans Holbein the Younger",
+    "id": "holbein",
+    "name": "ハンス・ホルバイン（子）",
+    "nameOriginal": "Hans Holbein the Younger",
+    "born": 1497,
+    "died": 1543,
+    "place": "アウクスブルク／バーゼル／ロンドン",
+    "movements": [
+      "northern-renaissance"
+    ],
+    "commons": "Self-Portrait by Hans Holbein d. J. - Uffizi Gallery.jpg",
+    "wiki": "ハンス・ホルバイン",
+    "wikiEn": "Hans Holbein the Younger",
     "lead": "国王の顔を決めた画家。",
     "bio": "バーゼルで人文主義者エラスムスの肖像を描き、その紹介状を持ってイングランドへ渡った。やがてヘンリー8世の宮廷画家になる。彼の肖像は、顔の造作だけでなく、身につけた物と背景の一つひとつが人物の地位と教養を語るように配置されている。私たちがヘンリー8世やトマス・モアの顔として思い浮かべるものは、ほぼすべて彼が決めた。王の再婚相手を選ぶための肖像を描く役も担い、実物と違うという不興を買ったという逸話が残る。ロンドンでペストにより死んだ。"
-  }
-  ,{
-    "id": "gentileschi", "name": "アルテミジア・ジェンティレスキ", "nameOriginal": "Artemisia Gentileschi",
-    "born": 1593, "died": 1656, "place": "ローマ／フィレンツェ／ナポリ／ロンドン", "movements": ["baroque"],
+  },
+  {
+    "id": "gentileschi",
+    "name": "アルテミジア・ジェンティレスキ",
+    "nameOriginal": "Artemisia Gentileschi",
+    "born": 1593,
+    "died": 1656,
+    "place": "ローマ／フィレンツェ／ナポリ／ロンドン",
+    "movements": [
+      "baroque"
+    ],
     "commons": "Self-portrait as the Allegory of Painting (La Pittura) - Artemisia Gentileschi.jpg",
-    "wiki": "アルテミジア・ジェンティレスキ", "wikiEn": "Artemisia Gentileschi",
+    "wiki": "アルテミジア・ジェンティレスキ",
+    "wikiEn": "Artemisia Gentileschi",
     "lead": "女性としてはじめて、アカデミアに入った画家。",
     "bio": "画家の父から絵を学んだ。十七歳のとき、父の同僚の画家に強姦され、七か月に及ぶ裁判が行われる。彼女は拷問器具で指を締められながら証言した。記録は今も残っている。裁判の後フィレンツェへ移り、女性としてはじめてアカデミア・デッレ・アルティ・デル・ディセーニョの会員になった。ガリレオと文通し、メディチ家の注文を受け、各地の宮廷で働いた。主題として繰り返し選んだのは、ユディト、スザンナ、ヤエル ── 暴力に対して行動する女性たちである。"
   },
   {
-    "id": "la-tour", "name": "ジョルジュ・ド・ラ・トゥール", "nameOriginal": "Georges de La Tour",
-    "born": 1593, "died": 1652, "place": "ロレーヌ（フランス）", "movements": ["baroque"],
-    "wiki": "ジョルジュ・ド・ラ・トゥール", "wikiEn": "Georges de La Tour", "noPhoto": true,
+    "id": "la-tour",
+    "name": "ジョルジュ・ド・ラ・トゥール",
+    "nameOriginal": "Georges de La Tour",
+    "born": 1593,
+    "died": 1652,
+    "place": "ロレーヌ（フランス）",
+    "movements": [
+      "baroque"
+    ],
+    "wiki": "ジョルジュ・ド・ラ・トゥール",
+    "wikiEn": "Georges de La Tour",
+    "noPhoto": true,
     "lead": "三百年忘れられ、1915年に名前が戻った。",
     "bio": "生前はロレーヌ公とフランス王の庇護を受け、地元では成功した画家だった。ところが死後まったく忘れられ、作品は他の画家の名で流通する。名前が学界に戻ったのは1915年、ドイツの研究者ヘルマン・フォスが三点を彼の手と特定してからである。現在確実とされる作品は四十点ほど。特徴は、蝋燭ひとつを唯一の光源にした夜の場面である。手をかざす指の向こうが赤く透け、顔の半分が闇に沈む。人物は動かず、物語も進まない。カラヴァッジョの影響を受けながら、その激しさを静けさへ転じた。"
   },
   {
-    "id": "poussin", "name": "ニコラ・プッサン", "nameOriginal": "Nicolas Poussin",
-    "born": 1594, "died": 1665, "place": "ノルマンディー／ローマ", "movements": ["french-classicism"],
-    "commons": "Nicolas Poussin 082.jpg",
-    "wiki": "ニコラ・プッサン", "wikiEn": "Nicolas Poussin",
+    "id": "poussin",
+    "name": "ニコラ・プッサン",
+    "nameOriginal": "Nicolas Poussin",
+    "born": 1594,
+    "died": 1665,
+    "place": "ノルマンディー／ローマ",
+    "movements": [
+      "french-classicism"
+    ],
+    "commons": "Poussin - Autoportrait, 1650, INV 7302 ; MR 2329.jpg",
+    "wiki": "ニコラ・プッサン",
+    "wikiEn": "Nicolas Poussin",
     "lead": "フランス人だが、生涯のほとんどをローマで過ごした。",
     "bio": "三十歳でローマへ渡り、そこで四十年を過ごした。宮廷の大画面ではなく、教養ある個人の顧客のために、中くらいの大きさの神話画と宗教画を描く。古代の彫刻と建築を研究し、絵の構成を「音楽の旋法」になぞらえて理論化した。感情を直接に描かず、身振りと配置で伝える。この理知的な方法がフランス王立絵画彫刻アカデミーの規範となり、以後二百年、フランスの美術教育の骨格になった。19世紀のアングルもセザンヌも、彼を出発点として名を挙げている。"
   },
   {
-    "id": "claude-lorrain", "name": "クロード・ロラン", "nameOriginal": "Claude Lorrain",
-    "born": 1600, "died": 1682, "place": "ロレーヌ／ローマ", "movements": ["french-classicism"],
-    "wiki": "クロード・ロラン", "wikiEn": "Claude Lorrain", "noPhoto": true,
+    "id": "claude-lorrain",
+    "name": "クロード・ロラン",
+    "nameOriginal": "Claude Lorrain",
+    "born": 1600,
+    "died": 1682,
+    "place": "ロレーヌ／ローマ",
+    "movements": [
+      "french-classicism"
+    ],
+    "wiki": "クロード・ロラン",
+    "wikiEn": "Claude Lorrain",
+    "noPhoto": true,
     "lead": "太陽を、画面の中心にはじめて置いた。",
     "bio": "貧しい家に生まれ、菓子職人としてローマへ渡り、そこで画家になった。彼が確立したのは「理想風景」── 実在しない古代の港や田園を、完璧な均衡で構成した風景画である。とくに重要なのは、太陽そのものを画面の中央に描いたことだった。それまで太陽を正面から描いた画家はほとんどいない。逆光の中で建物が影絵になり、水面が光る。この構図は18世紀のイギリスで熱狂的に受け入れられ、庭園の設計にまで影響した。ターナーは遺言で、自作を彼の絵の隣に掛けることを条件にしている。"
   },
   {
-    "id": "zurbaran", "name": "フランシスコ・デ・スルバラン", "nameOriginal": "Francisco de Zurbarán",
-    "born": 1598, "died": 1664, "place": "セビリア／マドリード", "movements": ["baroque"],
-    "wiki": "フランシスコ・デ・スルバラン", "wikiEn": "Francisco de Zurbarán", "noPhoto": true,
+    "id": "zurbaran",
+    "name": "フランシスコ・デ・スルバラン",
+    "nameOriginal": "Francisco de Zurbarán",
+    "born": 1598,
+    "died": 1664,
+    "place": "セビリア／マドリード",
+    "movements": [
+      "baroque"
+    ],
+    "wiki": "フランシスコ・デ・スルバラン",
+    "wikiEn": "Francisco de Zurbarán",
+    "noPhoto": true,
     "lead": "修道院のために、静かで硬い絵を描き続けた。",
     "bio": "セビリアで、主に修道院からの注文をこなした。描いたのは白い修道服の聖人、祈る修道士、そして机の上に並んだ数個の器である。背景はたいてい真っ黒で、対象だけが強い光を受けて浮かぶ。装飾も動きもない。同時代のルーベンスやベルニーニが渦を巻いていたのに対し、彼の画面は完全に静止している。晩年、より甘い作風のムリーリョに人気を奪われ、貧窮のうちに死んだ。20世紀に入って、その静物のほとんど抽象的な構成が再評価された。"
   },
   {
-    "id": "hals", "name": "フランス・ハルス", "nameOriginal": "Frans Hals",
-    "born": 1582, "died": 1666, "place": "ハールレム", "movements": ["dutch-golden"],
-    "wiki": "フランス・ハルス", "wikiEn": "Frans Hals", "noPhoto": true,
+    "id": "hals",
+    "name": "フランス・ハルス",
+    "nameOriginal": "Frans Hals",
+    "born": 1582,
+    "died": 1666,
+    "place": "ハールレム",
+    "movements": [
+      "dutch-golden"
+    ],
+    "wiki": "フランス・ハルス",
+    "wikiEn": "Frans Hals",
+    "noPhoto": true,
     "lead": "筆の跡を、消さないまま残した。",
     "bio": "ハールレムで生涯を過ごし、肖像画だけを描き続けた。彼の特徴は速度である。下絵をほとんど描かず、絵具を置いた筆の跡をそのまま残す。近くで見ると乱雑な線の束にしか見えないが、離れると襟のレースも笑い皺も立ち上がる。当時の肖像画は表情を作らないのが普通だったが、彼の描く人物は笑い、酔い、こちらへ身を乗り出す。八十代で貧窮し、市の救貧院から燃料の支給を受けて死んだ。19世紀、マネとファン・ゴッホがこの筆触を再発見している。"
   },
   {
-    "id": "de-hooch", "name": "ピーテル・デ・ホーホ", "nameOriginal": "Pieter de Hooch",
-    "born": 1629, "died": 1684, "place": "デルフト／アムステルダム", "movements": ["dutch-golden"],
-    "wiki": "ピーテル・デ・ホーホ", "wikiEn": "Pieter de Hooch", "noPhoto": true,
+    "id": "de-hooch",
+    "name": "ピーテル・デ・ホーホ",
+    "nameOriginal": "Pieter de Hooch",
+    "born": 1629,
+    "died": 1684,
+    "place": "デルフト／アムステルダム",
+    "movements": [
+      "dutch-golden"
+    ],
+    "wiki": "ピーテル・デ・ホーホ",
+    "wikiEn": "Pieter de Hooch",
+    "noPhoto": true,
     "lead": "扉の向こうに、もう一つ部屋がある。",
     "bio": "フェルメールと同じ時期にデルフトで活動した。二人の主題も似ていて、家の中の静かな日常である。デ・ホーホの発明は空間の入れ子だった。手前の部屋の奥に扉があり、その先に中庭があり、さらにその奥に路地と空が見える。視線が何段も奥へ通っていく。当時のオランダ絵画がどれだけ室内の構成に凝っていたかを示す例である。アムステルダムへ移ってからは作風がやや華美になり、評価は下がった。晩年は精神を病み、施設で死んでいる。"
-  }
-  ,{
-    "id": "sisley", "name": "アルフレッド・シスレー", "nameOriginal": "Alfred Sisley",
-    "born": 1839, "died": 1899, "place": "パリ／モレ＝シュル＝ロワン", "movements": ["impressionism"],
-    "wiki": "アルフレッド・シスレー", "wikiEn": "Alfred Sisley", "noPhoto": true,
+  },
+  {
+    "id": "sisley",
+    "name": "アルフレッド・シスレー",
+    "nameOriginal": "Alfred Sisley",
+    "born": 1839,
+    "died": 1899,
+    "place": "パリ／モレ＝シュル＝ロワン",
+    "movements": [
+      "impressionism"
+    ],
+    "wiki": "アルフレッド・シスレー",
+    "wikiEn": "Alfred Sisley",
+    "noPhoto": true,
     "lead": "生涯、風景だけを描き続けた。",
     "bio": "イギリス人の両親のもとパリに生まれた。裕福な商家の出だったが、普仏戦争で実家が没落し、以後は生涯貧しかった。印象派の中心にいながら、人物画も肖像画もほとんど描かず、風景だけを描き続けた数少ない一人である。主題は水と空。洪水、雪、川、そして空が画面の半分以上を占める。派手さがないため生前の評価は低く、死の直前まで絵はほとんど売れなかった。皮肉なことに、死の翌年から価格が急上昇している。フランス国籍の取得を三度申請し、いずれも認められなかった。"
   },
   {
-    "id": "morisot", "name": "ベルト・モリゾ", "nameOriginal": "Berthe Morisot",
-    "born": 1841, "died": 1895, "place": "パリ", "movements": ["impressionism"],
-    "commons": "Édouard Manet - Berthe Morisot With a Bouquet of Violets - Google Art Project.jpg",
-    "wiki": "ベルト・モリゾ", "wikiEn": "Berthe Morisot",
+    "id": "morisot",
+    "name": "ベルト・モリゾ",
+    "nameOriginal": "Berthe Morisot",
+    "born": 1841,
+    "died": 1895,
+    "place": "パリ",
+    "movements": [
+      "impressionism"
+    ],
+    "commons": "Edouard Manet - Berthe Morisot With a Bouquet of Violets - Google Art Project.jpg",
+    "wiki": "ベルト・モリゾ",
+    "wikiEn": "Berthe Morisot",
     "lead": "第1回印象派展から、ほぼすべてに出品した。",
     "bio": "裕福な家に生まれ、当時の女性が受けられた範囲で絵の教育を受けた。美術学校には入れず、ルーヴルでの模写から出発している。マネと親しく、彼のモデルを何度も務め、のちにその弟と結婚した。八回の印象派展のうち七回に出品し、出産の年だけ欠席している。描いたのは室内、庭、母と子、化粧をする女 ── 当時の女性が立ち入れた場所だけである。制約がそのまま主題になっている。筆は速く、絵具は薄く、しばしば下地の白を残したまま仕上げた。"
   },
   {
-    "id": "cassatt", "name": "メアリー・カサット", "nameOriginal": "Mary Cassatt",
-    "born": 1844, "died": 1926, "place": "ペンシルヴェニア／パリ", "movements": ["impressionism"],
-    "commons": "Mary Cassatt, 1913.jpg",
-    "wiki": "メアリー・カサット", "wikiEn": "Mary Cassatt",
+    "id": "cassatt",
+    "name": "メアリー・カサット",
+    "nameOriginal": "Mary Cassatt",
+    "born": 1844,
+    "died": 1926,
+    "place": "ペンシルヴェニア／パリ",
+    "movements": [
+      "impressionism"
+    ],
+    "commons": "Mary Cassatt photograph 1913.jpg",
+    "wiki": "メアリー・カサット",
+    "wikiEn": "Mary Cassatt",
     "lead": "アメリカ人で、印象派展に出品した唯一の女性。",
     "bio": "ピッツバーグ近郊の裕福な家に生まれ、父の反対を押し切ってパリへ渡った。ドガに見出され、印象派展に参加する。生涯結婚せず、母と子を主題に描き続けた。ただしその母子像は、伝統的な聖母子のような理想化を拒み、抱く腕の重さや子どもの不機嫌さをそのまま写している。もう一つの功績は、アメリカの富裕層に印象派を買わせたことである。彼女の助言で購入された作品の多くが、いまアメリカの美術館の中核になっている。晩年は失明した。"
   },
   {
-    "id": "caillebotte", "name": "ギュスターヴ・カイユボット", "nameOriginal": "Gustave Caillebotte",
-    "born": 1848, "died": 1894, "place": "パリ／プティ・ジュヌヴィリエ", "movements": ["impressionism"],
-    "commons": "Gustave Caillebotte 1878.jpg",
-    "wiki": "ギュスターヴ・カイユボット", "wikiEn": "Gustave Caillebotte",
+    "id": "caillebotte",
+    "name": "ギュスターヴ・カイユボット",
+    "nameOriginal": "Gustave Caillebotte",
+    "born": 1848,
+    "died": 1894,
+    "place": "パリ／プティ・ジュヌヴィリエ",
+    "movements": [
+      "impressionism"
+    ],
+    "commons": "Gustave Caillebotte photo c1878.jpg",
+    "wiki": "ギュスターヴ・カイユボット",
+    "wikiEn": "Gustave Caillebotte",
     "lead": "仲間の絵を買い支え、国に遺贈した。",
     "bio": "資産家の家に生まれ、生活のために絵を売る必要がなかった。だから印象派の仲間の作品を大量に買い、展覧会の費用も負担している。彼の絵は仲間とやや違う。筆触は細かく、輪郭ははっきりし、遠近法は写真のように厳密である。俯瞰、極端な短縮、画面の端での切断 ── 当時普及しはじめた写真の見え方を、絵に持ち込んだ。四十五歳で急死し、遺言で自分のコレクションを国家に遺贈した。国はいったん受け取りを渋る。印象派が国立美術館に入る道は、この遺贈が開いた。"
   },
   {
-    "id": "millais", "name": "ジョン・エヴァレット・ミレイ", "nameOriginal": "John Everett Millais",
-    "born": 1829, "died": 1896, "place": "サウサンプトン／ロンドン", "movements": ["pre-raphaelite"],
-    "wiki": "ジョン・エヴァレット・ミレー", "wikiEn": "John Everett Millais", "noPhoto": true,
+    "id": "millais",
+    "name": "ジョン・エヴァレット・ミレイ",
+    "nameOriginal": "John Everett Millais",
+    "born": 1829,
+    "died": 1896,
+    "place": "サウサンプトン／ロンドン",
+    "movements": [
+      "pre-raphaelite"
+    ],
+    "wiki": "ジョン・エヴァレット・ミレー",
+    "wikiEn": "John Everett Millais",
+    "noPhoto": true,
     "lead": "十一歳でロイヤル・アカデミーに入った。",
     "bio": "史上最年少でロイヤル・アカデミーの学校に入学した神童である。十九歳のとき、ロセッティらとラファエル前派兄弟団を結成した。掲げたのは、ラファエロ以後のアカデミー的な技法を捨て、自然を一つ残らず正確に写すこと。そのため草の一本、葉の一枚まで屋外で写生した。当初はディケンズらに酷評されるが、批評家ラスキンが擁護して形勢が変わる。晩年は運動から離れ、肖像画と大衆的な主題で成功し、最後はロイヤル・アカデミーの会長になった。"
   },
   {
-    "id": "rossetti", "name": "ダンテ・ゲイブリエル・ロセッティ", "nameOriginal": "Dante Gabriel Rossetti",
-    "born": 1828, "died": 1882, "place": "ロンドン", "movements": ["pre-raphaelite"],
-    "wiki": "ダンテ・ゲイブリエル・ロセッティ", "wikiEn": "Dante Gabriel Rossetti", "noPhoto": true,
+    "id": "rossetti",
+    "name": "ダンテ・ゲイブリエル・ロセッティ",
+    "nameOriginal": "Dante Gabriel Rossetti",
+    "born": 1828,
+    "died": 1882,
+    "place": "ロンドン",
+    "movements": [
+      "pre-raphaelite"
+    ],
+    "wiki": "ダンテ・ゲイブリエル・ロセッティ",
+    "wikiEn": "Dante Gabriel Rossetti",
+    "noPhoto": true,
     "lead": "画家であり、詩人でもあった。",
     "bio": "イタリア人亡命者の家に生まれ、詩人としても活動した。ラファエル前派兄弟団の創設者の一人だが、ミレイのような徹底した写生には向かわず、文学と中世の物語を主題にする方向へ進む。同じ顔立ちの女性を繰り返し描いた ── 厚い唇、長い首、重い髪。妻エリザベス・シダルが死んだとき、彼は未発表の詩の原稿を棺に納めて埋葬させ、七年後に墓を掘り返して回収させた。晩年は薬物とアルコールに蝕まれ、被害妄想に苦しんだ。"
-  }
-  ,{
-    "id": "rodin", "name": "オーギュスト・ロダン", "nameOriginal": "Auguste Rodin",
-    "born": 1840, "died": 1917, "place": "パリ／ムードン", "movements": ["modern-sculpture"],
-    "commons": "Auguste Rodin 1893.jpg",
-    "wiki": "オーギュスト・ロダン", "wikiEn": "Auguste Rodin",
+  },
+  {
+    "id": "rodin",
+    "name": "オーギュスト・ロダン",
+    "nameOriginal": "Auguste Rodin",
+    "born": 1840,
+    "died": 1917,
+    "place": "パリ／ムードン",
+    "movements": [
+      "modern-sculpture"
+    ],
+    "commons": "Auguste Rodin 1893 Nadar.jpg",
+    "wiki": "オーギュスト・ロダン",
+    "wikiEn": "Auguste Rodin",
     "lead": "彫刻に、未完成のまま出すことを許した。",
     "bio": "美術学校の入試に三度落ち、装飾彫刻の職人として長く働いた。四十歳近くでようやく認められる。彼が変えたのは仕上げの概念だった。それまで彫刻は表面を磨き上げて完成とされたが、ロダンは粘土を指で押した跡、鑿の傷、切断された腕をそのまま残した。断片であることが、かえって力になると考えたのである。当時これは「未完成」「怠慢」として攻撃された。晩年は国際的な名声を得て、注文が工房で量産される体制になる。近代彫刻はほぼこの人から始まる。"
   },
   {
-    "id": "claudel", "name": "カミーユ・クローデル", "nameOriginal": "Camille Claudel",
-    "born": 1864, "died": 1943, "place": "パリ／モンドヴェルグ", "movements": ["modern-sculpture"],
+    "id": "claudel",
+    "name": "カミーユ・クローデル",
+    "nameOriginal": "Camille Claudel",
+    "born": 1864,
+    "died": 1943,
+    "place": "パリ／モンドヴェルグ",
+    "movements": [
+      "modern-sculpture"
+    ],
     "commons": "Camille Claudel atelier.jpg",
-    "wiki": "カミーユ・クローデル", "wikiEn": "Camille Claudel",
+    "wiki": "カミーユ・クローデル",
+    "wikiEn": "Camille Claudel",
     "lead": "最後の三十年を、精神病院で過ごした。",
     "bio": "十代で彫刻を始め、ロダンの工房に入って助手となり、やがて恋人になった。彼女自身の作品は、ロダンの重厚さとは違う、細く張りつめた緊張を持つ。関係が破綻したあと孤立を深め、作品を自分で破壊するようになった。1913年、父の死の直後に家族の申請で精神病院へ強制入院させられる。医師は退院可能と判断したが、家族が同意せず、そのまま三十年後に死んだ。作品の多くは失われている。1980年代以降に再評価が進んだ。"
   },
   {
-    "id": "redon", "name": "オディロン・ルドン", "nameOriginal": "Odilon Redon",
-    "born": 1840, "died": 1916, "place": "ボルドー／パリ", "movements": ["symbolism"],
-    "wiki": "オディロン・ルドン", "wikiEn": "Odilon Redon", "noPhoto": true,
+    "id": "redon",
+    "name": "オディロン・ルドン",
+    "nameOriginal": "Odilon Redon",
+    "born": 1840,
+    "died": 1916,
+    "place": "ボルドー／パリ",
+    "movements": [
+      "symbolism"
+    ],
+    "wiki": "オディロン・ルドン",
+    "wikiEn": "Odilon Redon",
+    "noPhoto": true,
     "lead": "前半生は黒だけ、後半生は色だけで描いた。",
     "bio": "五十歳になるまで、木炭と石版画による黒一色の作品だけを作り続けた。宙に浮く眼球、笑う蜘蛛、植物になった首。これらを彼は「黒（ノワール）」と呼んだ。ところが50代半ばから突然、パステルと油彩による鮮やかな色の花と神話へ移る。理由は分かっていない。長い鬱の時期を抜けたためとも言われる。印象派と同時代でありながら、目に見えるものを一切描かなかった。マティスとシュルレアリストの双方が彼を先駆と認めている。"
   },
   {
-    "id": "moreau", "name": "ギュスターヴ・モロー", "nameOriginal": "Gustave Moreau",
-    "born": 1826, "died": 1898, "place": "パリ", "movements": ["symbolism"],
-    "wiki": "ギュスターヴ・モロー", "wikiEn": "Gustave Moreau", "noPhoto": true,
+    "id": "moreau",
+    "name": "ギュスターヴ・モロー",
+    "nameOriginal": "Gustave Moreau",
+    "born": 1826,
+    "died": 1898,
+    "place": "パリ",
+    "movements": [
+      "symbolism"
+    ],
+    "wiki": "ギュスターヴ・モロー",
+    "wikiEn": "Gustave Moreau",
+    "noPhoto": true,
     "lead": "自宅を丸ごと美術館にして遺した。",
     "bio": "神話と聖書を主題に、宝石をちりばめたような密度の絵を描いた。同時代の印象派が屋外の光へ出ていったのと正反対に、彼はアトリエに籠もり、想像だけで画面を作る。細部は装飾で埋め尽くされ、輪郭は溶け、色は宝石の光沢を持つ。国立美術学校の教授としてマティス、ルオー、マルケを育て、「私は君たちに絵を教えるのではなく、君たち自身になる方法を教える」と語ったと伝えられる。死に際して自宅とアトリエ、作品一万点以上を国家に遺贈した。"
   },
   {
-    "id": "beardsley", "name": "オーブリー・ビアズリー", "nameOriginal": "Aubrey Beardsley",
-    "born": 1872, "died": 1898, "place": "ブライトン／ロンドン", "movements": ["art-nouveau"],
-    "wiki": "オーブリー・ビアズリー", "wikiEn": "Aubrey Beardsley", "noPhoto": true,
+    "id": "beardsley",
+    "name": "オーブリー・ビアズリー",
+    "nameOriginal": "Aubrey Beardsley",
+    "born": 1872,
+    "died": 1898,
+    "place": "ブライトン／ロンドン",
+    "movements": [
+      "art-nouveau"
+    ],
+    "wiki": "オーブリー・ビアズリー",
+    "wikiEn": "Aubrey Beardsley",
+    "noPhoto": true,
     "lead": "二十五年しか生きず、活動は六年だけ。",
     "bio": "保険会社の事務員から独学で挿絵画家になった。使ったのは黒インクと白い紙だけである。中間の階調がなく、黒い面と白い抜きが直接ぶつかる。これは印刷技術に合わせた選択でもあった。当時普及した写真製版は線画をそのまま複製できたからである。浮世絵の平面性と、ロココの曲線と、グロテスクな笑いが混ざる。オスカー・ワイルドの『サロメ』の挿絵で名を上げ、同時にスキャンダルにも巻き込まれた。結核により二十五歳で死んだ。"
   },
   {
-    "id": "signac", "name": "ポール・シニャック", "nameOriginal": "Paul Signac",
-    "born": 1863, "died": 1935, "place": "パリ／サン＝トロペ", "movements": ["post-impressionism"],
-    "wiki": "ポール・シニャック", "wikiEn": "Paul Signac", "noPhoto": true,
+    "id": "signac",
+    "name": "ポール・シニャック",
+    "nameOriginal": "Paul Signac",
+    "born": 1863,
+    "died": 1935,
+    "place": "パリ／サン＝トロペ",
+    "movements": [
+      "post-impressionism"
+    ],
+    "wiki": "ポール・シニャック",
+    "wikiEn": "Paul Signac",
+    "noPhoto": true,
     "lead": "スーラの死後、点描を一人で引き継いだ。",
     "bio": "裕福な家に生まれ、独学で絵を始めた。1884年にスーラと出会い、点描の理論に賛同する。スーラが三十一歳で死ぬと、その方法を理論として整理し、著書『ドラクロワから新印象主義へ』にまとめた。彼自身の点は、スーラより大きく粗く、後年はモザイクのような四角い筆触になる。船を愛し、生涯に三十隻以上を所有して地中海の港を描き続けた。アナキズムの思想に共鳴し、政治的な立場を隠さなかった数少ない画家でもある。"
   },
   {
-    "id": "hodler", "name": "フェルディナント・ホドラー", "nameOriginal": "Ferdinand Hodler",
-    "born": 1853, "died": 1918, "place": "ベルン／ジュネーヴ", "movements": ["symbolism"],
-    "wiki": "フェルディナント・ホドラー", "wikiEn": "Ferdinand Hodler", "noPhoto": true,
+    "id": "hodler",
+    "name": "フェルディナント・ホドラー",
+    "nameOriginal": "Ferdinand Hodler",
+    "born": 1853,
+    "died": 1918,
+    "place": "ベルン／ジュネーヴ",
+    "movements": [
+      "symbolism"
+    ],
+    "wiki": "フェルディナント・ホドラー",
+    "wikiEn": "Ferdinand Hodler",
+    "noPhoto": true,
     "lead": "同じ形を繰り返すことを、方法として理論化した。",
     "bio": "スイスの貧しい家に生まれ、八歳までに父と兄弟を結核で失い、十四歳で母も亡くした。死は彼にとって最初から主題だった。彼が確立した方法を「パラレリスム（並行主義）」と呼ぶ。同じ姿勢の人物、同じ形の木、同じ曲線を画面の中で反復させ、その律動で意味を作る。装飾的でありながら宗教的でもある。スイスの国民的画家として紙幣に描かれる一方、ウィーン分離派とも深く関わり、クリムトと相互に影響した。"
   },
   {
-    "id": "ensor", "name": "ジェームズ・アンソール", "nameOriginal": "James Ensor",
-    "born": 1860, "died": 1949, "place": "オーステンデ（ベルギー）", "movements": ["symbolism"],
-    "wiki": "ジェームズ・アンソール", "wikiEn": "James Ensor", "noPhoto": true,
+    "id": "ensor",
+    "name": "ジェームズ・アンソール",
+    "nameOriginal": "James Ensor",
+    "born": 1860,
+    "died": 1949,
+    "place": "オーステンデ（ベルギー）",
+    "movements": [
+      "symbolism"
+    ],
+    "wiki": "ジェームズ・アンソール",
+    "wikiEn": "James Ensor",
+    "noPhoto": true,
     "lead": "実家の土産物屋にあった仮面を、生涯描き続けた。",
     "bio": "ベルギーの海辺の町で、仮面や貝殻を売る土産物屋の子として生まれた。屋根裏に積まれた謝肉祭の仮面が、彼の絵の中心的な主題になる。人の顔が仮面になり、群衆が骸骨になり、色は毒々しくなる。ほとんど生涯を故郷の町から出ずに過ごした。1880年代の主要作は同時代に理解されず、所属していた前衛グループからも出品を拒まれている。二十世紀に入って評価が上がり、男爵に叙された。表現主義とシュルレアリスムの双方が先駆と認めている。"
   },
   {
-    "id": "bonnard", "name": "ピエール・ボナール", "nameOriginal": "Pierre Bonnard",
-    "born": 1867, "died": 1947, "place": "パリ／ル・カネ", "movements": ["post-impressionism"],
-    "wiki": "ピエール・ボナール", "wikiEn": "Pierre Bonnard", "noPhoto": true,
+    "id": "bonnard",
+    "name": "ピエール・ボナール",
+    "nameOriginal": "Pierre Bonnard",
+    "born": 1867,
+    "died": 1947,
+    "place": "パリ／ル・カネ",
+    "movements": [
+      "post-impressionism"
+    ],
+    "wiki": "ピエール・ボナール",
+    "wikiEn": "Pierre Bonnard",
+    "noPhoto": true,
     "lead": "同じ人を、五十年描き続けた。",
     "bio": "法学を修めたのち画家になり、ゴーギャンの平面性に影響を受けた「ナビ派」に加わった。日本の版画を熱心に集め、「日本かぶれのナビ」と呼ばれている。生涯の主題は室内と、そこにいる一人の女性だった。伴侶マルトを、四十年以上にわたって浴槽と食卓の場面で描き続けている。記憶で描く画家でもあり、その場では素描だけを取り、アトリエで色を組み立てた。色は現実から離れ、紫、橙、黄が室内を満たす。マティスは彼を二十世紀最大の画家の一人と評した。"
-  }
-  ,{
-    "id": "fan-kuan", "name": "范寛", "nameOriginal": "范寬",
-    "born": 950, "died": 1032, "place": "華原（現在の陝西省）", "movements": ["song-painting"],
-    "wiki": "范寛", "wikiEn": "Fan Kuan", "noPhoto": true,
+  },
+  {
+    "id": "fan-kuan",
+    "name": "范寛",
+    "nameOriginal": "范寬",
+    "born": 950,
+    "died": 1032,
+    "place": "華原（現在の陝西省）",
+    "movements": [
+      "song-painting"
+    ],
+    "wiki": "范寛",
+    "wikiEn": "Fan Kuan",
+    "noPhoto": true,
     "lead": "人に学ぶより、山に学ぶほうがよいと言った。",
     "bio": "北宋初期の画家である。はじめ先行する画家の様式を学んだが、やがて「人に学ぶのは物に学ぶに及ばず、物に学ぶのは心に学ぶに及ばない」として山中に住み、終日岩を眺めて過ごしたと伝えられる。粗い点を無数に打ち重ねて岩肌の質感を出す方法（雨点皴）を確立し、以後の山水画の基本技法の一つになった。性格は放埒で酒を好み、俗事に無関心だったという。確実な真筆とされるのは《谿山行旅図》一点のみで、その署名も二十世紀に入ってから木の葉の陰に発見された。"
   },
   {
-    "id": "guo-xi", "name": "郭煕", "nameOriginal": "郭熙",
-    "born": 1020, "died": 1090, "place": "温県（現在の河南省）", "movements": ["song-painting"],
-    "wiki": "郭熙", "wikiEn": "Guo Xi", "noPhoto": true,
+    "id": "guo-xi",
+    "name": "郭煕",
+    "nameOriginal": "郭熙",
+    "born": 1020,
+    "died": 1090,
+    "place": "温県（現在の河南省）",
+    "movements": [
+      "song-painting"
+    ],
+    "wiki": "郭熙",
+    "wikiEn": "Guo Xi",
+    "noPhoto": true,
     "lead": "山水画の理論書を残した。",
     "bio": "北宋の宮廷画家で、神宗の時代に画院の中心にいた。彼の名を残しているのは絵だけではない。息子が父の言葉をまとめた画論『林泉高致』が、山水画の理屈をはじめて体系的に書いた文献になった。そこでは、同じ山が季節と時刻で別のものに見えること、見上げる・見渡す・見通すという三つの距離の取り方（高遠・平遠・深遠）を一枚の中で使い分けることが説かれる。皇帝が代替わりすると彼の絵は宮中から外され、雑巾に使われていたという記録が残っている。"
   },
   {
-    "id": "zhang-zeduan", "name": "張択端", "nameOriginal": "張擇端",
-    "born": 1085, "died": 1145, "place": "東武（現在の山東省）／開封", "movements": ["song-painting"],
-    "wiki": "張択端", "wikiEn": "Zhang Zeduan", "noPhoto": true,
+    "id": "zhang-zeduan",
+    "name": "張択端",
+    "nameOriginal": "張擇端",
+    "born": 1085,
+    "died": 1145,
+    "place": "東武（現在の山東省）／開封",
+    "movements": [
+      "song-painting"
+    ],
+    "wiki": "張択端",
+    "wikiEn": "Zhang Zeduan",
+    "noPhoto": true,
     "lead": "都市の一日を、一本の巻物に収めた。",
     "bio": "北宋末の宮廷画家だが、生涯についてはほとんど分かっていない。名を残しているのは《清明上河図》一巻である。この絵は山水でも人物でもなく、都の街そのものを主題にした。船、荷車、店、橋の上の混雑、喧嘩、居眠り ── 八百人を超える人物が、身分の説明抜きに描かれる。中国絵画では例外的に、理念ではなく観察が前面に出た作品である。巻末に近い部分は失われた可能性が指摘されており、もとはさらに長かったとする説がある。"
   },
   {
-    "id": "huizong", "name": "徽宗", "nameOriginal": "宋徽宗",
-    "born": 1082, "died": 1135, "place": "開封／五国城", "movements": ["song-painting"],
-    "wiki": "徽宗", "wikiEn": "Emperor Huizong", "noPhoto": true,
+    "id": "huizong",
+    "name": "徽宗",
+    "nameOriginal": "宋徽宗",
+    "born": 1082,
+    "died": 1135,
+    "place": "開封／五国城",
+    "movements": [
+      "song-painting"
+    ],
+    "wiki": "徽宗",
+    "wikiEn": "Emperor Huizong",
+    "noPhoto": true,
     "lead": "画家として一流、皇帝として亡国の君。",
     "bio": "北宋第八代皇帝であり、同時に当代最高水準の画家・書家だった。画院を再編して試験制度を作り、詩の一句を題に出して絵を描かせた。細い鉄線のような独自の書体「痩金体」を創り、いまも彼と分かる署名として残る。一方、政治には関心が薄く、庭園の造営に国費を注ぎ込んだ。1127年、金の侵攻で都は落ち、彼自身が捕虜として北へ連行され、極寒の地で死んだ。集めた膨大な書画のコレクションも、このとき散逸している。"
   },
   {
-    "id": "sultan-muhammad", "name": "スルターン・ムハンマド", "nameOriginal": "سلطان محمد",
-    "born": 1470, "died": 1555, "place": "タブリーズ（イラン）", "movements": ["islamic-art"],
-    "wiki": "スルターン・ムハンマド", "wikiEn": "Sultan Muhammad (painter)", "noPhoto": true,
+    "id": "sultan-muhammad",
+    "name": "スルターン・ムハンマド",
+    "nameOriginal": "سلطان محمد",
+    "born": 1470,
+    "died": 1555,
+    "place": "タブリーズ（イラン）",
+    "movements": [
+      "islamic-art"
+    ],
+    "wiki": "イスラム美術",
+    "wikiEn": "Sultan Mohammed",
+    "noPhoto": true,
     "lead": "ペルシア細密画の頂点にいる。",
     "bio": "サファヴィー朝タブリーズの王立工房を率いた画家である。シャー・タフマースプの家庭教師も務めたと伝わる。細密画は本来、写本の挿絵として文字に従属するものだったが、彼の画面では絵が頁を支配し、岩や雲のなかに人や獣の顔が隠される遊びまで加わる。色は鉱物顔料と金で、遠近法を使わず、上へ行くほど遠いという約束で空間を組む。名を残す細密画家は多くないが、彼は同時代の文献にはっきり名指しで賞賛された数少ない一人である。"
   },
   {
-    "id": "sinan", "name": "ミマール・スィナン", "nameOriginal": "Mimar Sinan",
-    "born": 1489, "died": 1588, "place": "アーウルナス／イスタンブル", "movements": ["islamic-art"],
-    "wiki": "ミマール・スィナン", "wikiEn": "Mimar Sinan", "noPhoto": true,
+    "id": "sinan",
+    "name": "ミマール・スィナン",
+    "nameOriginal": "Mimar Sinan",
+    "born": 1489,
+    "died": 1588,
+    "place": "アーウルナス／イスタンブル",
+    "movements": [
+      "islamic-art"
+    ],
+    "wiki": "ミマール・スィナン",
+    "wikiEn": "Mimar Sinan",
+    "noPhoto": true,
     "lead": "五十年間、帝国の建築を一人で仕切った。",
     "bio": "アナトリアのキリスト教徒の家に生まれ、徴用されてイェニチェリ（歩兵軍団）に入った。軍で橋や要塞を架けるうちに工兵として頭角を現し、五十歳近くで宮廷建築長に任命される。以後五十年、モスク、橋、水道、浴場など三百件を超える建設を統括した。彼の課題は一貫していた ── ハギア・ソフィアより大きく、より軽い空間を作ること。半ドームと控え壁の組み方を作品ごとに変え、九十九歳で死ぬまで試し続けた。晩年のセリミエ・モスクを自身の代表作と述べている。"
   },
   {
-    "id": "kim-hongdo", "name": "金弘道", "nameOriginal": "김홍도",
-    "born": 1745, "died": 1806, "place": "漢城（現在のソウル）", "movements": ["korean-art"],
-    "wiki": "金弘道", "wikiEn": "Kim Hong-do", "noPhoto": true,
+    "id": "kim-hongdo",
+    "name": "金弘道",
+    "nameOriginal": "김홍도",
+    "born": 1745,
+    "died": 1806,
+    "place": "漢城（現在のソウル）",
+    "movements": [
+      "korean-art"
+    ],
+    "wiki": "金弘道",
+    "wikiEn": "Kim Hong-do",
+    "noPhoto": true,
     "lead": "宮廷画家でありながら、庶民を描いた。",
     "bio": "号は檀園。宮廷の図画署に属し、王の肖像を三度描いた第一級の職業画家である。その一方で、農作業、相撲、寺子屋、井戸端といった市井の場面を集めた画帖を残した。背景をほとんど描かず、人物だけを円く配置し、線は速く、余計な描き込みがない。身分の高い者を大きく描く約束もここでは使われていない。同時代の申潤福とともに、朝鮮絵画の対象を宮廷から街へ移した画家として位置づけられている。晩年は貧しく、消息を絶つように記録から消える。"
-  }
-  ,{
-    "id": "boucher", "name": "フランソワ・ブーシェ", "nameOriginal": "François Boucher",
-    "born": 1703, "died": 1770, "place": "パリ", "movements": ["rococo"],
+  },
+  {
+    "id": "boucher",
+    "name": "フランソワ・ブーシェ",
+    "nameOriginal": "François Boucher",
+    "born": 1703,
+    "died": 1770,
+    "place": "パリ",
+    "movements": [
+      "rococo"
+    ],
     "commons": "Roslin Boucher.jpg",
-    "wiki": "フランソワ・ブーシェ", "wikiEn": "François Boucher",
+    "wiki": "フランソワ・ブーシェ",
+    "wikiEn": "François Boucher",
     "lead": "ポンパドゥール夫人の趣味を、そのまま様式にした。",
     "bio": "ロココの中心にいた画家で、王の首席画家、アカデミー院長を務めた。ルイ15世の公妾ポンパドゥール夫人の庇護を受け、肖像、神話画、壁面装飾、タペストリーの下絵、劇場の舞台美術まで手がけている。桃色と水色を基調にした甘い色づかい、雲の上に浮かぶ裸体、羊飼いを装った貴族 ── 現実の重さを消すことに徹した画面である。同時代のディドロは「彼はもう自然を見ていない」と批判した。革命後には旧体制の軽薄さの象徴として長く評価が落ちた。"
   },
   {
-    "id": "chardin", "name": "ジャン＝バティスト・シメオン・シャルダン", "nameOriginal": "Jean-Baptiste-Siméon Chardin",
-    "born": 1699, "died": 1779, "place": "パリ", "movements": ["rococo"],
+    "id": "chardin",
+    "name": "ジャン＝バティスト・シメオン・シャルダン",
+    "nameOriginal": "Jean-Baptiste-Siméon Chardin",
+    "born": 1699,
+    "died": 1779,
+    "place": "パリ",
+    "movements": [
+      "rococo"
+    ],
     "commons": "Self-portrait wearing Glasses by Jean-Baptiste-Siméon Chardin.jpg",
-    "wiki": "ジャン・シメオン・シャルダン", "wikiEn": "Jean-Baptiste-Siméon Chardin",
+    "wiki": "ジャン・シメオン・シャルダン",
+    "wikiEn": "Jean-Baptiste-Siméon Chardin",
     "lead": "同じ時代に、まったく逆の絵を描いた。",
     "bio": "ブーシェと同世代のパリの画家だが、選んだ主題は正反対だった。台所の水差し、剥かれた果物、洗濯をする女、宿題をする子ども。神話も貴族も出てこない。当時の序列では静物画と風俗画は最下位に置かれていたが、彼はその範囲を出ないまま、質感の表現で他の誰も届かない場所に行った。絵具は薄く塗り重ねられ、近づくと何を描いているか分からなくなる。「彼は絵具ではないもので描いている」と評された。晩年は目を悪くし、油彩をやめてパステルに移った。"
   },
   {
-    "id": "gainsborough", "name": "トマス・ゲインズバラ", "nameOriginal": "Thomas Gainsborough",
-    "born": 1727, "died": 1788, "place": "サドベリー／ロンドン", "movements": ["rococo"],
+    "id": "gainsborough",
+    "name": "トマス・ゲインズバラ",
+    "nameOriginal": "Thomas Gainsborough",
+    "born": 1727,
+    "died": 1788,
+    "place": "サドベリー／ロンドン",
+    "movements": [
+      "rococo"
+    ],
     "commons": "Thomas Gainsborough Self-portrait.jpg",
-    "wiki": "トマス・ゲインズバラ", "wikiEn": "Thomas Gainsborough",
+    "wiki": "トマス・ゲインズバラ",
+    "wikiEn": "Thomas Gainsborough",
     "lead": "肖像で稼ぎ、風景を描きたがった。",
     "bio": "サフォークの毛織物商の家に生まれた。イギリスで肖像画家として大成功し、王室の注文も受けたが、本人が描きたかったのは風景である。「肖像にはうんざりだ、ヴィオール・ダ・ガンバを持って静かな村へ行き、風景を描いて余生を送りたい」と友人に書き送っている。筆は速く、絵具は薄く、髪や絹の光沢が乾く前の筆でひと撫でされる。ライバルのレノルズが理論と古典を重んじたのに対し、彼は理屈を嫌い、目の前の見え方だけを頼りにした。"
   },
   {
-    "id": "canova", "name": "アントニオ・カノーヴァ", "nameOriginal": "Antonio Canova",
-    "born": 1757, "died": 1822, "place": "ポッサーニョ／ローマ", "movements": ["neoclassicism"],
+    "id": "canova",
+    "name": "アントニオ・カノーヴァ",
+    "nameOriginal": "Antonio Canova",
+    "born": 1757,
+    "died": 1822,
+    "place": "ポッサーニョ／ローマ",
+    "movements": [
+      "neoclassicism"
+    ],
     "commons": "Antonio Canova Selfportrait 1792.jpg",
-    "wiki": "アントニオ・カノーヴァ", "wikiEn": "Antonio Canova",
+    "wiki": "アントニオ・カノーヴァ",
+    "wikiEn": "Antonio Canova",
     "lead": "大理石を、皮膚に見えるまで磨いた。",
     "bio": "石工の家に生まれ、十一歳から工房で働いた。ローマで古代彫刻を研究し、新古典主義の彫刻家として全ヨーロッパの注文を受けるようになる。ナポレオンも、その敵であったオーストリア皇帝も、彼に自分の像を注文した。技法上の特徴は仕上げで、鑿の跡を完全に消し、軽石と藁で磨き上げ、最後に薄く蝋を塗って肌の質感を出した。ナポレオン失脚後は、フランスが各地から略奪した美術品の返還交渉に教皇の使者として当たり、多くをイタリアへ戻している。"
   },
   {
-    "id": "blake", "name": "ウィリアム・ブレイク", "nameOriginal": "William Blake",
-    "born": 1757, "died": 1827, "place": "ロンドン", "movements": ["romanticism"],
+    "id": "blake",
+    "name": "ウィリアム・ブレイク",
+    "nameOriginal": "William Blake",
+    "born": 1757,
+    "died": 1827,
+    "place": "ロンドン",
+    "movements": [
+      "romanticism"
+    ],
     "commons": "William Blake by Thomas Phillips.jpg",
-    "wiki": "ウィリアム・ブレイク", "wikiEn": "William Blake",
+    "wiki": "ウィリアム・ブレイク",
+    "wikiEn": "William Blake",
     "lead": "詩と絵と印刷を、一人で全部やった。",
     "bio": "彫版工の修業を積み、生涯その技術で生計を立てた。詩人としても画家としても同時代にはほとんど無名で、狂人扱いされることもあった。彼は自分の詩集を、文字と挿絵を同じ銅板に描いて刷る独自の方法で作り、一冊ずつ手で彩色した。作品と印刷物の区別がない。描いたのは天使、預言者、神話上の存在で、目の前の自然ではない ── 幼いころから幻視があったと述べている。再評価は死後五十年を経てからで、二十世紀に入って詩人・画家の双方から先駆と認められた。"
   },
   {
-    "id": "constable", "name": "ジョン・コンスタブル", "nameOriginal": "John Constable",
-    "born": 1776, "died": 1837, "place": "サフォーク／ロンドン", "movements": ["romanticism"],
+    "id": "constable",
+    "name": "ジョン・コンスタブル",
+    "nameOriginal": "John Constable",
+    "born": 1776,
+    "died": 1837,
+    "place": "サフォーク／ロンドン",
+    "movements": [
+      "romanticism"
+    ],
     "commons": "ConstableSelfPortrait.png",
-    "wiki": "ジョン・コンスタブル", "wikiEn": "John Constable",
+    "wiki": "ジョン・コンスタブル",
+    "wikiEn": "John Constable",
     "lead": "自分の育った半径十キロだけを描いた。",
     "bio": "サフォークの製粉業者の家に生まれた。ターナーが嵐と大災害を求めて各地を旅したのに対し、彼は生家の周辺 ── 川、水車、牧草地、生垣 ── をほぼ生涯描き続けた。雲の観察に取り憑かれ、日付と時刻と風向きを書き込んだ空だけの油彩スケッチを大量に残している。イギリスでは長く売れず、逆にフランスで評価された。1824年のサロンに出品した作品が金賞を受け、ドラクロワはそれを見て自作の色を塗り直したと伝えられる。"
   },
   {
-    "id": "corot", "name": "ジャン＝バティスト・カミーユ・コロー", "nameOriginal": "Jean-Baptiste-Camille Corot",
-    "born": 1796, "died": 1875, "place": "パリ／ヴィル＝ダヴレー", "movements": ["realism"],
+    "id": "corot",
+    "name": "ジャン＝バティスト・カミーユ・コロー",
+    "nameOriginal": "Jean-Baptiste-Camille Corot",
+    "born": 1796,
+    "died": 1875,
+    "place": "パリ／ヴィル＝ダヴレー",
+    "movements": [
+      "realism"
+    ],
     "commons": "Jean-Baptiste-Camille Corot - Self-Portrait - WGA05279.jpg",
-    "wiki": "カミーユ・コロー", "wikiEn": "Jean-Baptiste-Camille Corot",
+    "wiki": "カミーユ・コロー",
+    "wikiEn": "Jean-Baptiste-Camille Corot",
     "lead": "屋外で描く習慣を、次の世代へ渡した。",
     "bio": "織物商の家に生まれ、二十六歳まで店で働いた。親の仕送りで画業に転じ、イタリアで戸外制作を覚える。前半生の作品は明快な光と硬い輪郭を持つが、五十代以降は銀灰色の靄がかかった、輪郭の溶けた風景に変わった。この後期の様式が売れ、大量に模倣された ── 「コローは三千点描き、そのうち一万点がアメリカにある」という冗談が生まれるほどである。人柄は温厚で、困窮した画家に金を配り、ドーミエが失明したときには家を買い与えた。"
   },
   {
-    "id": "daumier", "name": "オノレ・ドーミエ", "nameOriginal": "Honoré Daumier",
-    "born": 1808, "died": 1879, "place": "マルセイユ／パリ", "movements": ["realism"],
+    "id": "daumier",
+    "name": "オノレ・ドーミエ",
+    "nameOriginal": "Honoré Daumier",
+    "born": 1808,
+    "died": 1879,
+    "place": "マルセイユ／パリ",
+    "movements": [
+      "realism"
+    ],
     "commons": "Honore Daumier-Nadar.jpg",
-    "wiki": "オノレ・ドーミエ", "wikiEn": "Honoré Daumier",
+    "wiki": "オノレ・ドーミエ",
+    "wikiEn": "Honoré Daumier",
     "lead": "王を風刺して、六か月投獄された。",
     "bio": "生活のために石版画を描き、生涯で四千点近い風刺画を新聞に発表した。1832年、国王ルイ・フィリップを洋梨に見立てた絵で有罪となり、六か月間収監されている。油彩は売るためではなく自分のために描かれ、生前ほとんど公開されなかった。主題は弁護士、洗濯女、三等車の乗客 ── 名もない人々である。輪郭は太く、細部は省かれ、明暗の塊で人体が組まれる。晩年は失明し、コローから贈られた家で死んだ。"
   },
   {
-    "id": "whistler", "name": "ジェームズ・マクニール・ホイッスラー", "nameOriginal": "James McNeill Whistler",
-    "born": 1834, "died": 1903, "place": "マサチューセッツ／ロンドン", "movements": ["realism"],
+    "id": "whistler",
+    "name": "ジェームズ・マクニール・ホイッスラー",
+    "nameOriginal": "James McNeill Whistler",
+    "born": 1834,
+    "died": 1903,
+    "place": "マサチューセッツ／ロンドン",
+    "movements": [
+      "realism"
+    ],
     "commons": "Whistler Selbstporträt.jpg",
-    "wiki": "ジェームズ・マクニール・ホイッスラー", "wikiEn": "James McNeill Whistler",
+    "wiki": "ジェームズ・マクニール・ホイッスラー",
+    "wikiEn": "James McNeill Whistler",
     "lead": "絵に、音楽の題名をつけた。",
     "bio": "アメリカに生まれ、パリで学び、ロンドンで活動した。作品に《ノクターン》《シンフォニー》《アレンジメント》といった音楽の語を冠し、絵は何かを語るものではなく色と形の配置だと主張した。日本の版画と陶磁を早くから集め、余白の使い方や斜めの構図を自作に取り込んでいる。1877年、批評家ラスキンに「絵具の壺を公衆の顔に投げつけた」と書かれて名誉毀損で訴え、勝訴したが賠償は一ファージング、訴訟費用で破産した。"
   },
   {
-    "id": "pissarro", "name": "カミーユ・ピサロ", "nameOriginal": "Camille Pissarro",
-    "born": 1830, "died": 1903, "place": "セント・トーマス島／パリ", "movements": ["impressionism"],
+    "id": "pissarro",
+    "name": "カミーユ・ピサロ",
+    "nameOriginal": "Camille Pissarro",
+    "born": 1830,
+    "died": 1903,
+    "place": "セント・トーマス島／パリ",
+    "movements": [
+      "impressionism"
+    ],
     "commons": "Camille Pissarro - Autoportrait - 1873.jpg",
-    "wiki": "カミーユ・ピサロ", "wikiEn": "Camille Pissarro",
+    "wiki": "カミーユ・ピサロ",
+    "wikiEn": "Camille Pissarro",
     "lead": "八回の印象派展すべてに出品した唯一の人。",
     "bio": "カリブ海のデンマーク領の島に生まれ、ユダヤ系の商家で育った。パリへ出て風景画を学び、印象派の結成に加わる。八回開かれた印象派展のうち、全部に出品したのは彼だけである。年長で温厚だったため、対立しがちな仲間の調整役でもあった。セザンヌ、ゴーギャン、そして若いゴッホが彼から助言を受けている。五十代でスーラの点描に転じ、数年後にまた離れた ── 生涯にわたって方法を試し続けた。政治的にはアナキズムに共鳴し、農民と労働を主題に選び続けた。"
   },
   {
-    "id": "bocklin", "name": "アルノルト・ベックリン", "nameOriginal": "Arnold Böcklin",
-    "born": 1827, "died": 1901, "place": "バーゼル／フィレンツェ", "movements": ["symbolism"],
+    "id": "bocklin",
+    "name": "アルノルト・ベックリン",
+    "nameOriginal": "Arnold Böcklin",
+    "born": 1827,
+    "died": 1901,
+    "place": "バーゼル／フィレンツェ",
+    "movements": [
+      "symbolism"
+    ],
     "commons": "Arnold Boecklin-fiedelnder Tod.jpg",
-    "wiki": "アルノルト・ベックリン", "wikiEn": "Arnold Böcklin",
+    "wiki": "アルノルト・ベックリン",
+    "wikiEn": "Arnold Böcklin",
     "lead": "神話の生き物を、実在するように描いた。",
     "bio": "スイスのバーゼルに生まれ、生涯の多くをイタリアで過ごした。描いたのはケンタウロス、海神、ニンフ、そして死である。特徴はその扱い方で、神話の存在を象徴としてではなく、写実的な肉体と重さを持ったものとして描いた。半人半獣が、皮膚の質感と影を伴って画面にいる。同時代のドイツ語圏で絶大な人気を得て、複製が中産階級の居間に掛かった。二十世紀に入ると装飾過多として退けられるが、デ・キリコとシュルレアリストが再発見し、幻想絵画の系譜に組み込まれた。"
   },
   {
-    "id": "waterhouse", "name": "ジョン・ウィリアム・ウォーターハウス", "nameOriginal": "John William Waterhouse",
-    "born": 1849, "died": 1917, "place": "ローマ／ロンドン", "movements": ["pre-raphaelite"],
-    "wiki": "ジョン・ウィリアム・ウォーターハウス", "wikiEn": "John William Waterhouse", "noPhoto": true,
+    "id": "waterhouse",
+    "name": "ジョン・ウィリアム・ウォーターハウス",
+    "nameOriginal": "John William Waterhouse",
+    "born": 1849,
+    "died": 1917,
+    "place": "ローマ／ロンドン",
+    "movements": [
+      "pre-raphaelite"
+    ],
+    "wiki": "ジョン・ウィリアム・ウォーターハウス",
+    "wikiEn": "John William Waterhouse",
+    "noPhoto": true,
     "lead": "ラファエル前派が終わったあとに、その様式で描いた。",
     "bio": "ローマで画家の子として生まれ、ロンドンで学んだ。ラファエル前派の運動そのものは彼が本格的に活動を始める前に解体していたが、その主題と描き方を引き継ぎ、最後の世代として長く描き続けた。題材はテニスンの詩、ギリシャ神話、シェイクスピア。ただし筆致は前派の硬い写実ではなく、印象派以後の柔らかい絵具の置き方になっている。描かれる女性はしばしば運命に囚われた人物で、こちらを見ずに何かを見つめている。二十世紀半ばには時代遅れとされたが、いまはイギリスで最も複製の多い画家の一人である。"
-  }
-  ,{
-    "id": "taiga", "name": "池大雅", "nameOriginal": "池大雅",
-    "born": 1723, "died": 1776, "place": "京都", "movements": ["nanga"],
-    "wiki": "池大雅", "wikiEn": "Ike no Taiga", "noPhoto": true,
+  },
+  {
+    "id": "taiga",
+    "name": "池大雅",
+    "nameOriginal": "池大雅",
+    "born": 1723,
+    "died": 1776,
+    "place": "京都",
+    "movements": [
+      "nanga"
+    ],
+    "wiki": "池大雅",
+    "wikiEn": "Ike no Taiga",
+    "noPhoto": true,
     "lead": "指で描き、扇を売って暮らした。",
     "bio": "京都の下級役人の子に生まれ、幼くして書の腕を認められた。生計は扇に絵を描いて売ることで立てている。中国の文人画を手本にしたが、渡航はできず、輸入された版本を通してしか原物を知らなかった。そのため学んだ形は自由に崩れ、独自の筆づかいになった。指や爪に墨をつけて描く「指頭画」も好んだ。妻の玉瀾も画家で、二人とも生活には無頓着だったと伝えられる。日本各地の山に登り、その体験を絵に持ち込んだ最初の画家の一人でもある。"
   },
   {
-    "id": "buson", "name": "与謝蕪村", "nameOriginal": "與謝蕪村",
-    "born": 1716, "died": 1784, "place": "摂津／京都", "movements": ["nanga"],
-    "wiki": "与謝蕪村", "wikiEn": "Yosa Buson", "noPhoto": true,
+    "id": "buson",
+    "name": "与謝蕪村",
+    "nameOriginal": "與謝蕪村",
+    "born": 1716,
+    "died": 1784,
+    "place": "摂津／京都",
+    "movements": [
+      "nanga"
+    ],
+    "wiki": "与謝蕪村",
+    "wikiEn": "Yosa Buson",
+    "noPhoto": true,
     "lead": "俳人としても、画家としても一流だった。",
     "bio": "大坂近郊に生まれ、江戸で俳諧を学び、各地を放浪したのち京都に落ち着いた。俳諧では芭蕉に次ぐ位置に置かれ、絵では文人画の頂点の一人とされる。この二つを本人は分けていない ── 句を書き、その脇に絵を添える「俳画」という形式を確立した。絵の主題は雪、月、旅、そして中国の故事。細部を描き込まず、余白と数本の線で情景を立てる。四十代半ばまでほとんど作品を残しておらず、代表作の大半は六十代以降のものである。"
   },
   {
-    "id": "okyo", "name": "円山応挙", "nameOriginal": "圓山應擧",
-    "born": 1733, "died": 1795, "place": "丹波／京都", "movements": ["maruyama-shijo"],
-    "wiki": "円山応挙", "wikiEn": "Maruyama Ōkyo", "noPhoto": true,
+    "id": "okyo",
+    "name": "円山応挙",
+    "nameOriginal": "圓山應擧",
+    "born": 1733,
+    "died": 1795,
+    "place": "丹波／京都",
+    "movements": [
+      "maruyama-shijo"
+    ],
+    "wiki": "円山応挙",
+    "wikiEn": "Maruyama Ōkyo",
+    "noPhoto": true,
     "lead": "動物と草木を、実際に見て描いた。",
     "bio": "丹波の農家に生まれ、京都の玩具屋で覗き眼鏡用の絵を描く仕事から出発した。西洋の透視図法をこの仕事で覚えている。以後、手本の模写に頼らず対象を観察して描く方法を徹底し、犬、鶴、松、人体の写生帖を大量に残した。ただし写実に徹したわけではない。屏風や襖という装飾の形式を守り、余白と金地を積極的に使っている。京都で圧倒的な支持を得て多くの弟子を育て、その系譜は現在の日本画にまで続いている。"
   },
   {
-    "id": "shohaku", "name": "曾我蕭白", "nameOriginal": "曾我蕭白",
-    "born": 1730, "died": 1781, "place": "京都／伊勢", "movements": ["edo-kiso"],
-    "wiki": "曾我蕭白", "wikiEn": "Soga Shōhaku", "noPhoto": true,
+    "id": "shohaku",
+    "name": "曾我蕭白",
+    "nameOriginal": "曾我蕭白",
+    "born": 1730,
+    "died": 1781,
+    "place": "京都／伊勢",
+    "movements": [
+      "edo-kiso"
+    ],
+    "wiki": "曾我蕭白",
+    "wikiEn": "Soga Shōhaku",
+    "noPhoto": true,
     "lead": "「絵が欲しければ自分に、絵図が欲しければ応挙に」と言った。",
     "bio": "京都の商家に生まれたが、十代で家族を相次いで失い、以後の経歴ははっきりしない。伊勢や播磨を渡り歩き、寺や旧家に大画面を残した。同時代の応挙が写生と均整で人気を集めるなか、彼は意図的にその逆へ振った ── 顔は歪み、目は剥かれ、筆は荒れ、墨は飛ぶ。奇矯な言動の逸話が多く残るが、その大半は後世の脚色とも言われる。生前から評価は割れ、明治以降は長く忘れられた。二十世紀後半、辻惟雄の『奇想の系譜』によって再発見された画家の一人である。"
   },
   {
-    "id": "rosetsu", "name": "長沢芦雪", "nameOriginal": "長澤蘆雪",
-    "born": 1754, "died": 1799, "place": "丹波／京都", "movements": ["edo-kiso"],
-    "wiki": "長沢芦雪", "wikiEn": "Nagasawa Rosetsu", "noPhoto": true,
+    "id": "rosetsu",
+    "name": "長沢芦雪",
+    "nameOriginal": "長澤蘆雪",
+    "born": 1754,
+    "died": 1799,
+    "place": "丹波／京都",
+    "movements": [
+      "edo-kiso"
+    ],
+    "wiki": "長沢芦雪",
+    "wikiEn": "Nagasawa Rosetsu",
+    "noPhoto": true,
     "lead": "応挙の弟子でありながら、師とまったく違う絵を描いた。",
     "bio": "武家の出とされ、円山応挙の門に入った。写生の技術は師から受け継いだが、画面の作り方は正反対である。極端な大小の対比、画面から半分はみ出す動物、隅に押しやられた余白 ── 見る者を驚かせることを目的にしている。三十歳のころ紀州南部の寺々を巡り、わずかな期間に大量の襖絵を描いた。その一方で、掌に載る大きさの極小の絵も残している。四十六歳で大坂に客死し、毒殺説や自殺説がささやかれたが、いずれも根拠はない。"
   },
   {
-    "id": "kuniyoshi", "name": "歌川国芳", "nameOriginal": "歌川國芳",
-    "born": 1798, "died": 1861, "place": "江戸", "movements": ["ukiyoe"],
-    "wiki": "歌川国芳", "wikiEn": "Utagawa Kuniyoshi", "noPhoto": true,
+    "id": "kuniyoshi",
+    "name": "歌川国芳",
+    "nameOriginal": "歌川國芳",
+    "born": 1798,
+    "died": 1861,
+    "place": "江戸",
+    "movements": [
+      "ukiyoe"
+    ],
+    "wiki": "歌川国芳",
+    "wikiEn": "Utagawa Kuniyoshi",
+    "noPhoto": true,
     "lead": "武者絵と、猫と、幕府への当てこすり。",
     "bio": "江戸の染物屋の子に生まれ、歌川豊国に学んだ。長く売れなかったが、三十歳のころ『水滸伝』の豪傑を描いた連作が当たり、武者絵の第一人者になる。特徴は画面の使い方で、三枚続きの用紙を一枚の大画面として扱い、巨大な骸骨や鯨を紙をまたいで描いた。天保の改革で役者絵と美人画が禁じられると、動物や妖怪に置き換えた風刺画で応じている。無類の猫好きで、常に数匹を懐に入れて仕事をしたと伝えられる。門下から月岡芳年が出た。"
   },
   {
-    "id": "takahashi-yuichi", "name": "高橋由一", "nameOriginal": "高橋由一",
-    "born": 1828, "died": 1894, "place": "江戸／東京", "movements": ["meiji-yoga"],
-    "wiki": "高橋由一", "wikiEn": "Takahashi Yuichi", "noPhoto": true,
+    "id": "takahashi-yuichi",
+    "name": "高橋由一",
+    "nameOriginal": "高橋由一",
+    "born": 1828,
+    "died": 1894,
+    "place": "江戸／東京",
+    "movements": [
+      "meiji-yoga"
+    ],
+    "wiki": "高橋由一",
+    "wikiEn": "Takahashi Yuichi",
+    "noPhoto": true,
     "lead": "油絵で描かれた物の艶に、衝撃を受けて画家になった。",
     "bio": "武士の家に生まれ、四十歳近くまで狩野派の絵を学んでいた。西洋の石版画を見て「その物のように見える」ことに衝撃を受け、洋画に転じる。来日した画家ワーグマンに学び、日本人として最初期に本格的な油彩を制作した。主題は魚、豆腐、花魁といった身近な物で、いずれも質感の再現に執着している。晩年は私財を投じて美術館の設立を計画し、資金難で挫折した。日本の油彩画は、彼が独学に近い形で始めたところから数えられている。"
   },
   {
-    "id": "hogai", "name": "狩野芳崖", "nameOriginal": "狩野芳崖",
-    "born": 1828, "died": 1888, "place": "長府／東京", "movements": ["nihonga"],
-    "wiki": "狩野芳崖", "wikiEn": "Kanō Hōgai", "noPhoto": true,
+    "id": "hogai",
+    "name": "狩野芳崖",
+    "nameOriginal": "狩野芳崖",
+    "born": 1828,
+    "died": 1888,
+    "place": "長府／東京",
+    "movements": [
+      "nihonga"
+    ],
+    "wiki": "狩野芳崖",
+    "wikiEn": "Kanō Hōgai",
+    "noPhoto": true,
     "lead": "狩野派最後の絵師が、最初の日本画を描いた。",
     "bio": "長府藩の御用絵師の家に生まれ、江戸で狩野派の正統な修業を積んだ。ところが明治維新で幕府と諸藩の庇護が消え、絵の注文が絶える。四十代から五十代にかけては筆を折り、陶器の絵付けや行商で食いつないだ。1884年、フェノロサと岡倉天心に見出され、西洋の陰影法と空気遠近を取り入れた新しい絵を試みはじめる。東京美術学校の開校を目前にして、六十歳で死んだ。旧派の最後の人であり、新派の最初の人でもある。"
   },
   {
-    "id": "kuroda", "name": "黒田清輝", "nameOriginal": "黒田清輝",
-    "born": 1866, "died": 1924, "place": "薩摩／東京", "movements": ["meiji-yoga"],
+    "id": "kuroda",
+    "name": "黒田清輝",
+    "nameOriginal": "黒田清輝",
+    "born": 1866,
+    "died": 1924,
+    "place": "薩摩／東京",
+    "movements": [
+      "meiji-yoga"
+    ],
     "commons": "Self-portrait by Kuroda Seiki (Kuroda Kinenkan).jpg",
-    "wiki": "黒田清輝", "wikiEn": "Kuroda Seiki",
+    "wiki": "黒田清輝",
+    "wikiEn": "Kuroda Seiki",
     "lead": "法律を学びに行って、画家になって帰ってきた。",
     "bio": "薩摩藩士の家に生まれ、十七歳で法律を学ぶためパリへ渡った。現地で画家に転じ、ラファエル・コランに師事して外光派を学ぶ。九年後に帰国し、明るい戸外の光と柔らかい色づかいを日本にもたらした。東京美術学校の西洋画科を主導し、以後の日本の洋画教育の基礎を作っている。1895年、裸体画《朝妝》を出品して警察の介入を招き、日本で最初の大規模な芸術と検閲の論争を引き起こした。晩年は貴族院議員も務めた。"
   },
   {
-    "id": "aoki", "name": "青木繁", "nameOriginal": "青木繁",
-    "born": 1882, "died": 1911, "place": "久留米／福岡", "movements": ["meiji-yoga"],
+    "id": "aoki",
+    "name": "青木繁",
+    "nameOriginal": "青木繁",
+    "born": 1882,
+    "died": 1911,
+    "place": "久留米／福岡",
+    "movements": [
+      "meiji-yoga"
+    ],
     "commons": "Self-portrait by Aoki Shigeru (Mie Prefectural Art Museum).jpg",
-    "wiki": "青木繁", "wikiEn": "Aoki Shigeru",
+    "wiki": "青木繁",
+    "wikiEn": "Aoki Shigeru",
     "lead": "二十二歳で代表作を描き、二十八歳で死んだ。",
     "bio": "久留米の旧士族の家に生まれ、家出同然で上京して美術学校に入った。日本の神話とギリシャ神話の双方に惹かれ、それを油彩で描こうとした点が同世代と違う。1904年、房総の漁村に滞在して《海の幸》を描き、一躍注目される。しかし以後は評価が落ち、家族とも断絶し、九州を放浪した。肺結核により、福岡の病院で二十八歳で死んでいる。死後、盟友の坂本繁二郎らの尽力で再評価が進んだ。"
   },
   {
-    "id": "shunso", "name": "菱田春草", "nameOriginal": "菱田春草",
-    "born": 1874, "died": 1911, "place": "飯田／東京", "movements": ["nihonga"],
+    "id": "shunso",
+    "name": "菱田春草",
+    "nameOriginal": "菱田春草",
+    "born": 1874,
+    "died": 1911,
+    "place": "飯田／東京",
+    "movements": [
+      "nihonga"
+    ],
     "commons": "Hishida Shunso.jpg",
-    "wiki": "菱田春草", "wikiEn": "Hishida Shunsō",
+    "wiki": "菱田春草",
+    "wikiEn": "Hishida Shunsō",
     "lead": "輪郭線を捨てて、酷評された。",
     "bio": "長野県飯田の生まれ。東京美術学校で岡倉天心に学び、横山大観とともに新しい日本画を模索した。二人が試みたのは、線で形を囲まず、色の面と暈しだけで空気を描くことである。当時これは「朦朧体」と揶揄され、作品はほとんど売れなかった。インド、アメリカ、ヨーロッパを巡って各地の絵を見たのち、晩年は輪郭線を回復しつつ、色数を抑えた静かな画面に至る。腎臓の病により三十六歳で死んだ。日本画の近代化を最も先へ押し進めた一人である。"
-  }
-  ,{
-    "id": "derain", "name": "アンドレ・ドラン", "nameOriginal": "André Derain",
-    "born": 1880, "died": 1954, "place": "シャトゥー／パリ", "movements": ["fauvism"],
-    "wiki": "アンドレ・ドラン", "wikiEn": "André Derain", "noPhoto": true,
+  },
+  {
+    "id": "derain",
+    "name": "アンドレ・ドラン",
+    "nameOriginal": "André Derain",
+    "born": 1880,
+    "died": 1954,
+    "place": "シャトゥー／パリ",
+    "movements": [
+      "fauvism"
+    ],
+    "wiki": "アンドレ・ドラン",
+    "wikiEn": "André Derain",
+    "noPhoto": true,
     "lead": "マティスと二人で、色を解き放った夏がある。",
     "bio": "パリ近郊の菓子商の家に生まれた。1905年の夏、南仏コリウールでマティスと共同制作し、そこで色を対象から切り離す方法にたどり着く。同年のサロンで二人の作品が並び、批評家が「野獣（フォーヴ）」と呼んだことからフォーヴィスムの名が生まれた。ただしドランがこの様式にいたのは数年である。以後は古典的な形態へ戻り、セザンヌ、さらにイタリアやアフリカの古い彫刻へ関心を移した。第二次大戦中にドイツの招きで訪独したことが、戦後に長く尾を引いた。"
   },
   {
-    "id": "leger", "name": "フェルナン・レジェ", "nameOriginal": "Fernand Léger",
-    "born": 1881, "died": 1955, "place": "ノルマンディ／パリ", "movements": ["cubism"],
-    "wiki": "フェルナン・レジェ", "wikiEn": "Fernand Léger", "noPhoto": true,
+    "id": "leger",
+    "name": "フェルナン・レジェ",
+    "nameOriginal": "Fernand Léger",
+    "born": 1881,
+    "died": 1955,
+    "place": "ノルマンディ／パリ",
+    "movements": [
+      "cubism"
+    ],
+    "wiki": "フェルナン・レジェ",
+    "wikiEn": "Fernand Léger",
+    "noPhoto": true,
     "lead": "人間を、機械の部品のように描いた。",
     "bio": "建築の製図工から画家になった。キュビスムに加わるが、ピカソやブラックが対象を分解したのに対し、彼は円筒と円錐を組み合わせて再構成する方向へ進み、「チュビスム（管主義）」と揶揄された。第一次大戦に従軍し、塹壕で見た大砲の砲身と兵士の身体が同じ光を返すことに衝撃を受けたと述べている。以後、機械と労働者が一貫した主題になった。壁画、舞台美術、映画にも手を広げ、抽象映画『バレエ・メカニック』を制作している。"
   },
   {
-    "id": "delaunay", "name": "ロベール・ドローネー", "nameOriginal": "Robert Delaunay",
-    "born": 1885, "died": 1941, "place": "パリ", "movements": ["abstraction"],
+    "id": "delaunay",
+    "name": "ロベール・ドローネー",
+    "nameOriginal": "Robert Delaunay",
+    "born": 1885,
+    "died": 1941,
+    "place": "パリ",
+    "movements": [
+      "abstraction"
+    ],
     "commons": "Robert Delaunay - autoportrait.jpg",
-    "wiki": "ロベール・ドローネー", "wikiEn": "Robert Delaunay",
+    "wiki": "ロベール・ドローネー",
+    "wikiEn": "Robert Delaunay",
     "lead": "色そのものを主題にした、最初期の一人。",
     "bio": "キュビスムから出発したが、灰と褐色に沈むその色づかいに満足せず、色を画面の主役に据えた。補色を隣り合わせに置くと視覚が振動する ── その効果だけで画面を組み立てる方法を追い、円と円弧の反復に行き着いた。アポリネールはこれを「オルフィスム」と名づけている。妻ソニア・ドローネーも同じ原理を絵画、装丁、服飾へ広げ、二人は共同で仕事をした。第二次大戦下、南仏へ逃れる途上で癌により死んだ。"
   },
   {
-    "id": "soutine", "name": "シャイム・スーティン", "nameOriginal": "Chaïm Soutine",
-    "born": 1893, "died": 1943, "place": "ミンスク近郊／パリ", "movements": ["expressionism"],
+    "id": "soutine",
+    "name": "シャイム・スーティン",
+    "nameOriginal": "Chaïm Soutine",
+    "born": 1893,
+    "died": 1943,
+    "place": "ミンスク近郊／パリ",
+    "movements": [
+      "expressionism"
+    ],
     "commons": "1918, Soutine, Self Portrait.jpg",
-    "wiki": "シャイム・スーティン", "wikiEn": "Chaïm Soutine",
+    "wiki": "シャイム・スーティン",
+    "wikiEn": "Chaïm Soutine",
     "lead": "風景も、肉も、同じように波打っている。",
     "bio": "現在のベラルーシの貧しいユダヤ人家庭に生まれ、二十歳でパリへ出た。長く極貧のなかで描き、モディリアーニと親交を結んでいる。1923年、アメリカの蒐集家バーンズが一度に六十点近くを買い上げ、生活が一変した。描き方は一貫している ── 対象が家であれ木であれ吊るされた牛であれ、絵具が厚く塗り重ねられ、画面全体がうねる。第二次大戦中はユダヤ人としてナチス占領下のフランスで潜伏し、胃潰瘍の手術が遅れて五十歳で死んだ。"
   },
   {
-    "id": "beckmann", "name": "マックス・ベックマン", "nameOriginal": "Max Beckmann",
-    "born": 1884, "died": 1950, "place": "ライプツィヒ／ニューヨーク", "movements": ["expressionism"],
+    "id": "beckmann",
+    "name": "マックス・ベックマン",
+    "nameOriginal": "Max Beckmann",
+    "born": 1884,
+    "died": 1950,
+    "place": "ライプツィヒ／ニューヨーク",
+    "movements": [
+      "expressionism"
+    ],
     "commons": "Max Beckmann - Self-Portrait with Champagne Glass (1919).png",
-    "wiki": "マックス・ベックマン", "wikiEn": "Max Beckmann",
+    "wiki": "マックス・ベックマン",
+    "wikiEn": "Max Beckmann",
     "lead": "戦争の衛生兵として見たものが、以後の絵を決めた。",
     "bio": "第一次大戦以前は伝統的な大画面の画家として成功していた。1914年に志願して衛生兵となり、翌年、精神の破綻により除隊する。以後の絵は一変した ── 空間は浅く押し潰され、人体は関節が折れ、画面は身動きの取れない箱になる。ワイマール期のドイツで高い評価を得たが、ナチス政権下で「退廃芸術」に指定され、職を追われてアムステルダムへ亡命した。十年の潜伏を経てアメリカへ渡り、ニューヨークの路上で心臓発作により死んだ。"
   },
   {
-    "id": "vallotton", "name": "フェリックス・ヴァロットン", "nameOriginal": "Félix Vallotton",
-    "born": 1865, "died": 1925, "place": "ローザンヌ／パリ", "movements": ["post-impressionism"],
+    "id": "vallotton",
+    "name": "フェリックス・ヴァロットン",
+    "nameOriginal": "Félix Vallotton",
+    "born": 1865,
+    "died": 1925,
+    "place": "ローザンヌ／パリ",
+    "movements": [
+      "post-impressionism"
+    ],
     "commons": "Félix Vallotton, 1914 - Self Portrait.jpg",
-    "wiki": "フェリックス・ヴァロットン", "wikiEn": "Félix Vallotton",
+    "wiki": "フェリックス・ヴァロットン",
+    "wikiEn": "Félix Vallotton",
     "lead": "黒と白の面だけで、木版画を作り直した。",
     "bio": "スイスに生まれ、パリでナビ派に加わった。名を上げたのは木版画である。中間の階調を一切使わず、黒い面と白い抜きだけで人物と室内を作った ── 日本の版画を見た経験が背景にある。この方法は同時代の印刷物に強い影響を与えた。油彩では、明るい色を使いながら、描かれる場面はしばしば不穏である。夫婦の会話、部屋を出ていく背中、水浴 ── 何かが起きた直後か直前のように見える。感情を描かないことで、かえって緊張が残る。"
   },
   {
-    "id": "vuillard", "name": "エドゥアール・ヴュイヤール", "nameOriginal": "Édouard Vuillard",
-    "born": 1868, "died": 1940, "place": "パリ", "movements": ["post-impressionism"],
-    "wiki": "エドゥアール・ヴュイヤール", "wikiEn": "Édouard Vuillard", "noPhoto": true,
+    "id": "vuillard",
+    "name": "エドゥアール・ヴュイヤール",
+    "nameOriginal": "Édouard Vuillard",
+    "born": 1868,
+    "died": 1940,
+    "place": "パリ",
+    "movements": [
+      "post-impressionism"
+    ],
+    "wiki": "エドゥアール・ヴュイヤール",
+    "wikiEn": "Édouard Vuillard",
+    "noPhoto": true,
     "lead": "壁紙と服の柄で、人が見えなくなる絵。",
     "bio": "ボナールらとナビ派を結成した。母は仕立ての仕事をしており、彼は五十代まで母と同居して、その部屋を繰り返し描いた。特徴は、人物と背景の区別を消すことである。壁紙の花柄と、女の着ている布の柄と、テーブルクロスの模様が同じ密度で描かれ、目を凝らさないと人がどこにいるか分からない。舞台装置や大画面の装飾も多く手がけた。後年は肖像画へ移り、注文に応じて上流の人々を描いたが、その画面でも背景の密度は変わらなかった。"
   },
   {
-    "id": "grant-wood", "name": "グラント・ウッド", "nameOriginal": "Grant Wood",
-    "born": 1891, "died": 1942, "place": "アイオワ", "movements": ["american-scene"],
-    "wiki": "グラント・ウッド", "wikiEn": "Grant Wood", "noPhoto": true,
+    "id": "grant-wood",
+    "name": "グラント・ウッド",
+    "nameOriginal": "Grant Wood",
+    "born": 1891,
+    "died": 1942,
+    "place": "アイオワ",
+    "movements": [
+      "american-scene"
+    ],
+    "wiki": "グラント・ウッド",
+    "wikiEn": "Grant Wood",
+    "noPhoto": true,
     "lead": "パリから帰って、アイオワの農村を描いた。",
     "bio": "アイオワの農家に生まれ、四度ヨーロッパへ渡って前衛絵画を学んだ。ところがミュンヘンで北方ルネサンスの絵 ── ファン・エイクやメムリンクの硬く緻密な描写 ── を見て方向を変える。以後、その技法で中西部の農村を描いた。都市と前衛から距離を置き、地方の生活を主題にする「リージョナリズム」の代表とされる。大恐慌期のアメリカで広く受け入れられたが、本人は保守的な郷土賛美と見なされることを嫌った。五十歳で膵臓癌により死んだ。"
   },
   {
-    "id": "kishida", "name": "岸田劉生", "nameOriginal": "岸田劉生",
-    "born": 1891, "died": 1929, "place": "東京／京都", "movements": ["taisho-yoga"],
+    "id": "kishida",
+    "name": "岸田劉生",
+    "nameOriginal": "岸田劉生",
+    "born": 1891,
+    "died": 1929,
+    "place": "東京／京都",
+    "movements": [
+      "taisho-yoga"
+    ],
     "commons": "Self-portrait by Kishida Ryusei (Shimane Art Museum).jpg",
-    "wiki": "岸田劉生", "wikiEn": "Kishida Ryūsei",
+    "wiki": "岸田劉生",
+    "wikiEn": "Kishida Ryūsei",
     "lead": "娘の顔を、十年にわたって描き続けた。",
     "bio": "銀座の新聞人の子に生まれ、黒田清輝の指導を受けたのち、ゴッホとセザンヌに傾倒した。しかし数年で方向を変え、デューラーやファン・エイクといった北方ルネサンスの硬い写実へ遡る。「内なる美」という言葉で、目に見えるものを執拗に追うことが精神の深さに通じると主張した。娘・麗子を五歳から十四歳まで描き続け、五十点を超える連作を残している。晩年は宋元画と浮世絵へ移った。満洲からの帰途、山口県で三十八歳で急死した。"
   },
   {
-    "id": "saeki", "name": "佐伯祐三", "nameOriginal": "佐伯祐三",
-    "born": 1898, "died": 1928, "place": "大阪／パリ", "movements": ["taisho-yoga"],
-    "wiki": "佐伯祐三", "wikiEn": "Saeki Yūzō", "noPhoto": true,
+    "id": "saeki",
+    "name": "佐伯祐三",
+    "nameOriginal": "佐伯祐三",
+    "born": 1898,
+    "died": 1928,
+    "place": "大阪／パリ",
+    "movements": [
+      "taisho-yoga"
+    ],
+    "wiki": "佐伯祐三",
+    "wikiEn": "Yuzo Saeki",
+    "noPhoto": true,
     "lead": "パリの壁の、剥がれた広告だけを描いた。",
     "bio": "大阪の寺の子に生まれ、東京美術学校を経てパリへ渡った。現地でヴラマンクに作品を見せ、「このアカデミックめ！」と怒鳴られたことが転機になったと伝えられる。以後、対象を美しく整えることをやめ、パリの裏通りの壁 ── 剥がれかけたポスター、汚れた石、看板の文字 ── を速い筆で描き続けた。文字を絵の要素として画面に取り込んだ点が独特である。結核を患い、パリ郊外の精神病院で三十歳で死んだ。制作期間は実質五年しかない。"
-  }
-  ,{
-    "id": "gaudi", "name": "アントニ・ガウディ", "nameOriginal": "Antoni Gaudí",
-    "born": 1852, "died": 1926, "place": "レウス／バルセロナ", "movements": ["art-nouveau"],
+  },
+  {
+    "id": "gaudi",
+    "name": "アントニ・ガウディ",
+    "nameOriginal": "Antoni Gaudí",
+    "born": 1852,
+    "died": 1926,
+    "place": "レウス／バルセロナ",
+    "movements": [
+      "art-nouveau"
+    ],
     "commons": "Antoni Gaudi 1878.jpg",
-    "wiki": "アントニ・ガウディ", "wikiEn": "Antoni Gaudí",
+    "wiki": "アントニ・ガウディ",
+    "wikiEn": "Antoni Gaudí",
     "lead": "直線は人間のもの、曲線は神のもの、と言った。",
     "bio": "銅細工師の家に生まれ、幼いころのリウマチで長く歩けず、自然を眺めて過ごしたと本人が語っている。バルセロナで建築を学び、実業家グエルの後援を得て独自の道を進んだ。方法は独特で、図面より模型を重んじた ── 紐に重りを吊るして逆さに垂らし、その形をひっくり返してアーチの曲線を決める。重力そのものに形を決めさせる方法である。晩年はサグラダ・ファミリアに専念し、現場に住み込んだ。1926年、路面電車に轢かれ、身なりから浮浪者と間違われて手当てが遅れ、死んだ。"
-  }
-  ,{
-    "id": "chagall", "name": "マルク・シャガール", "nameOriginal": "Marc Chagall",
-    "born": 1887, "died": 1985, "place": "ヴィテブスク／パリ", "movements": ["ecole-de-paris"],
-    "wiki": "マルク・シャガール", "wikiEn": "Marc Chagall", "noPhoto": true,
+  },
+  {
+    "id": "chagall",
+    "name": "マルク・シャガール",
+    "nameOriginal": "Marc Chagall",
+    "born": 1887,
+    "died": 1985,
+    "place": "ヴィテブスク／パリ",
+    "movements": [
+      "ecole-de-paris"
+    ],
+    "wiki": "マルク・シャガール",
+    "wikiEn": "Marc Chagall",
+    "noPhoto": true,
     "lead": "生涯、故郷の村を描き続けた。",
     "bio": "現在のベラルーシ、ヴィテブスクのユダヤ人街に生まれた。父は魚屋の倉庫で働き、家は貧しかった。二十代でパリへ出て、モンパルナスの安アトリエ「ラ・リューシュ」で描く。キュビスムの分割された画面を借りながら、そこへ故郷の家、山羊、ヴァイオリン弾き、空を飛ぶ恋人を入れた。革命後は一時ロシアで美術行政に関わるが、抽象派と対立して離れる。ナチスの迫害を逃れてアメリカへ渡り、戦後フランスに戻った。晩年はステンドグラスと天井画を多く手がけ、九十七歳まで制作した。"
   },
   {
-    "id": "de-chirico", "name": "ジョルジョ・デ・キリコ", "nameOriginal": "Giorgio de Chirico",
-    "born": 1888, "died": 1978, "place": "ヴォロス（ギリシャ）／ローマ", "movements": ["metaphysical"],
-    "wiki": "ジョルジョ・デ・キリコ", "wikiEn": "Giorgio de Chirico", "noPhoto": true,
+    "id": "de-chirico",
+    "name": "ジョルジョ・デ・キリコ",
+    "nameOriginal": "Giorgio de Chirico",
+    "born": 1888,
+    "died": 1978,
+    "place": "ヴォロス（ギリシャ）／ローマ",
+    "movements": [
+      "metaphysical"
+    ],
+    "wiki": "ジョルジョ・デ・キリコ",
+    "wikiEn": "Giorgio de Chirico",
+    "noPhoto": true,
     "lead": "人のいない広場を、繰り返し描いた。",
     "bio": "鉄道技師の子としてギリシャに生まれ、ミュンヘンでニーチェとショーペンハウアーを読んだ。1910年ごろから、人けのない広場、長い影、アーケード、置き去りの石膏像を描きはじめる。これを彼は「形而上絵画」と呼んだ。第一次大戦後にこの様式を自ら捨て、古典的な写実へ戻る。シュルレアリストたちは彼を先駆として崇めていただけに激怒し、公然と決別した。以後の長い生涯で、彼は自分の初期作の複製を大量に制作し、しばしば早い年号を書き入れた ── 真贋の判定を極端に難しくしている。"
   },
   {
-    "id": "miro", "name": "ジョアン・ミロ", "nameOriginal": "Joan Miró",
-    "born": 1893, "died": 1983, "place": "バルセロナ／マヨルカ", "movements": ["surrealism"],
-    "wiki": "ジョアン・ミロ", "wikiEn": "Joan Miró", "noPhoto": true,
+    "id": "miro",
+    "name": "ジョアン・ミロ",
+    "nameOriginal": "Joan Miró",
+    "born": 1893,
+    "died": 1983,
+    "place": "バルセロナ／マヨルカ",
+    "movements": [
+      "surrealism"
+    ],
+    "wiki": "ジョアン・ミロ",
+    "wikiEn": "Joan Miró",
+    "noPhoto": true,
     "lead": "空腹による幻覚を、絵の材料にしたと語った。",
     "bio": "バルセロナの時計職人の家に生まれた。初期は緻密な写実で、農園の草を一本ずつ描いている。パリへ出てシュルレアリストと交わり、意識の統制を外して描く方法へ移った。本人は、極貧のなか食べられずに見た天井の染みの幻覚を絵に描き写したと述べている。以後、黒い線と原色の点、生き物とも記号ともつかない形が画面を漂う。スペイン内戦とフランコ体制に一貫して反対し、亡命と帰国を繰り返した。晩年は陶、壁画、彫刻へ広げ、九十歳まで制作した。"
   },
   {
-    "id": "braque", "name": "ジョルジュ・ブラック", "nameOriginal": "Georges Braque",
-    "born": 1882, "died": 1963, "place": "アルジャントゥイユ／パリ", "movements": ["cubism"],
-    "wiki": "ジョルジュ・ブラック", "wikiEn": "Georges Braque", "noPhoto": true,
+    "id": "braque",
+    "name": "ジョルジュ・ブラック",
+    "nameOriginal": "Georges Braque",
+    "born": 1882,
+    "died": 1963,
+    "place": "アルジャントゥイユ／パリ",
+    "movements": [
+      "cubism"
+    ],
+    "wiki": "ジョルジュ・ブラック",
+    "wikiEn": "Georges Braque",
+    "noPhoto": true,
     "lead": "ピカソと二人で、五年間ほぼ同じ絵を描いた。",
     "bio": "室内装飾職人の家に生まれ、木目や大理石を偽装して描く技術を仕込まれた。この訓練が後に効いてくる。1907年にピカソの《アヴィニョンの娘たち》を見て衝撃を受け、以後二人は「ザイルで結ばれた登山者のように」共同で制作した。作品に署名せず、どちらが描いたか分からない時期がある。新聞紙や壁紙を貼りつけるパピエ・コレを始めたのはブラックである。第一次大戦で頭部に重傷を負い、一時失明した。復帰後は静かな静物へ向かい、ピカソとは別の道を歩いた。"
   },
   {
-    "id": "duchamp", "name": "マルセル・デュシャン", "nameOriginal": "Marcel Duchamp",
-    "born": 1887, "died": 1968, "place": "ブランヴィル／ニューヨーク", "movements": ["dada"],
-    "wiki": "マルセル・デュシャン", "wikiEn": "Marcel Duchamp", "noPhoto": true,
+    "id": "duchamp",
+    "name": "マルセル・デュシャン",
+    "nameOriginal": "Marcel Duchamp",
+    "born": 1887,
+    "died": 1968,
+    "place": "ブランヴィル／ニューヨーク",
+    "movements": [
+      "dada"
+    ],
+    "wiki": "マルセル・デュシャン",
+    "wikiEn": "Marcel Duchamp",
+    "noPhoto": true,
     "lead": "絵を描くのをやめ、チェスを指しはじめた。",
     "bio": "画家の兄弟のいる家に生まれ、キュビスムの画家として出発した。1912年の《階段を降りる裸体 No.2》がニューヨークで大騒動を起こす。だが本人は絵画を「網膜的」── 目だけを楽しませるもの ── として退け、既製品を選んで署名するだけの「レディメイド」へ移った。1923年以降はほぼ制作をやめ、チェスの選手として国際大会に出る。実際には二十年かけて秘密裏に大作を作っており、それは死後に公開された。二十世紀後半の美術は、ほぼ全面的にこの人の問いの上に立っている。"
   },
   {
-    "id": "brancusi", "name": "コンスタンティン・ブランクーシ", "nameOriginal": "Constantin Brâncuși",
-    "born": 1876, "died": 1957, "place": "ルーマニア／パリ", "movements": ["sculpture-20c"],
-    "wiki": "コンスタンティン・ブランクーシ", "wikiEn": "Constantin Brâncuși", "noPhoto": true,
+    "id": "brancusi",
+    "name": "コンスタンティン・ブランクーシ",
+    "nameOriginal": "Constantin Brâncuși",
+    "born": 1876,
+    "died": 1957,
+    "place": "ルーマニア／パリ",
+    "movements": [
+      "sculpture-20c"
+    ],
+    "wiki": "コンスタンティン・ブランクーシ",
+    "wikiEn": "Constantin Brâncuși",
+    "noPhoto": true,
     "lead": "ロダンの弟子になる話を断った。",
     "bio": "ルーマニアの農村に生まれ、羊飼いをしながら木を彫った。歩いてパリへ向かい、途中まで徒歩で越えたという話が残る。ロダンの工房に誘われたが「大樹の陰では何も育たない」と断った。以後、細部を削ぎ落として形を単純化する方向へ進む。鳥は嘴も翼も持たない紡錘になり、頭部は卵になった。素材の肌を極端に磨き上げ、台座までを作品の一部として自分で彫った。アトリエの配置そのものを作品と考え、その状態がパリのポンピドゥー・センター前に再現されている。"
   },
   {
-    "id": "giacometti", "name": "アルベルト・ジャコメッティ", "nameOriginal": "Alberto Giacometti",
-    "born": 1901, "died": 1966, "place": "スイス・グリソン／パリ", "movements": ["sculpture-20c"],
-    "wiki": "アルベルト・ジャコメッティ", "wikiEn": "Alberto Giacometti", "noPhoto": true,
+    "id": "giacometti",
+    "name": "アルベルト・ジャコメッティ",
+    "nameOriginal": "Alberto Giacometti",
+    "born": 1901,
+    "died": 1966,
+    "place": "スイス・グリソン／パリ",
+    "movements": [
+      "sculpture-20c"
+    ],
+    "wiki": "アルベルト・ジャコメッティ",
+    "wikiEn": "Alberto Giacometti",
+    "noPhoto": true,
     "lead": "作るたびに小さくなり、最後には消えかけた。",
     "bio": "スイスの画家の家に生まれ、パリでシュルレアリスムに加わった。1935年に運動と決別し、モデルを前にした制作に戻る。ところがそこから十年、彼の像は作るたびに縮み、ついにマッチ箱に入る大きさになった。「遠くから見た人の姿を作ろうとすると、こうなる」と説明している。戦後、方向が反転して像は極端に細長くなった。表面は指の跡だらけで、光を吸う。パリの九平方メートルのアトリエに四十年住み、死ぬまで同じ場所で制作した。"
   },
   {
-    "id": "kahlo", "name": "フリーダ・カーロ", "nameOriginal": "Frida Kahlo",
-    "born": 1907, "died": 1954, "place": "メキシコシティ", "movements": ["surrealism"],
-    "wiki": "フリーダ・カーロ", "wikiEn": "Frida Kahlo", "noPhoto": true,
+    "id": "kahlo",
+    "name": "フリーダ・カーロ",
+    "nameOriginal": "Frida Kahlo",
+    "born": 1907,
+    "died": 1954,
+    "place": "メキシコシティ",
+    "movements": [
+      "surrealism"
+    ],
+    "wiki": "フリーダ・カーロ",
+    "wikiEn": "Frida Kahlo",
+    "noPhoto": true,
     "lead": "作品の三分の一が、自分の顔である。",
     "bio": "メキシコシティ郊外に生まれ、六歳で小児麻痺、十八歳でバスと路面電車の衝突事故に遭った。鉄の手すりが骨盤を貫通し、以後生涯にわたって三十回を超える手術を受けている。療養中、天蓋に鏡を吊るしてもらい、自分を描きはじめた。壁画家ディエゴ・リベラと結婚し、離婚し、再婚した。作品にはメキシコの民衆美術の形式 ── 奉納画（エクスボト）── が使われ、痛みと身体が直接描かれる。ブルトンはこれをシュルレアリスムと呼んだが、本人は「私は夢を描いたことはない、自分の現実を描いた」と否定した。"
   },
   {
-    "id": "rothko", "name": "マーク・ロスコ", "nameOriginal": "Mark Rothko",
-    "born": 1903, "died": 1970, "place": "ラトビア／ニューヨーク", "movements": ["abstract-expressionism"],
-    "wiki": "マーク・ロスコ", "wikiEn": "Mark Rothko", "noPhoto": true,
+    "id": "rothko",
+    "name": "マーク・ロスコ",
+    "nameOriginal": "Mark Rothko",
+    "born": 1903,
+    "died": 1970,
+    "place": "ラトビア／ニューヨーク",
+    "movements": [
+      "abstract-expressionism"
+    ],
+    "wiki": "マーク・ロスコ",
+    "wikiEn": "Mark Rothko",
+    "noPhoto": true,
     "lead": "「色を描いているのではない」と言い続けた。",
     "bio": "帝政ロシア領のラトビアに生まれ、十歳でアメリカへ移住した。神話的な主題から出発し、四十代半ばで、輪郭のぼやけた矩形を重ねるだけの画面に至る。本人はこれを抽象とも装飾とも呼ばれることを拒み、「悲劇、法悦、破滅といった人間の基本的な感情を描いている」と述べた。展示にも強くこだわり、照明を落とし、鑑賞者が絵の四十五センチ手前に立つことを求めた。1958年にはレストランの壁画の依頼を、そこで食事をする客のためには描けないとして返金し撤回している。1970年、アトリエで自ら命を絶った。"
   },
   {
-    "id": "bacon", "name": "フランシス・ベーコン", "nameOriginal": "Francis Bacon",
-    "born": 1909, "died": 1992, "place": "ダブリン／ロンドン", "movements": ["postwar-figuration"],
-    "wiki": "フランシス・ベーコン (芸術家)", "wikiEn": "Francis Bacon (artist)", "noPhoto": true,
+    "id": "bacon",
+    "name": "フランシス・ベーコン",
+    "nameOriginal": "Francis Bacon",
+    "born": 1909,
+    "died": 1992,
+    "place": "ダブリン／ロンドン",
+    "movements": [
+      "postwar-figuration"
+    ],
+    "wiki": "フランシス・ベーコン (芸術家)",
+    "wikiEn": "Francis Bacon (artist)",
+    "noPhoto": true,
     "lead": "絵を描く前に、写真を破って床に撒いた。",
     "bio": "ダブリンに生まれ、十六歳のとき同性愛を理由に家を追われた。独学で絵を始め、四十歳近くまで無名だった。制作の方法は独特で、写生をせず、モデルも前に置かない。かわりに、報道写真、医学書の図版、映画の一場面、既存の名画の複製を集め、破り、踏み、床に散らかしたアトリエのなかから描いた。人体は肉の塊として歪み、しばしば細い枠のなかに閉じ込められる。生前から高く評価される一方、本人は自作の多くを破棄した。死後に手つかずで残されたアトリエは、そのままダブリンへ移築されている。"
   },
   {
-    "id": "lichtenstein", "name": "ロイ・リキテンスタイン", "nameOriginal": "Roy Lichtenstein",
-    "born": 1923, "died": 1997, "place": "ニューヨーク", "movements": ["pop-art"],
-    "wiki": "ロイ・リキテンスタイン", "wikiEn": "Roy Lichtenstein", "noPhoto": true,
+    "id": "lichtenstein",
+    "name": "ロイ・リキテンスタイン",
+    "nameOriginal": "Roy Lichtenstein",
+    "born": 1923,
+    "died": 1997,
+    "place": "ニューヨーク",
+    "movements": [
+      "pop-art"
+    ],
+    "wiki": "ロイ・リキテンスタイン",
+    "wikiEn": "Roy Lichtenstein",
+    "noPhoto": true,
     "lead": "印刷の網点を、手で描いた。",
     "bio": "ニューヨークの中流家庭に生まれ、大学で美術を教えていた。1961年、息子に「この漫画くらいうまく描けないだろう」と言われたことをきっかけに、漫画の一コマを拡大して描きはじめたと語っている。特徴は、安価な印刷の網点（ベンデイ・ドット）を、機械ではなく穴の開いた金属板と手作業で再現したことである。大量複製の記号を、一点物の油彩でやり直す。当初は「模写にすぎない」と激しく非難された。引用元の漫画家の名が長く伏せられていたことは、いまも議論の対象になっている。"
   }

@@ -254,6 +254,19 @@ figure.plate.-drawn svg.fallback {
 }
 .stage .mount img { cursor: zoom-in; }
 
+/* 狭い画面では高さを固定しない。
+   幅375pxで横長の作品を出すと絵の高さは230pxほどにしかならず、
+   74vh を確保すると絵の下に画面の半分近い空きが残る。
+   高さは絵にまかせ、縦長の作品のために上限だけ置く。 */
+@media (max-width: 700px) {
+  /* 図版が縮んだぶん、左上の戻るボタンが絵の角にかかる。
+     重ねる設計だが角を隠すのは惜しいので、上だけ空けて逃がす。 */
+  .stage { padding-top: 4.4rem; }
+  .stage .mount { height: auto; }
+  .stage .mount img,
+  .stage .mount svg.fallback { max-height: 74vh; }
+}
+
 .work-head { padding: clamp(2.6rem, 7vh, 5rem) 0 0; }
 .work-head h1 { font-size: clamp(1.8rem, 4.6vw, 2.9rem); margin: 0 0 .5rem; }
 .work-head .by { color: var(--ink-2); font-size: 1rem; margin: 0 0 2rem; }
@@ -443,7 +456,12 @@ figure.plate.-drawn svg.fallback {
   .era-head { top: 6rem; }
   .timeline a { grid-template-columns: 4.6rem 1fr; padding: .9rem .4rem; }
   .timeline .y { grid-column: 1; text-align: left; }
-  .timeline .mount { display: none; }
+  /* 消すのは figure ごと。
+     内側の .mount だけを狙うと二つ外れる。ひとつは詳細度で、
+     figure.plate .mount(0,2,1) が .timeline .mount(0,2,0) に勝つこと。
+     もうひとつは、たとえ消えても figure 自身が格子の升を占め続け、
+     題名が次の行の細いほうの列へ送られてしまうこと。 */
+  .timeline figure.plate { display: none; }
   .timeline .l { display: none; }
 }
 
