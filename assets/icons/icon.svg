@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <!-- 暗室に浮かぶ一枚。サイトの主題「作品は暗がりに浮かぶ」をそのまま記号にした。
+       文字を入れないのは、見出しの金の一字と役を分けるため。
+       絵の板は中央の52%に収めてある。Android が円や角丸で切り抜いても欠けない。 -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="47%" r="54%">
+      <stop offset="0%" stop-color="#fff6e2" stop-opacity=".20"/>
+      <stop offset="70%" stop-color="#fff6e2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0e4cb"/>
+      <stop offset="100%" stop-color="#c9a961"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#000" flood-opacity=".85"/>
+    </filter>
+  </defs>
+  <rect width="180" height="180" fill="#08080a"/>
+  <rect width="180" height="180" fill="url(#glow)"/>
+  <rect x="47" y="56" width="86" height="64" rx="1.5" fill="url(#plate)" filter="url(#shadow)"/>
+</svg>
